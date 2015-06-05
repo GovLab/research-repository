@@ -1,0 +1,142 @@
+.b-form {
+	input,
+	button,
+	textarea {
+		border: 1px solid $gray_20;
+		margin: 3px 0;
+		font-size: 1.2rem;
+		font-weight: 300 !important;
+		font-family: proxima-nova, sans-serif !important;
+	}
+
+	input,
+	textarea {
+		padding: 3px 12px 2px;
+		width: 100%;
+		color: $gray_80;
+	}
+
+	select, option {
+		padding: 8px 12px 6px;
+		width: 50%;
+		font-size: 1.2rem;
+	}
+
+	textarea {
+		outline: none !important;
+		resize: none !important;
+		overflow: auto !important;
+	}
+}
+
+
+.fr_form {
+
+	a { color: $purple; }
+	a:hover {
+		background-color: $purple;
+		color: $white;
+	}
+
+	.fr_response_field {
+		max-width: none;
+	}
+
+	.fr_section_name {
+		font-size: 2rem !important;
+		margin-top: 40px;
+		text-align: center;
+		font-weight: 100 !important;
+	}	
+
+	.fr_section_name + p {
+		text-align: center !important;
+	}
+
+	.fr_page {
+		padding: 30px;
+		background-color: $white;
+		border: 1px solid $gray_20;
+		font-size: 1.2rem;
+		line-height: 1.6;
+		color: $text_color;
+		@include drop-shadow-light;
+	}
+
+	.fr_input_grid {
+		width: calc(100% + 10px);
+	}
+
+	.fr_response_field_paragraph textarea.size_medium,
+	.fr_response_field_paragraph textarea {
+		width: 100%;
+		height: 300px;
+	}
+
+	.fr_response_field_text input.size_medium {
+		width: 100%;
+	}
+
+	.fr_section_name {
+
+	}
+
+	.fr_response_field {
+		label[for="c7"],
+		.fr_min_max,
+		.fr_description {
+			font-size: .9rem;
+			color: $gray_60;
+			font-style: italic;
+		}
+	}
+
+	.fr_bottom_bar {
+		background-color: transparent;
+		padding: 20px 0;
+
+		button {
+			background-color: $purple;
+			padding: 10px 20px;
+		}
+	}
+
+}
+
+.fr_after_submit_page p {
+	font-size: 2rem;
+	text-align: center;
+	min-height: 300px;
+	padding: 60px;
+}
+
+
+.b-application-form {
+	&.m-coaching .fr_page {
+		position: relative;
+
+		&:before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			top: 0;
+			height: 6px;
+			left: 0;
+			right: 0;
+			background-color: $green;
+		}
+	}
+}
+
+@media only screen and (min-width : $desktop_width) {
+
+.fr_form {
+	.fr_section_name {
+		font-size: 4rem !important;
+	}
+}
+
+.fr_after_submit_page p {
+	font-size: 3rem;
+}
+}

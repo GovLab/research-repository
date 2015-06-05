@@ -1,0 +1,203 @@
+.b-top-navigation-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+	@include transition;
+
+
+	&.m-hidden {
+		top: -70px;
+	}
+}
+
+.b-top-navigation {
+	@include drop-shadow;
+
+	.row {
+		text-align: center;
+	}
+}
+
+.b-logo {
+	display: block;
+	background-color: $purple;
+	padding: 2px 0 0 0;
+	margin: 0;
+	font-size: 24px;
+	font-weight: 100;
+
+	a {
+		color: $white;
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+
+	.e-home {
+		span {
+			display: inline-block;
+			margin-top: 4px;
+		}
+	}
+
+	img {
+		width: 110px;
+		margin-right: 10px;
+	}
+
+	span {
+		vertical-align: -3px;
+	}
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+
+.b-top-navigation {
+	padding: 0;
+	height: 58px;
+	background-color: $purple;
+
+	.row {
+		text-align: left;
+	}
+}
+
+.b-logo {
+	display: inline-block;
+	max-width: 30%;
+	margin-top: 5px;
+
+	img {
+		width: 140px;
+	}
+
+	&:hover {
+		background-color: transparent;
+	}
+}
+
+.b-main-nav-container {
+	float: right;
+
+}
+
+.b-main-nav {
+	margin: 0;
+	position: relative;
+
+	li {
+		margin: 0;
+		padding: 0;
+
+	}
+
+	> li {
+		float: left;
+		// padding-bottom: 14px;
+		
+		a {
+			padding: 16px;
+			display: inline-block;
+		}
+	}
+
+	> li:last-of-type a {
+			border-right: 0;
+	}
+
+	.e-submenu {
+		ul {
+			// display: none;
+			z-index: -10;
+		}
+	}
+
+	a {
+		color: $white;
+		font-size: 1.1rem;
+		padding: 3px 12px;
+		white-space: nowrap;
+		border-right: 1px solid $white_15;
+		@include transition;
+
+		&:hover {
+			background-color: $white_30;
+			@include transition;
+		}
+
+		&.m-disabled {
+			opacity: .4;
+			pointer-events: none;
+		}
+	}
+}
+
+.b-main-nav h2 { display: none; }
+
+// Dropdown menu
+
+.e-submenu {
+	position: relative;
+
+	&:after {
+		content: "";
+		width: 0;
+		height: 0;
+		border-top: 6px solid $white_15;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		position: absolute;
+		right: calc(50% - 10px);
+		top: 40px;
+		pointer-events: none;
+	}
+
+	&:hover:after {
+		border-top-color: $white_30;
+	}
+
+	ul {
+		display: block;
+		position: absolute;
+		z-index: -1;
+		top: -100px;
+		margin: 0;
+		left: 0;
+		@include drop-shadow-light;
+		@include transition;
+
+		li:first-of-type a {
+			padding-top: 6px;
+		}
+
+		.e-sub-item {
+			display: block;
+			border: 0;
+			color: $white_70;
+			background-color: $govlab-purple_3;
+			border: 1px solid $gray_80;
+			border-top: 0;
+			padding: 3px 18px;
+
+			&:hover {
+				background-color: $govlab-purple_4;
+				color: $white;
+
+			}
+		}
+	}
+}
+
+.e-submenu:hover {
+// .e-submenu {
+	ul {
+		@include transition;
+		top: 58px;
+	}
+}
+
+}

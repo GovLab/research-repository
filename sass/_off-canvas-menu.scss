@@ -1,0 +1,84 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : $desktop_width) {
+
+.e-mainnav-trigger {
+	position: fixed;
+	right: 20px;
+	top: 5px;
+	color: $white;
+	z-index: 20;
+	@include transition-fast;
+}
+
+.b-top-navigation-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.b-main-nav-container {
+	width: 300px;
+	position: fixed;
+	left: -300px;
+	top: 0;
+	bottom: 0;
+	background-color: $white;
+	@include transition;
+}
+
+.m-nav-active .b-main-nav-container {
+	left: 0;
+}
+
+.b-main-nav {
+	text-align: left;
+	background-color: $gray_3;
+	margin-left: 0;
+	height: 100%;
+	border-right: 1px solid $purple;
+	@include drop-shadow;
+	background-color: $white;
+
+	
+	h2 {
+		margin: 0;
+		text-align: left;
+		padding: 10px 25px;
+		color: $gray_80;
+		font-size: 20px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: $gray_80;
+		padding: 6px 10px;
+		margin: 0 15px;
+		display: block;
+		border-bottom: 1px solid $gray_20;
+		font-weight: 400;
+	}
+
+	> li:first-of-type a {
+		border-top: 0;
+	}
+
+	.e-submenu {
+		ul {
+			margin-left: 10px;
+
+			a {
+				border-left: 1px solid $purple_20;
+				font-weight: 100;
+			}
+		}
+	}
+}
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+.e-mainnav-trigger {
+	display: none;
+}
+}

@@ -1,0 +1,55 @@
+.b-project-list {
+	ul {
+		margin-bottom: 0;
+		margin-left: 0;
+		padding: 0;
+	}
+
+	.b-project-list-item {
+		position: relative;
+		border: 1px solid $gray_20;
+		background-color: $white;
+		vertical-align: top;
+		margin: 5px;
+		margin-bottom: 10px;
+		padding: 0;
+		padding-top: 20px;
+		@include drop-shadow-light;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 6px;
+			height: 100%;
+		}
+
+		h3, 
+		h4,
+		.e-project-description { margin: 10px 40px; }
+
+		h4 {
+			text-transform: uppercase;
+			font-size: 1rem;
+
+		}
+		
+		.e-project-description {
+			margin-right: 30px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+/* Mobile Only ----------- */
+@media only screen and (max-width : $desktop_width) {
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+
+
+
+} // Media query

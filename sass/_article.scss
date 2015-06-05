@@ -1,0 +1,90 @@
+// ARTICLE PAGE
+
+.b-article {
+
+	.e-article-body {
+		width: 700px;
+	}
+
+	h1 {
+		font-size: 40px;
+		font-weight: 100;
+		margin-bottom: 0;
+	}
+
+	.b-meta-info {
+		font-size: 14px;
+		color: $gray_60;
+		margin-bottom: 5px;
+
+		.e-author,
+		.e-pubdate {
+			font-style: italic;
+		}
+	}
+
+	.b-library-item-tags {
+		padding: 0;
+		margin: 10px 0 30px;
+	}
+
+	h2 {
+		font-size: 24px;
+		font-weight: 400;
+		color: $purple;
+		text-transform: uppercase;
+		margin-top: 40px;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		color: $gray_80;
+		margin-top: 30px;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-weight: 600;
+		color: $purple;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	
+	.e-sidenote-ref {
+		background-color: $purple_10;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $purple;
+			color: $white;
+		}
+	}
+
+	.b-sidenotes {
+		float: right;
+		margin-left: 20px;
+		width: 180px;
+		// position: relative;
+
+		.e-sidenote {
+			font-size: 12px;
+			line-height: 15px;
+			position: absolute;
+			font-style: italic;
+			width: 180px;
+			color: $gray_60;
+			border-left: 2px solid $purple;
+			padding: 5px 5px 5px 10px;
+
+			&.m-active {
+				background-color: $purple_5;
+			}
+
+			&:last-of-type {
+				top: 300px;
+			}
+		}
+	}
+}
+

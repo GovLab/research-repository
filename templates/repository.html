@@ -1,0 +1,79 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div id="repository" class="b-content-page">
+  <div class="b-content-section m-header">
+    <div class="row">
+      <div class="large-12 column">
+        <div class="b-main-search">
+          <h2>Search our repository</h2>
+          <input  type="text" placeholder="Search our repository">
+          <input class="e-button" type="submit" value="Search">
+          <div class="e-button">More Filters</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-main-category-menu">
+      <div class="row">
+        <div class="large-12 column">
+          <h2>Choose a category</h2>
+        </div>
+      </div>
+      <div class="row">
+        <a class="e-main-category">
+          <i class="fa fa-hand-o-right b-grow"></i>
+          <p>Behavioral Research</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-users b-grow"></i>
+          <p>Citizen Engagement</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-cogs b-grow"></i>
+          <p>Civic Technology</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-database b-grow"></i>
+          <p>Data Analysis</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-lightbulb-o b-grow"></i>
+          <p>Expert Networking</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-flask b-grow"></i>
+          <p>Labs and Experimentation</p>
+        </a>
+        <a class="e-main-category">
+          <i class="fa fa-download b-grow"></i>
+          <p>Open Data</p>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="b-content-section">
+     <div class="row">
+      {% for p in publications %}
+      <div class="large-4 column">
+        <article class="b-publication-item">
+          <h1><a href="{{p.url}}">{{p.title}}</a></h1>
+          <div class="e-pub-meta">
+            <p class="e-pub-author">{% for a in p.authors %}{{a}}, {%endfor%}</p>
+            <span class="e-pub-date">{{p.date}}</span>
+          </div>
+        </article>
+      </div>
+      
+      {% endfor %}
+    </div> 
+  </section>
+  <section class="b-content-section">
+    <div class="row">
+    </div>
+  </section>
+</div>
+{% endblock %}
+{% block scripts %}
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+{% endblock %}

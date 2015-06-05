@@ -1,0 +1,56 @@
+// Colors
+$desktop_width: 1024px;
+
+@import "colors";
+
+.b-grow { transition: all .2s ease-in-out; }
+.b-grow:hover { transform: scale(1.2); }
+
+@mixin circle {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+@mixin transition {
+	transition: all 0.4s ease;
+}
+
+@mixin transition_pop {
+	transition: transform 0.2s ease;
+}
+
+@mixin transition_fast {
+	transition: all 0.2s ease;
+}
+
+@mixin drop-shadow {
+	box-shadow: 0 0 16px $gray_60;
+}
+
+@mixin drop-shadow-light {
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+@mixin drop-shadow-button {
+	box-shadow: 0 0 12px $gray_50;
+}
+
+@mixin drop-shadow-button-hover {
+	box-shadow: 0 0 12px $gray_80;
+}
+
+@mixin inner-shadow {
+	box-shadow: 0 0 12px $gray_30 inset;
+}
+
+@mixin card-gradient {
+  background-color: $gray_30; /* fallback */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.4))); /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4)); /* Safari 5.1, Chrome 10+ */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4)); /* Firefox 3.6+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4)); /* IE 10 */
+  background: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.4)); /* Opera 11.10+ */
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

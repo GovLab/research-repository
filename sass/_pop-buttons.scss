@@ -1,0 +1,108 @@
+.b-pop-controls-container { position: relative; }
+
+.e-pop-button {
+	background-color: $scheme-comp_1;
+	width: 50px;
+	height: 50px;
+	padding: 14px 0;
+	margin-bottom: 10px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	@include circle;
+	@include drop-shadow-button;
+	@include transition;
+
+	i {
+		font-size: 1.3rem;
+		color: $white;
+	}
+
+	i.fa-file {
+		vertical-align: 3px;
+		text-indent: 2px;
+	}
+
+	i.fa-link {
+		vertical-align: 2px;
+		text-indent: 0;
+	}
+
+	i.fa-cubes {
+		vertical-align: 3px;
+		text-indent: 1px;
+	}
+
+	i.fa-play {
+		text-indent: 3px;
+	}
+
+	i.fa-linkedin,
+	i.fa-facebook,
+	i.fa-github,
+	i.fa-twitter { vertical-align: 3px; }
+
+	&:hover { background-color: $scheme-comp_3; }
+}
+
+.b-share-button {
+	@extend .e-pop-button;
+	position: absolute;
+	top: 15px;
+	left: -23px;
+	background-color: $gray_10_matte;
+	i { color: $purple; }
+
+	&:hover {
+		background-color: $purple;
+		i { color: $white; }
+
+	}
+}
+
+@media only screen and (min-width : $desktop_width) {
+
+.b-pop-controls {
+	position: absolute;
+	opacity: 0;
+	@include transition;
+	pointer-events: none;
+
+	&.m-inline-buttons .e-pop-button {
+		display: inline-block;
+	}
+}
+
+.b-pop-controls-container .b-pop-controls {
+	.e-pop-button {
+		transform: scale(0, 0);
+		display: block;
+	}
+}
+
+.b-pop-controls-container:hover .b-pop-controls {
+	opacity: 1;
+	@include transition;
+	pointer-events: auto;
+
+	.e-pop-button {
+		width: 50px;
+		height: 50px;
+		transform: scale(1, 1);
+		@include transition_pop;
+
+		&:nth-child(2) { transition-delay: 0.1s; }
+		&:nth-child(3) { transition-delay: 0.2s; }
+		&:nth-child(4) { transition-delay: 0.3s; }
+		&:nth-child(5) { transition-delay: 0.4s; }
+		&:nth-child(6) { transition-delay: 0.5s; }
+		&:nth-child(7) { transition-delay: 0.6s; }
+	}
+}
+
+.e-pop-button:hover {
+	@include drop-shadow-button-hover;
+	transition-delay: 0 !important;
+}
+
+} //Media Query

@@ -1,0 +1,361 @@
+- title: "Effects of the Internet on Participation: Study of a Public Policy Referendum in Brazil"
+  authors: [Paolo Spada, Jonathan Mellon, Tiago Peixoto, Fredrik M. Sjoberg]
+  date: February 26, 2015
+  url: http://documents.worldbank.org/curated/en/2015/02/24060569/effects-internet-participation-study-public-policy-referendum-brazil
+  publication type: another
+  tags:
+    innovation: [ Citizen Engagement, Civic Technology, Participatory Budgeting ]
+    objective: [ Participation ]
+    sector: [ Internet, Politics ]
+    region: [ Brazil ]
+    methodology: [ Statistical Modeling, Surveys ]
+    publication_type: [ Original]
+
+- title: "The Effect of Government Responsiveness on Future Political Participation"
+  authors: [ Fredrik M. Sjoberg, Jonathan Mellon, Tiago Peixoto ]
+  date: February 26, 2015
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2570898&utm_content=buffer8587b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Crowdsourcing ]
+    objective: [ Agility, Effectiveness, Participation ]
+    tool: [ Fix My Street ]
+    methodology: [ Statistical Modeling ]
+    publication_type: [ Original ]
+
+- title: "Reimagining Governance in Practice: Benchmarking British Columbia’s Citizen Engagement Efforts"
+  authors: [ Andrew Young, Christina Rogawski, Sabeel Rahman, Stefaan Verhulst ]
+  date: May 1, 2013
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2560761
+  tags:
+    innovation: [ Citizen Engagement, Crowdsourcing, Open Data ]
+    objective: [ Access, Accountability, Agility, Effectiveness, Participation, Transparency ]
+    region: [ Canada ]
+    methodology: [ Comparative Analysis, Survey ]
+    publication_type: [ Original ]
+
+- title: "Toward Metrics for Re(imagining) Governance: The Promise and Challenge of Evaluating Innovations in How We Govern"
+  authors: [ Aleise Barnett, David Dembo, Stefaan Verhulst ]
+  date: April 18, 2013
+  url: http://thegovlab.org/wp-content/uploads/2013/04/GovLabMetrics.pdf
+  tags:
+    innovation: [ Experimentation ]
+    objective: [ Effectiveness ]
+    methodology: [ Conceptual Framework ]
+    publication_type: [ Original ]
+
+- title: "Data democracy - increased supply of geospatial information and expanded participatory processes in the production of data"
+  authors: [ Max Craglia, Lea Shanley ]
+  date: February 13, 2015
+  url: http://www.tandfonline.com/doi/full/10.1080/17538947.2015.1008214#abstract
+  tags:
+    innovation: [ Citizen Science, Collective Intelligence, Crowdsourcing ]
+    objective: [ Participation ]
+    methodology: [ Conceptual Framework ]
+    publication_type: [ Curated ]
+
+- title: "The Open Data Era in Health and Social Care"
+  authors: [ Stefaan Verhulst, Beth Simone Noveck, Robyn Caplan, Kristy Brown, Claudia Paz ]
+  date: May 2014
+  url: http://images.thegovlab.org/wordpress/wp-content/uploads/2014/06/nhs-full-report.pdf
+  tags:
+    innovation: [ Open Data ]
+    objective: [ Access, Accountability, Participation, Transparency ]
+    sector: [ Healthcare ]
+    region: [ United Kingdom ]
+    methodology: [ Conceptual Framework ]
+    publication_type: [ Original ]
+
+- title: "Cities’ Open Government Data Heart Beat"
+  authors: [ Karine Nahon, Alon Peled, Jennifer Shkabatur ]
+  date: March 9, 2015
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2575510
+  tags:
+    innovation: [ Open Data, Smart Cities ]
+    objective: [ Accountability, Agility, Effectiveness, Transparency ]
+    methodology: [ Conceptual Framework, Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Breaking Public Administrations’ Data Silos"
+  authors: [ Raimondo Iemma, Federico Morando, Michele Osella ]
+  date: 2014
+  url: http://www.jedem.org/article/view/304
+  tags:
+    innovation: [ Open Data ]
+    objective: [ Access, Accountability, Effectiveness, Transparency ]
+    tool: [ Open-DAI, Socrata, CKAN, ENGAGE ]
+    methodology: [ Case Analysis, Comparative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Collective Intelligence or Group Think? Engaging Participation Patterns in World without Oil"
+  authors: [ Nassim JafariNaimi, Eric M. Meyers ]
+  date: [ March 2015 ]
+  url: http://dl.acm.org/citation.cfm?id=2675258
+  tags:
+    innovation: [ Collective Intelligence, Gamification ]
+    objective: [ Participation ]
+    sector: [ Energy, Environment ]
+    tool: [ World Without Oil ]
+    methodology: [ Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Innovations in Global Governance: Towards a Distributed Internet Governance Ecosystem"
+  authors: [ Stefaan G. Verhulst, Beth S. Noveck, Jillian Raines, Antony Declercq ]
+  date: December 23, 2014
+  url: https://www.cigionline.org/publications/innovations-global-governance-toward-distributed-internet-governance-ecosystem
+  tags:
+    innovation: [ Distributed Governance ]
+    objective: [ Access, Accountability, Agility, Effectiveness, Participation ]
+    sector: [ Internet ]
+    methodology: [ Conceptual Framework ]
+    publication_type: [ Original ]
+
+- title: "Medical Wikis Dedicated to Clinical Practice: A Systematic Review"
+  authors: [ Alexandre Brulet, Guy Llorca, Laurent Letrilliart ]
+  date: February 2015
+  url: http://www.jmir.org/2015/2/e48/
+  tags:
+    innovation: [ Collective Intelligence, Crowdsourcing ]
+    objective: [ Participation ]
+    sector: [ Healthcare ] 
+    methodology: [ Comparative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Crowdsourcing Dilemma"
+  authors: [ Victor Naroditskiy, Nicholas R. Jennings, Pascal Van Hetenryck, Manuel Cebrian ]
+  date: February 22, 2014
+  url: http://arxiv.org/abs/1304.3548
+  tags:
+    innovation: [ Crowdsourcing, Collective Intelligence ]
+    objective: [ Participation ]
+    methodology: [ Quantitative Analysis, Statistical Modeling ]
+    publication_type: [ Curated ]
+
+- title: "Innovation Labs: Leveraging Openness for Radical Innovation?"
+  authors: [ Lidia Gryszkiewicz, Ioanna Lykourentzou, Tuukka Toivonen ]
+  date: January 9, 2015
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2556692
+  tags:
+    innovation: [ Experimentation, Labs ]
+    objective: [ Effectiveness ]
+    methodology: [ Comparative Analysis, Conceptual Framework ]
+    publication_type: [ Curated ]
+
+- title: "Surveying the citizen science landscape"
+  authors: [ Andrea Wiggins, Kevin Crowston ]
+  date: January 2015
+  url: http://firstmonday.org/ojs/index.php/fm/article/view/5520/4194
+  tags:
+    innovation: [ Citizen Science, Gamification ]
+    objective: [ Participation ]
+    methodology: [ Survey ]
+    publication_type: [ Curated ]
+
+- title: "Competition-Based Innovation: The Case of the X Prize Foundation"
+  authors: [ Mokter Hossain, Ilkka Kauranen ]
+  date: October 20, 2014
+  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2549616
+  tags:
+    innovation: [ Crowdsourcing, Prizes and Challenges ]
+    objective: [ Effectiveness ]
+    methodology: [ Case Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Does Participatory Budgeting Improve Decentralized Public Service Delivery?"
+  authors: [ Diether W. Beuermann, Maria Amelina ]
+  date: November 2014
+  url: http://publications.iadb.org/bitstream/handle/11319/6699/Does-Participatory-Budgeting-Improve-Decentralized-Public-Service-Delivery.pdf?sequence=
+  tags:
+    innovation: [ Citizen Engagement, Participatory Budgeting ]
+    objective: [ Effectiveness, Participation ]
+    sector: [ Politics ]
+    region: [ Russia ]
+    methodology: [ Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Do Experts or Collective Intelligence Write with More Bias? Evidence from Encyclopaedia Britannica and Wikipedia"
+  authors: [ Shane Greenstein, Feng Zhu ]
+  date: October 10, 2014
+  url: http://www.hbs.edu/faculty/Publication%20Files/15-023_145191c4-220f-4dd8-8d41-ee2d1f693716.pdf
+  tags:
+    innovation: [ Collective Intelligence, Crowdsourcing ]
+    objective: [ Participation ]
+    tool: [ Wikipedia ]
+    methodology: [ Comparative Analysis, Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "The Third Sector and Online Citizen Empowerment: the Case of mySociety"
+  authors: [ Rachel Gibson, Marta Cantijoch, Silvia Galandini ]
+  date: November 2014
+  url: https://www.mysociety.org/files/2014/12/manchester.pdf
+  tags:
+    innovation: [ Citizen Engagement, Civic Technology ]
+    objective: [ Access, Accountability, Agility, Effectiveness, Participation, Transparency ]
+    sector: [ Politics ]
+    region: [ United Kingdom ]
+    methodology: [ Case Analysis, Quantitative Analysis, Survey ]
+    publication_type: [ Original ]
+
+- title: "TheyWorkForYou.com: Analysis of users and usage for UK Citizens Online Democracy"
+  authors: [ Tobias Escher ]
+  date: May 2011
+  url: https://www.mysociety.org/files/2011/06/TheyWorkForYou_research_report-2011-Tobias-Escher1.pdf
+  tags:
+    innovation: [ Civic Technology, Freedom of Information ]
+    objective: [ Access, Accountability, Transparency ]
+    sector: [ Politics ]
+    region: [ United Kingdom ]
+    tool: [ TheyWorkForYou ]
+    methodology: [ Case Analysis, Quantitative Analysis ]
+    publication_type: [ Original ]
+
+- title: "The impact of online Freedom of Information tools: What is the evidence? Part 2. Practitioner Study"
+  authors: [ Savita Bailur, Tom Longley ]
+  date: November 2014
+  url: https://www.mysociety.org/files/2014/11/FOI-Impact_Part-2-Practitioner-Study-06.pdf
+  tags:
+    innovation: [ Civic Technology, Freedom of Information ]
+    objective: [ Access, Accountability, Transparency ]
+    sector: [ Politics ]
+    tool: [ Alaveteli, WhatDoTheyKnow ]
+    methodology: [ Survey ]
+    publication_type: [ Original ]
+
+- title: "Why Public Sector Agencies (Sometimes) Support Participatory Democracy Programs"
+  authors: [ Alon Peled ]
+  date: 2014
+  url: http://www.academia.edu/6804781/Why_Public_Sector_Agencies_Sometimes_Support_Participatory_Democracy_Programs?utm_content=buffere7037&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags: 
+    innovation: [ Open Data ]
+    objective: [ Access, Accountability, Participation, Transparency ]
+    region: [ United States ]
+    tool: [ Public Sector Information Exchange System ]
+    methodology: [ Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Developing Together: Investigating best practices for community development and public consultation"
+  authors: [ Jennifer Lawrence ]
+  date: April 2014
+  url: http://trentcentre.ca/documents/public/4458FinalReport.pdf?utm_content=buffer8a279&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Citizen Engagement ]
+    objective: [ Effectiveness, Participation ]
+    region: [ Canada ]
+    methodology: [ Survey ]
+    publication_type: [ Curated ]
+
+- title: "Five design principles for crowdsourced policymaking: Assessing the case of crowdsourced off-road traffic law in Finland"
+  authors: [ Tanja Aitamurto, Hélène Landemore ]
+  date: 2015
+  url: http://thefinnishexperiment.com/wp-content/uploads/2015/02/AitamurtoLandemore-final-revisionpdf.pdf?utm_content=buffer2a4e0&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags: 
+    innovation: [ Citizen Engagement, Crowdsourcing ]
+    objective: [ Effectiveness, Participation ]
+    sector: [ Transportation]
+    region: [ Finland ]
+    methodology: [ Case Analysis, Conceptual Framework ]
+    publication_type: [ Curated ]
+
+- title: "Citizens' Use of New Media in Authoritarian Regimes: A Case Study of Uganda"
+  authors: [ Åke Grönlund, Wairagala Wakabi ]
+  date: 2015
+  url: http://www.ejisdc.org/ojs2/index.php/ejisdc/article/view/1437/558
+  tags:
+    innovation: [ Citizen Engagement, Civic Technology ]
+    objective: [ Participation ]
+    region: [ Uganda ]
+    methodology: [ Case Analysis ]
+    publication_type: [ Curated ]
+
+- title: Score Another One for the Internet? The Role of the Networked Public Sphere in the U.S. Net Neutrality Policy Debate"
+  authors: [ Robert Faris, Hal Roberts, Bruce Etling, Dalia Othman, Yochai Benkler ]
+  date: February 2015
+  url: https://prodnet.www.neca.org/publicationsdocs/wwpdf/21015harvard.pdf?utm_content=buffer82284&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags: 
+    innovation: [ Citizen Engagement, Social Media ]
+    objective: [ Effectiveness, Participation ]
+    sector: [ Internet ]
+    region: [ United States ]
+    methodology: [ Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "The Individiualisation of Party Politics: The Impact of Changing Internal Decision-Making Processes on Policy Development and Citizen Engagement"
+  authors: [ Anika Gauja ]
+  date: December 23, 2013
+  url: http://onlinelibrary.wiley.com/doi/10.1111/1467-856X.12035/full?utm_content=buffer3baa6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Citizen Engagement, Crowdsourcing ]
+    objective: [ Effectiveness, Participation ]
+    sector: [ Politics ]
+    region: [ Australia, United Kingdom ]
+    methodology: [ Case Analysis, Conceptual Framework ]
+    publication_type: [ Curated ]
+
+- title: "Online Consultation and Governance Reform in Chinese Ministries and Provinces"
+  authors: [ Steven J. Balla, Yuhan Wu ]
+  date: 2015
+  url: http://www.lafollette.wisc.edu/images/publications/rule-Balla.pdf?utm_content=bufferbbbcd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Citizen Engagement ]
+    objective: [ Participation ]
+    sector: [ Politics ]
+    region: [ China ]
+    methodology: [ Comparative Analysis, Quantitative Analysis ]
+    publication_type: [ Curated ]
+
+- title: "Does Enclave Deliberation Polarize Opinions?"
+  authors: [ Kimmo Grönlund, Kaisa Herne, Maija Setälä ]
+  date: February 8, 2015
+  url: http://link.springer.com/article/10.1007/s11109-015-9304-x/fulltext.html?utm_content=buffer57ef6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Collective Intelligence ]
+    objective: [ Participation ]
+    sector: [ Immigration ]
+    methodology: [ Randomized Control Trial, Survey ]
+    publication_type: [ Curated ]
+
+- title: "Gender Gaps in Civic and Political Participation in Latin America" 
+  authors: [ Rosario Espinal, Shanyang Zhao ]
+  date: February 10, 2015
+  url: http://onlinelibrary.wiley.com/doi/10.1111/j.1548-2456.2015.00262.x/abstract;jsessionid=DC4BEFFBE6E590F6C8324697CBB8DBD2.f02t01?deniedAccessCustomisedMessage=&userIsAuthenticated=false&utm_content=buffer7497f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags: 
+    innovation: [Citizen Engagement ]
+    objective: [ Participation ]
+    sector: [ Politics ]
+    region: [ Latin America ]
+    methodology: [ Quantitative Analysis, Statistical Modeling ]
+    publication_type: [ Curated ]
+
+- title: "Participatory Budgeting in the Dominican Republic: Implications for Agency, Democracy and Development"
+  authors: [ Vasquez Duran, Marie Claire ]
+  date: 2014
+  url: http://drum.lib.umd.edu/handle/1903/16141?utm_content=buffer95007&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Citizen Engagement, Participatory Budgeting ]
+    objective: [ Effectiveness, Participation ]
+    sector: [ Politics ]
+    region: [ Dominican Republic ]
+    methodology: [ Quantitative Analysis, Survey ]
+    publication_type: [ Curated ]
+
+- title: "Examining the Determinants of Police Department Transparency: The View of Police Executives"
+  authors: [ Joshua Chanin, Salvador Espinosa ]
+  date: February 6, 2015
+  url: https://nacole.org/wp-content/uploads/Chanin_Espinosa.Examining-Determinants-of-Police-Department-Transparency_The-View-of-Police-Executives.DRAFT_.pdf?utm_content=bufferec8e6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags: 
+    innovation: [ Freedom of Information ]
+    objective: [ Access, Accountability, Transparency ]
+    sector: [ Public Safety ]
+    region: [ United States ]
+    methodology: [ Quantitative Analysis, Survey ]
+    publication_type: [ Curated ]
+
+- title: "Government Information Sharing: Is Data Going Out of the Silos, Into the Mines?"
+  authors: [ Stephanie Perrin, Jennifer Barrigar, Robert Gellman ]
+  date: January 2015
+  url: http://www.oipc.ab.ca/Content_Files/Files/Publications/Report_GovtInfoSharing_Jan2015.pdf?utm_content=buffer6569a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  tags:
+    innovation: [ Freedom of Information, Open Data ]
+    objective: [ Access, Agility, Effectiveness ]
+    region: [ Canada ]
+    methodology: [ Case Analysis, Comparative Analysis ]
+    publication_type: [ Curated ]

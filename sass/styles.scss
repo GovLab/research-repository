@@ -1,0 +1,64 @@
+@import "variables";
+
+body {
+	background-color: $gray_3;
+}
+
+body, h1, h2, h3, h4, h5, input {
+	font-family: proxima-nova, sans-serif;
+}
+
+// Shared Modules
+@import "base";
+@import "text-blocks";
+@import "colors";
+@import "header";
+@import "off-canvas-menu";
+@import "footer";
+@import "messages";
+@import "layout";
+@import "pop-buttons";
+@import "form";
+@import "list";
+
+
+// Site specific Styles
+@import "tiles";
+@import "flipper";
+@import "sections";
+
+@import "homepage";
+@import "about";
+@import "repository";
+
+
+
+
+
+@media only screen and (min-width : $desktop_width) {
+	
+	.b-logo {
+		max-width: 37%;
+	}
+
+	h2 {
+		font-size: 3rem;
+		line-height: 1.2;
+	}
+
+	p, li {
+		font-size: 1.3rem;
+		line-height: 1.4;
+	}
+
+	ul {
+		margin-left: 0;
+
+		li {margin-bottom: 10px;}
+		li:before { top: 8px !important; }
+	}
+}
+
+
+
+
