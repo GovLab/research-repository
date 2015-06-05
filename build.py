@@ -12,7 +12,7 @@ searchpath  = os.path.join(cwd, "templates")
 outputpath  = os.path.join(cwd, "site")
 
 # We load the data we want to use in the templates.
-PUBLICATIONS    = yaml.load(open('data/publications.yaml'))
+PUBLICATIONS    = yaml.load(open('data/publications2.yaml'))
 
 def loadAcademyData():
 	return { 'publications': PUBLICATIONS,

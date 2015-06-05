@@ -856,13 +856,27 @@ p,
       box-shadow: 0 0 16px rgba(0, 0, 0, 0.6); }
 
 .b-publication-item {
+  position: relative;
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: white;
-  padding: 20px;
+  padding: 20px 20px 20px 34px;
   margin-bottom: 30px;
+  margin-right: 14px;
   height: 240px;
+  width: 311px;
+  vertical-align: top;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
+  .b-publication-item:nth-child(3n) {
+    margin-right: 0; }
+  .b-publication-item:before {
+    content: '';
+    position: absolute;
+    height: 240px;
+    width: 6px;
+    position: absolute;
+    top: 0;
+    left: 0; }
   .b-publication-item h1 {
     font-size: 1.1rem;
     line-height: 1.3;
@@ -876,7 +890,47 @@ p,
   .b-publication-item .e-pub-date {
     font-size: 0.9rem;
     text-transform: uppercase; }
+  .b-publication-item .e-pub-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: right; }
+    .b-publication-item .e-pub-actions a {
+      color: rgba(0, 0, 0, 0.2);
+      margin: 0 15px; }
+    .b-publication-item .e-pub-actions a:hover {
+      color: rgba(0, 0, 0, 0.6); }
 
+.b-main-category-menu .m-behavioral-research i {
+  background-color: yellow; }
+.b-main-category-menu .m-citizen-engagement-and-crowdsourcing i {
+  background-color: blue; }
+.b-main-category-menu .m-civic-technology i {
+  background-color: green; }
+.b-main-category-menu .m-data-analysis i {
+  background-color: red; }
+.b-main-category-menu .m-expert-networking i {
+  background-color: teal; }
+.b-main-category-menu .m-labs-and-experimentation i {
+  background-color: purple; }
+.b-main-category-menu .m-open-data i {
+  background-color: orange; }
+
+.b-publication-item.m-open-data:before {
+  background-color: orange; }
+
+.b-publication-item.m-citizen-engagement-and-crowdsourcing:before {
+  background-color: blue; }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .b-publication-item .e-pub-actions {
+    display: none; }
+
+  .b-publication-item:hover .e-pub-actions {
+    display: block; } }
 @media only screen and (min-width: 1024px) {
   .b-logo {
     max-width: 37%; }

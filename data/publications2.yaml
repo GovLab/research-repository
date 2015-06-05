@@ -1,0 +1,43 @@
+- title: A Platform for Closing the Open Data Feedback Loop Based on Web2.0 Functionality
+  organization: false
+  authors: 'Charalampos Alexopoulos, Euripidis Loukis, Yannis Charalabidis'
+  date: 2014
+  url: http://www.jedem.org/article/view/327/270
+  dataset: false
+  github: false
+  category: 'Open Data'
+  category_slug: 'open-data'
+  objective: 'Effectiveness, Participation'
+  sector: false
+  region: Europe
+  methodology: Design Science
+  abstract: 'One essential element of open data ecosystems concerns their development through feedback loops, discussions and dynamic supplier and user interactions. These user-centric features communicate the users’ needs to the open data community as well to the public sector bodies responsible for data publication. Addressing these needs by the corresponding public sector bodies or even by utilising the power of the community as ENGAGE supports will actually accelerate innovation. However, these elements appear barely to be part of existing open data practices. We conducted a survey which showed that most professional open data users did not know at least one open data infrastructure that enabled five specific types of discussion and feedback mechanisms. The survey showed that much can still be done to improve feedback and discussion on open data infrastructures. In this paper we discuss an open data platform which has started to contribute to filling this gap and present a usage scenario explaining the sequence of the underlined functionality. The discussed ENGAGE open data infrastructure combines functionalities to close the feedback loop and to return information to public authorities for better open data use and publication as well as establishing communication channels between stakeholders. This may effectively lead to the stimulation and facilitation of value generation from open data, as such functionality position the user at the centre of the open data publication process.'
+
+- title: Online Participation in Higher Education Decision-making
+  organization: false
+  authors: 'Samuel Bohman, Henrik Hansson, Pooyeh Mobini'
+  date: 2014
+  url: http://www.jedem.org/article/view/247
+  dataset: http://www.claudiomendonca.ca
+  github: false
+  category: Citizen Engagement and Crowdsourcing
+  category_slug: 'citizen-engagement-and-crowdsourcing'
+  objective: 'Legitimacy, Participation Education'
+  region: Europe
+  methodology: 'Case Analysis, Survey'
+  abstract: 'This article considers online participation in higher education decision-making using the MyUniversity EU project as a case study. MyUniversity was a pilot designed to provide European universities with a web-based system to empower and involve students and other members of the academic community in the Bologna Process. Thirteen universities in Spain, Slovakia, Bulgaria, and Lithuania participated in trials. The study uses data collection methods from across the quantitative and qualitative spectrum: web analytics, online surveys, key performance indicators, interviews, focus groups, participant observation, document studies, and usability evaluations. The results are represented by 10 themes: project design, participation, functionality and usability, impact on decision-making, privacy and trust, institutional resistance, motivational factors, the political, economic, and sociocultural context, language barriers, and moderation and framing. The article ends with a discussion based on the results, including recommendations for future research.'
+
+- title: 'The Effect of Government Responsiveness on Future Political Participation'
+  organization: 'World Bank Digital Engagement Evaluation Team'
+  authors: 'Fredrik M. Sjoberg, Jonathan Mellon, Tiago Peixoto'
+  date: '2/26/15'
+  url: 'http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2570898&utm_content=buffer8587b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer'
+  dataset: true
+  github: https://github.com/claudioccm
+  category: 'Citizen Engagement and Crowdsourcing'
+  category_slug: 'citizen-engagement-and-crowdsourcing'
+  objective: 'Effectiveness, Participation'
+  region: america
+  methodology: 'Statistical Modeling'
+
+  abstract: 'What effect does government responsiveness have on political participation? Since the 1940s political scientists have used attitudinal measures of perceived efficacy to explain participation. More recent work has focused on underlying genetic factors that condition citizen engagement. We develop a ‘Calculus of Participation’ that incorporates objective efficacy – the extent to which an individual’s participation actually has an impact – and test the model against behavioral data from FixMyStreet.com (n=399,364). We find that a successful first experience using FixMyStreet.com (e.g., reporting a pothole and having it fixed) is associated with a 54 percent increase in the probability of an individual submit-ting a second report. We also show that the experience of government responsiveness to the first report submitted has predictive power over all future report submissions. The findings highlight the importance of government responsiveness for fostering an active citizenry, while demonstrating the value of incidentally collected data to examine participatory behavior at the individual level.'
