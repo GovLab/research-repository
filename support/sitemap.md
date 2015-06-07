@@ -1,13 +1,13 @@
 # Site Map and Main Sections
 
 ## Homepage
-**Path: ./**
+`Path: ./index.html`
 
 Big search field and the main categories for the repository. Google Search style.
 
 
 ## Repository Page
-**Path: ./repository.html**
+`Path: ./repository.html`
 
 - Search field
 - Top level categories
@@ -17,7 +17,7 @@ Big search field and the main categories for the repository. Google Search style
 
 
 ### Organization Pages
-**Path: ./organizations/{{organization_name}}.html**
+`Path: ./organizations/{{organization_name}}.html`
 
 - Organization page for each ORGANIZATION in the database. 
 - This page will show the basic information for that organization, with a specific design template.
@@ -26,17 +26,17 @@ Big search field and the main categories for the repository. Google Search style
 
 
 #### Basic Yaml structure
-
+```
 - Organization Name
 - Logo URL
 - Custom color
 - Organization Blurb
 - Organization Members/Publishers
 - Organization Authors (pulled from the publications)
-
+```
 
 ### Publication Pages
-**Path: ./publications/{{publication_name}}.html**
+`Path: ./publications/{{publication_name}}.html`
 
 Show all the information for each PUBLICATION.
 
@@ -48,20 +48,20 @@ Show all the information for each PUBLICATION.
 
 
 ### Category Page | *Release #2*
-**Path: ./categories/{{category_name}}.html**
+`Path: ./categories/{{category_name}}.html`
 
 A specific design for each category, with a big title on the top, and its list of PUBLICATIONS.
 We will also have the advanced filters panel.
 
 
 ## About
-**Path: ./about.html**
+`Path: ./about.html`
 
 Simple static page
 
 
 ## Blog
-**Path: ./blog.html**
+`Path: ./blog.html`
 
 Probably, will fetch the blogposts from a thumblr website. We will use the tumblr CMS to make things easier for the admins.
 3 options for this:
@@ -72,7 +72,7 @@ Probably, will fetch the blogposts from a thumblr website. We will use the tumbl
 
 
 ## Digest
-**Path: ./digest.html**
+`Path: ./digest.html`
 
 Fecth the post list using JQuery/RSS. Each post links to thegovlab.org website. 
 
