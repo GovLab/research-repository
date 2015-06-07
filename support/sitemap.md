@@ -2,6 +2,7 @@
 
 ## Homepage
 **Path: ./**
+
 Big search field and the main categories for the repository. Google Search style.
 
 
@@ -36,6 +37,7 @@ Big search field and the main categories for the repository. Google Search style
 
 ### Publication Pages
 **Path: ./publications/{{publication_name}}.html**
+
 Show all the information for each PUBLICATION.
 
 - Title
@@ -45,8 +47,9 @@ Show all the information for each PUBLICATION.
 - Action links (Download, Datasets, Github, PDF, etc)
 
 
-### Category Page | Release #2
+### Category Page | *Release #2*
 **Path: ./categories/{{category_name}}.html**
+
 A specific design for each category, with a big title on the top, and its list of PUBLICATIONS.
 We will also have the advanced filters panel.
 
