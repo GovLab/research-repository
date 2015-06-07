@@ -1,7 +1,7 @@
 {% extends "layout/base.html" %}
 {% block content %}
 <div id="homepage" class="b-content-page">
-  <div id="landing" class="b-content-section">
+  <section id="landing" class="b-content-section">
     <div class="row">
       <div class="large-12 column">
         <h1>OpenGov Research Repository</h1>
@@ -16,66 +16,48 @@
     <div class="b-main-category-menu">
       <div class="row">
         <div class="large-12 column">
-          <h2>Choose a category</h2>
+          <h3>Choose a category</h3>
         </div>
       </div>
       <div class="row">
-        <div class="large-3 column">
-          <a class="e-main-category ">
-            <i class="fa fa-asterisk b-grow"></i>
-            <p>All</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-hand-o-right b-grow"></i>
-            <p>Behavioral Research</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-users b-grow"></i>
-            <p>Citizen Engagement</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-cogs b-grow"></i>
-            <p>Civic Technology</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-database b-grow"></i>
-            <p>Data Analysis</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-lightbulb-o b-grow"></i>
-            <p>Expert Networking</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-flask b-grow"></i>
-            <p>Labs and Experimentation</p>
-          </a>
-        </div>
-        <div class="large-3 column">
-          <a class="e-main-category">
-            <i class="fa fa-download b-grow"></i>
-            <p>Open Data</p>
-          </a>
-        </div>
+        <a class="e-main-category m-behavioral-research">
+          <i class="fa fa-hand-o-right b-grow"></i>
+          <p>Behavioral Research</p>
+        </a>
+        <a class="e-main-category m-citizen-engagement-and-crowdsourcing">
+          <i class="fa fa-users b-grow"></i>
+          <p>Citizen Engagement</p>
+        </a>
+        <a class="e-main-category m-civic-technology">
+          <i class="fa fa-cogs b-grow"></i>
+          <p>Civic Technology</p>
+        </a>
+        <a class="e-main-category m-data-analysis">
+          <i class="fa fa-database b-grow"></i>
+          <p>Data Analysis</p>
+        </a>
+        <a class="e-main-category m-expert-networking">
+          <i class="fa fa-lightbulb-o b-grow"></i>
+          <p>Expert Networking</p>
+        </a>
+        <a class="e-main-category m-labs-and-experimentation">
+          <i class="fa fa-flask b-grow"></i>
+          <p>Labs and Experimentation</p>
+        </a>
+        <a class="e-main-category m-open-data">
+          <i class="fa fa-download b-grow"></i>
+          <p>Open Data</p>
+        </a>
       </div>
     </div>
-  </div>
+  </section>
+  <section id="about" class="b-content-section">
+    <div class="row">
+      <div class="column large-8 large-offset-2 medium-12">
+        <h2>What is the OpenGov Research</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic enim neque voluptate, officia nemo provident magni. Temporibus beatae, praesentium adipisci, dolorem consectetur obcaecati, nisi illo incidunt ullam excepturi voluptatem sit.</p>
+      </div>
+    </div>
+  </section>
 </div>
-{% endblock %}
-{% block scripts %}
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 {% endblock %}

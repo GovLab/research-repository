@@ -16,11 +16,17 @@
 }
 
 .b-main-category-menu {
-  padding: 40px 0;
+  margin-top: 40px;
 
-  h2 {
-    margin-top: 40px;
-    font-size: 2.3rem;
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: $purple;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+
   }
 
   .e-main-category {
@@ -46,22 +52,25 @@
     }
 
     i {
-      font-size: 30px;
+      font-size: 40px;
       background-color: $gray_10;
       color: $gray_20;
-      padding: 15px;
+      padding: 20px;
       @include circle;
-      width: 60px;
+      width: 80px;
+      height: 80px;
     }
   
     &:hover i {
-      background-color: $purple;
       color: $white;
       @include transition;
       @include drop-shadow;
     }
   }
 }
+
+.b-grow { transition: all .2s ease-in-out; }
+.b-grow:hover { transform: scale(1.2); }
 
 .b-publication-item {
   position: relative;
@@ -125,28 +134,38 @@
       a:hover {
         color: $gray_60;
       }
-
     }
 }
 
+// Color Coding for categories
+
 .b-main-category-menu {
-  .m-behavioral-research i { background-color: $behavioral-research; }
-  .m-citizen-engagement-and-crowdsourcing i {background-color: $citizen-engagement; }
-  .m-civic-technology i { background-color: $civic-technology;}
-  .m-data-analysis i { background-color: $data-analysis;}
-  .m-expert-networking i { background-color: $expert-networking;}
-  .m-labs-and-experimentation i { background-color: $labs-and-experimentation;}
-
-
-
-  .m-open-data i {background-color: $open-data; }
+  .m-behavioral-research i                  { background-color: $behavioral-research;      }
+  .m-citizen-engagement-and-crowdsourcing i { background-color: $citizen-engagement;       }
+  .m-civic-technology i                     { background-color: $civic-technology;         }
+  .m-data-analysis i                        { background-color: $data-analysis;            }
+  .m-expert-networking i                    { background-color: $expert-networking;        }
+  .m-labs-and-experimentation i             { background-color: $labs-and-experimentation; }
+  .m-open-data i                            { background-color: $open-data;                }
 
 } 
 
+.b-publication-item {
+  .m-behavioral-research:before                  { background-color: $behavioral-research;      }
+  .m-citizen-engagement-and-crowdsourcing:before { background-color: $citizen-engagement;       }
+  .m-civic-technology:before                     { background-color: $civic-technology;         }
+  .m-data-analysis:before                        { background-color: $data-analysis;            }
+  .m-expert-networking:before                    { background-color: $expert-networking;        }
+  .m-labs-and-experimentation:before             { background-color: $labs-and-experimentation; }
+  .m-open-data:before                            { background-color: $open-data;                }
+}
 
 
-.b-publication-item.m-open-data:before { background-color: $open-data; }
-.b-publication-item.m-citizen-engagement-and-crowdsourcing:before { background-color: $citizen-engagement; }
+
+
+
+
+
 
 
 /* Desktops and laptops ----------- */
@@ -155,3 +174,15 @@
 .b-publication-item .e-pub-actions { display: none; }
 .b-publication-item:hover .e-pub-actions { display: block; }
 }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,9 +3,6 @@ $desktop_width: 1024px;
 
 @import "colors";
 
-.b-grow { transition: all .2s ease-in-out; }
-.b-grow:hover { transform: scale(1.2); }
-
 @mixin circle {
 	border-radius: 50%;
 	overflow: hidden;

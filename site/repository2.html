@@ -17,34 +17,64 @@
   </head>
   <body>
 
-    <header class="b-top-navigation">
-      <div class="row">
-        <h1 class="e-logo">
-          <a href="./index.html" class="e-home" title="Home">
-            <div class="e-icon"></div>
-            <span class="e-sitename">OpenGov Research</span>
-          </a>
-        </h1>
+    <header class="b-top-navigation-wrapper">
+      <div class="b-top-navigation">
         
-        <nav class="b-main-nav-container">
-          <span class="e-mainnav-trigger"><i class="fa-bars fa"></i></span>
-
-          <ul class="b-main-nav">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./repository.html">Repository</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./digest.html">Digest</a></li>
-            <li><a class="m-disabled" href="#">Learn &amp; Connect</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <h1 class="b-logo"><a href="./index.html" class="e-home" title="Home"><img src="static/img/govlab-logo-white.png" alt="Smarter State"><span>OpenGov Research</span></a></h1>
+          <nav class="b-main-nav-container">
+            <ul class="b-main-nav">
+              <span class="e-mainnav-trigger"><i class="fa-bars fa"></i></span>
+              <h2>Menu</h2>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./repository.html">Repository</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="http://thegovlab.org/govlab-digest/" target="_blank">Digest</a></li>
+              
+              <!-- <li class="e-submenu"><a href="#">Sections</a>
+                <ul>
+                  <li><a class="e-sub-item" href="./tools.html">Tools</a></li>
+                  <li><a class="e-sub-item" href="./law.html">Law</a></li>
+                  <li><a class="e-sub-item" href="./research.html">Research</a></li>
+                  <li><a class="e-sub-item" href="./living-labs.html">Living Labs</a></li>
+                </ul>
+              </li>
+              <li><a href="./book.html">The Book</a></li> -->
+              <!-- <li><a class="m-disabled" href="#">Library</a></li> -->
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
     <section class="b-main-content">
       
       
-        Main content
-      
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+    <a class="left-off-canvas-toggle" href="#" >Menu</a>
+
+    <!-- Off Canvas Menu -->
+    <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+        ...
+        </ul>
+    </aside>
+
+    <!-- main content goes here -->
+    <p>Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-year-old Galactic Empire. Though the empire appears stable and powerful, it is slowly decaying in ways that parallel the decline of the Western Roman Empire. Hari Seldon, a mathematician and psychologist, has developed psychohistory, a new field of science and psychology that equates all possibilities in large societies to mathematics, allowing for the prediction of future events.</p>
+
+  <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
+
 
     </section>
     <div id="overlay"></div>
@@ -88,7 +118,7 @@
     });
     </script>
 
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    
 
   </body>
 </html>

@@ -21,26 +21,24 @@ $('#overlay').click(function() {
 	$('.b-filters').removeClass('m-active');
 });
 
-// Multiple SwipeJS Galleries
-// var swipes = []
-// $('.swipe').each(function(i, obj) {
-//      swipes[i] = new Swipe(obj);
-//  });
-
-
-
 // RSS from Digest
-$('#blog-container-home').rssfeed('http://thegovlab.org/scan/feed/', 
-  { 
-    limit: 5
-  });
-
-// RSS from Digest
-$('#blog-container').rssfeed('http://thegovlab.org/scan/feed/', 
+$('#blog-container').rssfeed('http://thegovlab.org/researchrepo/feed/', 
   { 
     limit: 10,
+    linktarget: '_blank',
     content: true,
     media: true
   });
 
+$('#digest-container').rssfeed('http://thegovlab.org/govlab-digest/feed/',
+  {
+    limit: 10,
+    linktarget: '_blank',
+    content: true,
+    media: true
+  });
+
+
  }); // Closes Document.ready
+
+        
