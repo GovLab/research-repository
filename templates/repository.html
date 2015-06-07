@@ -62,8 +62,8 @@
       </div>
       
         {% for p in publications %}
-          <article class="b-publication-item m-{{p.category_slug}}">
-            <h1><a href="{{p.url}}">{{p.title}}</a></h1>
+          <article class="b-publication-item m-{{p.category|slug}}">
+            <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
             <div class="e-pub-meta">
               <p class="e-pub-author">{{p.authors}}</p>
               <span class="e-pub-date">{{p.date}}</span>
@@ -76,7 +76,7 @@
           </article>
         {% endfor %}
       </div>
-    </div> 
+    </div>
   </section>
 </div>
 

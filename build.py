@@ -1,54 +1,56 @@
-import staticjinja
-import os
-import json
-import yaml
-import sys
+from os import path, getcwd, makedirs, listdir, remove
+from yaml import load
+from shutil import rmtree
 from slugify import slugify
-from dateutil.parser import parse
+from staticjinja import make_site
+
 
 # We define constants for the deployment.
-cwd = os.getcwd()
-searchpath  = os.path.join(cwd, "templates")
-outputpath  = os.path.join(cwd, "site")
+searchpath = path.join(getcwd(), 'templates')
+outputpath = path.join(getcwd(), 'site')
 
 # We load the data we want to use in the templates.
-PUBLICATIONS    = yaml.load(open('data/publications2.yaml'))
+PUBLICATIONS = load(open('data/repo.yaml'))
+
 
 def loadAcademyData():
-	return { 'publications': PUBLICATIONS,
-					 'resources': None }
+    return {'publications': PUBLICATIONS}
 
-# We define some filters we want to use in the templates.
-def containsTag(x, y):
-	if x['tags'] is None:
-		return None
-	return x if y in x['tags'] else None
 
-def debug(text):
-  print text
-  sys.stdout.flush()
-  return ''
-
-def isEmpty(seq):
-	return len([k for k in seq]) == 0
-
-def nameTest(name, value):
-	return "%s %s" % (name['first'], name['last']) == value
+# We generate a bunch of template pages; dirty hack for now.
+template = open('%s/publication.html' % searchpath).read()
 
 filters = {
-	'byName': lambda x: [p for p in PEOPLE if p.name == x],
-	'containsTag': containsTag,
-	'debug': debug,
-	'isEmpty': isEmpty,
-	'slug': lambda x: slugify(x, to_lower=True),
-	'nameTest': nameTest,
+    'slug': lambda x: slugify(x.lower()),
 }
 
-site = staticjinja.make_site(
-	searchpath=searchpath,
-	outpath=outputpath,
-	staticpaths=['static', '../data'],
-	filters=filters,
-	contexts=[(r'.*.html', loadAcademyData),]
-	)
+# Remove publication templates that are no longer needed.
+for filename in listdir(searchpath):
+    filepath = '%s/%s' % (searchpath, filename)
+
+    if filename.startswith('publication-') and path.isfile(filepath):
+        remove(filepath)
+
+# Clean the output folder.
+if path.exists(outputpath):
+    rmtree(outputpath)
+
+makedirs(outputpath)
+
+for index, publication in enumerate(PUBLICATIONS):
+    filename = slugify(publication['title'].lower())
+    new_file = open('%s/publication-%s.html' % (searchpath, filename), 'w+')
+    new_page = template.replace('publications[0]', 'publications[%d]' % index)
+
+    new_file.write(new_page)
+    new_file.close()
+
+site = make_site(
+    filters=filters,
+    outpath=outputpath,
+    contexts=[(r'.*.html', loadAcademyData)],
+    searchpath=searchpath,
+    staticpaths=['static', '../data']
+)
+
 site.render(use_reloader=True)
