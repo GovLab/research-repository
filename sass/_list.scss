@@ -1,55 +1,100 @@
-.b-project-list {
-	ul {
-		margin-bottom: 0;
-		margin-left: 0;
-		padding: 0;
-	}
 
-	.b-project-list-item {
-		position: relative;
-		border: 1px solid $gray_20;
-		background-color: $white;
-		vertical-align: top;
-		margin: 5px;
-		margin-bottom: 10px;
-		padding: 0;
-		padding-top: 20px;
-		@include drop-shadow-light;
+.b-publication-item.b-publication-item {
+	position: relative;
 
-		&:before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 6px;
-			height: 100%;
-		}
+	h1 {
+		text-align: left;
+		font-size: 1.1rem;
 
-		h3, 
-		h4,
-		.e-project-description { margin: 10px 40px; }
-
-		h4 {
-			text-transform: uppercase;
-			font-size: 1rem;
-
-		}
-		
-		.e-project-description {
-			margin-right: 30px;
-			margin-bottom: 20px;
+		a {
+		color: $gray_80;
+		font-weight: 600;
 		}
 	}
+
+  &:before {
+	  content: '';
+	  width: 6px;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	}
+  .e-pub-author {
+    font-size: 0.9rem;
+  }
+
+  .e-pub-date {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+
+  .e-pub-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: right;
+
+    a {
+      color: $gray_20;
+      margin: 0 15px;
+    }
+
+    a:hover { color: $gray_60; }
+  }
 }
 
 /* Mobile Only ----------- */
 @media only screen and (max-width : $desktop_width) {
+.b-publication-item.b-publication-item {
+	display: block;
+	padding: 10px 15px 10px 20px;
+	border-bottom: 1px solid $gray_20;
 
+	h1 { margin-bottom: 10px; }
+
+	&:first-of-type {
+		border-top: 1px solid $gray_20;
+	}
+
+	.e-pub-author {
+		margin-bottom: 10px;
+	}
+
+}
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
+.b-publication-item {
+  display: inline-block;
+  border: 1px solid $gray_20;
+  background-color: $white;
+  padding: 20px 20px 20px 34px;
+  margin-bottom: 30px;
+  margin-right: 14px;
+  height: 240px;
+  width: 311px;
+  vertical-align: top;
+  @include drop-shadow-light;
 
+  &:nth-child(3n) { margin-right: 0; }
+}
 
+.b-publication-item .e-pub-actions { display: none; }
+.b-publication-item:hover .e-pub-actions { display: block; }
 
 } // Media query
+
+
+.b-publication-item {
+  &.m-behavioral-research:before                  { background-color: $behavioral-research;      }
+  &.m-citizen-engagement-and-crowdsourcing:before { background-color: $citizen-engagement;       }
+  &.m-civic-technology:before                     { background-color: $civic-technology;         }
+  &.m-data-analysis:before                        { background-color: $data-analysis;            }
+  &.m-expert-networking:before                    { background-color: $expert-networking;        }
+  &.m-labs-and-experimentation:before             { background-color: $labs-and-experimentation; }
+  &.m-open-data:before                            { background-color: $open-data;                }
+}

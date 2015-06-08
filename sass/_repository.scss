@@ -1,42 +1,25 @@
+.b-search-field {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 200;
+  border: 1px solid $gray_30;
+}
+
 .b-main-search {
   text-align: center;
-
-  h2 {
-    margin: 40px 0 0 0;
-    font-size: 2.3rem;
-  }
-
-  input[type="text"] {
-    margin: 40px 0 20px;
-    padding: 16px 30px;
-    width: 100%;
-    font-size: 1.6rem;
-    font-weight: 200;
-  }
+  
+  padding-top: 50px;
 }
 
 .b-main-category-menu {
-  margin-top: 40px;
-
-  h3 {
-    font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: .5px;
-    color: $purple;
-    text-align: center;
-    margin: 0 0 20px 0;
-    text-transform: uppercase;
-
-  }
 
   .e-main-category {
     text-align: center;
-    cursor: pointer;
     display: inline-block;
-    margin: 0 0 30px;
-    width: 139px;
     vertical-align: top;
-    @include transition;
+    
 
     &:last-child {
       margin-right: 0;
@@ -45,7 +28,6 @@
     p {
       text-transform: uppercase;
       font-weight: 400;
-      color: $purple;
       font-size: 0.9rem;
       letter-spacing: .4px;
       padding-top: 10px;
@@ -53,111 +35,43 @@
 
     i {
       font-size: 40px;
-      background-color: $gray_10;
       color: $gray_20;
       padding: 20px;
-      @include circle;
-      width: 80px;
-      height: 80px;
-    }
-  
-    &:hover i {
-      color: $white;
-      @include transition;
-      @include drop-shadow;
     }
   }
 }
 
-.b-grow { transition: all .2s ease-in-out; }
-.b-grow:hover { transform: scale(1.2); }
 
-.b-publication-item {
-  position: relative;
-  display: inline-block;
-  border: 1px solid $gray_20;
-  background-color: $white;
-  padding: 20px 20px 20px 34px;
-  margin-bottom: 30px;
-  margin-right: 14px;
-  height: 240px;
-  width: 311px;
-  vertical-align: top;
-  @include drop-shadow-light;
 
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
 
-  &:before {
-    content: '';
-    position: absolute;
-    height: 240px;
-    width: 6px;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+
+
+
+
+
+// MOBILE ONLY
+@media only screen and (max-width : $desktop_width) {
+.b-main-category-menu {
+  margin-top: 30px;
+  text-align: center;
+
+ .e-main-category {
+  width: 48%;
+  border-radius: 0;
+  margin-bottom: 5px;
+      
+  i {
+    border-radius: 0;
+    box-shadow: none;
   }
     
-    h1 {
-      font-size: 1.1rem;
-      line-height: 1.3;
-      font-weight: 400;
-      margin: 0;
-      margin-bottom: 15px;
+  &.m-labs-and-experimentation { width: calc(100% - 10px); }
 
-      a {color: $purple;}
-    }
+   }
+  }
 
-    .e-pub-author {
-      font-size: 0.9rem;
-    }
-
-    .e-pub-date {
-      font-size: 0.9rem;
-      text-transform: uppercase;
-    }
-
-    .e-pub-actions {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding-bottom: 10px;
-      width: 100%;
-      text-align: right;
-
-      a {
-        color: $gray_20;
-        margin: 0 15px;
-      }
-
-      a:hover {
-        color: $gray_60;
-      }
-    }
-}
-
-// Color Coding for categories
-
-.b-main-category-menu {
-  .m-behavioral-research i                  { background-color: $behavioral-research;      }
-  .m-citizen-engagement-and-crowdsourcing i { background-color: $citizen-engagement;       }
-  .m-civic-technology i                     { background-color: $civic-technology;         }
-  .m-data-analysis i                        { background-color: $data-analysis;            }
-  .m-expert-networking i                    { background-color: $expert-networking;        }
-  .m-labs-and-experimentation i             { background-color: $labs-and-experimentation; }
-  .m-open-data i                            { background-color: $open-data;                }
-
-} 
-
-.b-publication-item {
-  .m-behavioral-research:before                  { background-color: $behavioral-research;      }
-  .m-citizen-engagement-and-crowdsourcing:before { background-color: $citizen-engagement;       }
-  .m-civic-technology:before                     { background-color: $civic-technology;         }
-  .m-data-analysis:before                        { background-color: $data-analysis;            }
-  .m-expert-networking:before                    { background-color: $expert-networking;        }
-  .m-labs-and-experimentation:before             { background-color: $labs-and-experimentation; }
-  .m-open-data:before                            { background-color: $open-data;                }
+.b-main-search { padding-bottom: 160px; }
 }
 
 
@@ -170,19 +84,62 @@
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
+.b-main-category-menu {
+  margin-top: 40px;
 
-.b-publication-item .e-pub-actions { display: none; }
-.b-publication-item:hover .e-pub-actions { display: block; }
+  h3 { color: $purple; }
+
+  .e-main-category {
+    cursor: pointer;
+    width: 139px;
+    height: 139px;
+    margin: 0 0 30px;
+    background-color: transparent !important;
+
+
+    p { color: $purple; }
+
+    i {
+      width: 80px;
+      height: 80px;
+      @include circle;
+      @include transition;
+      @include drop-shadow;
+
+    }
+  
+    &:hover i {
+      color: $white;
+      @include transition;
+      
+    }
+  }
+}
+
+.b-main-search { padding-bottom: 60px; }
+.b-grow { transition: all .2s ease-in-out; }
+.b-grow:hover { transform: scale(1.2); }
 }
 
 
 
+// Color Coding for categories
 
+.b-main-category-menu {
+  .m-behavioral-research,
+  .m-behavioral-research  i                   { background-color: $behavioral-research;      }
+  .m-citizen-engagement-and-crowdsourcing,
+  .m-citizen-engagement-and-crowdsourcing  i  { background-color: $citizen-engagement;       }
+  .m-civic-technology,
+  .m-civic-technology  i                      { background-color: $civic-technology;         }
+  .m-data-analysis,
+  .m-data-analysis  i                         { background-color: $data-analysis;            }
+  .m-expert-networking,
+  .m-expert-networking  i                     { background-color: $expert-networking;        }
+  .m-labs-and-experimentation,
+  .m-labs-and-experimentation  i              { background-color: $labs-and-experimentation; }
+  .m-open-data,
+  .m-open-data  i                             { background-color: $open-data;                }
 
-
-
-
-
-
-
+} 
 

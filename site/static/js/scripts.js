@@ -8,10 +8,10 @@ $(document).ready(function() {
 
   	if(trigger.hasClass('m-nav-active')) {
   		trigger.removeClass('m-nav-active');
-	  	trigger.parent().parent().parent().removeClass('m-nav-active');	
+	  	trigger.parent().removeClass('m-nav-active');	
   	} else {
   		trigger.addClass('m-nav-active');
-	  	trigger.parent().parent().parent().addClass('m-nav-active');	
+	  	trigger.parent().addClass('m-nav-active');	
   	}
 
   });

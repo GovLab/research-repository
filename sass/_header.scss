@@ -1,11 +1,11 @@
 .b-top-navigation {
 	background-color: $purple;
 	@include drop-shadow;
-	padding: 8px 10px 10px;
 
 	.e-logo {
 		font-size: 1.2rem;
 		letter-spacing: .5px;
+		float: left;
 		
 		a { color: $white; }
 	}
@@ -22,56 +22,112 @@
 	.e-sitename {
 		padding: 7px 10px 7px;
 		display: inline-block;
+		font-weight: 100;
 	}
+} // .b-top-navigation
 
+
+
+// MOBILE ONLY
+@media only screen and (max-width : $desktop_width) {
+
+.b-top-navigation {
+
+	.e-logo { margin: 5px 0 6px; }
+	
 	.e-mainnav-trigger {
 		font-size: 1.4rem;
-		position: fixed;
+		position: absolute;
 		right: 20px;
-		top: 15px;
+		top: 12px;
 		color: $white;
 		z-index: 20;
 	}
 
 	.b-main-nav {
 		opacity: 0;
-		z-index: -10;
 		position: fixed;
-	}
-
-	&.m-nav-active .b-main-nav {
-		opacity: 1;
-		z-index: 10;
+		pointer-events: none;
 		background-color: $purple;
 		left: 0;
 		right: 0;
 		top: 0;
-		bottom: 0;
 		margin: 0;
-		padding: 50px 0;
+		display: flex;
+		flex-flow: column;
+		z-index: 19;
+		@include transition;
 
-		li a {
+		a {
+			display: block;			
+			align-items: center;
+		  flex: 1;
 			font-size: 2rem;
 			color: $white;
 			font-weight: 100;
-			display: block;
-			padding: 35px;
+			padding: 9%;
 			text-align: left;
+
+			&:active {
+				background-color: $white_15;
+			}
 		}
 	}
 
-	.e-mainnav-trigger i:before { content: "\f00d" !important; }
+	&.m-nav-active .b-main-nav {
+		opacity: 1;
+		bottom: 0;
+		padding: 50px 0;
+		@include transition;
+		pointer-events: all;
+	}
+	
+	.m-nav-active.e-mainnav-trigger i:before { content: "\f00d" !important; }
+	
+}
+.m-disabled {display: none !important;}
 
+}
 
-} // .b-top-navigation
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+
+.b-top-navigation {
+	padding: 0;
+
+	.e-logo { padding: 3px 0 3px; }
+	.e-icon { width: 140px; }
+
+	.e-mainnav-trigger { display: none; }
+
+	.b-main-nav {
+		opacity: 1;
+		z-index: 0;
+		margin: 0;
+		position: static;
+		text-align: right;
+		font-size: 0;
+
+		a {
+			display: inline-block;
+			line-height: 1;
+			padding: 19px 15px;
+			font-size: 1.1rem;
+			color: $white;
+			font-weight: 100;
+			letter-spacing: 1px;
+			border-right: 1px solid $white_15;
+		}
+		a:first-child { border-left: 1px solid $white_15; }
+		a:hover { background-color: $white_15; }
+		}
+	}
 
 .m-disabled {
 	opacity: .3;
 	pointer-events: none;
 }
-
-
-
+}
 
 
 

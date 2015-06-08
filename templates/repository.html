@@ -1,22 +1,25 @@
 {% extends "layout/base.html" %}
 {% block content %}
 <div id="repository" class="b-content-page">
-  <div class="b-content-section m-header">
+  <section class="b-content-section m-header">
     <div class="row">
       <div class="large-12 column">
         <div class="b-main-search">
-          <h2>Search our repository</h2>
-          <input  type="text" placeholder="Search our repository">
-          <input class="e-button" type="submit" value="Search">
-          <div class="e-button left-off-canvas-toggle">More Filters</div>
+          <h1>Search our repository</h1>
+          <input class="b-search-field" type="text" placeholder="Search our repository">
+          <div class="b-button-set">
+            <input class="b-button m-large" type="submit" value="Search">
+            <div class="b-button m-large">Filters</div>
+          </div>
         </div>
       </div>
     </div>
-
+  </section>
+  <section class="b-content-section">
     <div class="b-main-category-menu">
       <div class="row">
         <div class="large-12 column">
-          <h2>Choose a category</h2>
+          <h1>Choose a category</h1>
         </div>
       </div>
       <div class="row">
@@ -40,21 +43,24 @@
           <i class="fa fa-lightbulb-o b-grow"></i>
           <p>Expert Networking</p>
         </a>
-        <a class="e-main-category m-labs-and-experimentation">
-          <i class="fa fa-flask b-grow"></i>
-          <p>Labs and Experimentation</p>
-        </a>
         <a class="e-main-category m-open-data">
           <i class="fa fa-download b-grow"></i>
           <p>Open Data</p>
         </a>
+        <a class="e-main-category m-labs-and-experimentation">
+          <i class="fa fa-flask b-grow"></i>
+          <p>Labs and Experimentation</p>
+        </a>
         </div>
       </div>
     </div>
-  </div>
-  <section class="b-content-section">
+  </section>
+  <section class="b-content-section b-publications">
      <div class="row">
-      <div class="large-12 column">
+      <div class="large-12">
+        <h1>Results</h1>
+      </div>
+      
         {% for p in publications %}
           <article class="b-publication-item m-{{p.category_slug}}">
             <h1><a href="{{p.url}}">{{p.title}}</a></h1>
@@ -71,10 +77,6 @@
         {% endfor %}
       </div>
     </div> 
-  </section>
-  <section class="b-content-section">
-    <div class="row">
-    </div>
   </section>
 </div>
 

@@ -18,25 +18,25 @@
   <body>
 
     <header class="b-top-navigation">
+      <span class="e-mainnav-trigger"><i class="fa-bars fa"></i></span>
       <div class="row">
-        <h1 class="e-logo">
-          <a href="./index.html" class="e-home" title="Home">
-            <div class="e-icon"></div>
-            <span class="e-sitename">OpenGov Research</span>
-          </a>
-        </h1>
-        
-        <nav class="b-main-nav-container">
-          <span class="e-mainnav-trigger"><i class="fa-bars fa"></i></span>
-
-          <ul class="b-main-nav">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./repository.html">Repository</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./digest.html">Digest</a></li>
-            <li><a class="m-disabled" href="#">Learn &amp; Connect</a></li>
-          </ul>
-        </nav>
+        <div class="large-5 column">
+          <h1 class="e-logo">
+            <a href="./index.html" class="e-home" title="Home">
+              <div class="e-icon"></div>
+              <span class="e-sitename">OpenGov Research</span>
+            </a>
+          </h1>
+        </div>
+        <div class="large-7 column">
+          <nav class="b-main-nav">
+            <a href="./about.html">About</a>
+            <a href="./repository.html">Repository</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./digest.html">Digest</a>
+            <a href="#" class="m-disabled">Learn &amp; Connect</a>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -44,22 +44,25 @@
       
       
 <div id="repository" class="b-content-page">
-  <div class="b-content-section m-header">
+  <section class="b-content-section m-header">
     <div class="row">
       <div class="large-12 column">
         <div class="b-main-search">
-          <h2>Search our repository</h2>
-          <input  type="text" placeholder="Search our repository">
-          <input class="e-button" type="submit" value="Search">
-          <div class="e-button left-off-canvas-toggle">More Filters</div>
+          <h1>Search our repository</h1>
+          <input class="b-search-field" type="text" placeholder="Search our repository">
+          <div class="b-button-set">
+            <input class="b-button m-large" type="submit" value="Search">
+            <div class="b-button m-large">Filters</div>
+          </div>
         </div>
       </div>
     </div>
-
+  </section>
+  <section class="b-content-section">
     <div class="b-main-category-menu">
       <div class="row">
         <div class="large-12 column">
-          <h2>Choose a category</h2>
+          <h1>Choose a category</h1>
         </div>
       </div>
       <div class="row">
@@ -83,21 +86,24 @@
           <i class="fa fa-lightbulb-o b-grow"></i>
           <p>Expert Networking</p>
         </a>
-        <a class="e-main-category m-labs-and-experimentation">
-          <i class="fa fa-flask b-grow"></i>
-          <p>Labs and Experimentation</p>
-        </a>
         <a class="e-main-category m-open-data">
           <i class="fa fa-download b-grow"></i>
           <p>Open Data</p>
         </a>
+        <a class="e-main-category m-labs-and-experimentation">
+          <i class="fa fa-flask b-grow"></i>
+          <p>Labs and Experimentation</p>
+        </a>
         </div>
       </div>
     </div>
-  </div>
-  <section class="b-content-section">
+  </section>
+  <section class="b-content-section b-publications">
      <div class="row">
-      <div class="large-12 column">
+      <div class="large-12">
+        <h1>Results</h1>
+      </div>
+      
         
           <article class="b-publication-item m-open-data">
             <h1><a href="http://www.jedem.org/article/view/327/270">A Platform for Closing the Open Data Feedback Loop Based on Web2.0 Functionality</a></h1>
@@ -140,10 +146,6 @@
         
       </div>
     </div> 
-  </section>
-  <section class="b-content-section">
-    <div class="row">
-    </div>
   </section>
 </div>
 

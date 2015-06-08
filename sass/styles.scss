@@ -9,27 +9,29 @@ body, h1, h2, h3, h4, h5, input {
 }
 
 // Shared Modules
-@import "base";
-@import "text-blocks";
+// @import "base";
+// @import "text-blocks";
 @import "colors";
 @import "header";
 // @import "off-canvas-menu";
 @import "footer";
-@import "messages";
+// @import "messages";
 @import "layout";
-@import "pop-buttons";
-@import "form";
+// @import "pop-buttons";
+// @import "form";
 @import "list";
-@import "rss-feed";
+// @import "rss-feed";
+@import "typography";
+@import "sandbox";
 
 
 // Site specific Styles
-@import "tiles";
-@import "flipper";
-@import "sections";
+// @import "tiles";
+// @import "flipper";
+// @import "sections";
 
-@import "homepage";
-@import "about";
+// @import "homepage";
+// @import "about";
 @import "repository";
 
 
@@ -38,26 +40,19 @@ body, h1, h2, h3, h4, h5, input {
 
 @media only screen and (min-width : $desktop_width) {
 	
-	.b-logo {
-		max-width: 37%;
-	}
+	// .b-logo {
+	// 	max-width: 37%;
+	// }
 
-	h2 {
-		font-size: 3rem;
-		line-height: 1.2;
-	}
+	// h2 {
+	// 	font-size: 3rem;
+	// 	line-height: 1.2;
+	// }
 
-	p, li {
-		font-size: 1.3rem;
-		line-height: 1.4;
-	}
-
-	ul {
-		margin-left: 0;
-
-		li {margin-bottom: 10px;}
-		li:before { top: 8px !important; }
-	}
+	// p, li {
+	// 	font-size: 1.3rem;
+	// 	line-height: 1.4;
+	// }
 }
 
 

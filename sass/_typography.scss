@@ -1,0 +1,30 @@
+.b-content-section {
+  h1 {
+    text-align: center;
+  }
+}
+
+
+// MOBILE ONLY
+@media only screen and (max-width : $desktop_width) {
+.b-content-section {
+  h1 {
+    font-weight: 600;
+    color: $gray_80;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+  }
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+.b-content-section {
+  h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+}
