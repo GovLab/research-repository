@@ -1,64 +1,191 @@
-// .b-publication-item {
-//   position: relative;
-//   display: inline-block;
-//   border: 1px solid $gray_20;
-//   background-color: $white;
-//   padding: 20px 20px 20px 34px;
-//   margin-bottom: 30px;
-//   margin-right: 14px;
-//   height: 240px;
-//   width: 311px;
-//   vertical-align: top;
-//   @include drop-shadow-light;
+.b-publication {
+  .e-pub-category,
+  .e-pub-date {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
 
-//   &:nth-child(3n) {
-//     margin-right: 0;
-//   }
+  .e-pub-category {
+    color: $white;
+    letter-spacing: .5px;
+  }
+  
+  .e-pub-organization {
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
 
-//   &:before {
-//     content: '';
-//     position: absolute;
-//     height: 240px;
-//     width: 6px;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//   }
-    
-//     h1 {
-//       font-size: 1.1rem;
-//       line-height: 1.3;
-//       font-weight: 400;
-//       margin: 0;
-//       margin-bottom: 15px;
+  .e-pub-meta {
+    h2 {
+      color: $gray_60;
+    }
 
-//       a {color: $purple;}
-//     }
+    .e-pub-methodology,
+    .e-pub-objective,
+    .e-pub-region,
+    .e-pub-sector {
+      font-weight: 400;
 
-//     .e-pub-author {
-//       font-size: 0.9rem;
-//     }
+      span { 
+        display: block; 
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+  .e-pub-actions {
+    a {
+      text-align: center;
+      background-color: $purple;
+      color: $white;
+      margin-right: 5px;
+    }
 
-//     .e-pub-date {
-//       font-size: 0.9rem;
-//       text-transform: uppercase;
-//     }
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+}
 
-//     .e-pub-actions {
-//       position: absolute;
-//       bottom: 0;
-//       left: 0;
-//       padding-bottom: 10px;
-//       width: 100%;
-//       text-align: right;
+// MOBILE ONLY
+@media only screen and (max-width : $desktop_width) {
+.b-publication {
+  .e-pub-category { 
+    font-size: .9rem;
+    background-color: $gray_20;
+    padding: 4px 0 5px;
+    text-align: center;
 
-//       a {
-//         color: $gray_20;
-//         margin: 0 15px;
-//       }
+  }
+  .e-pub-date {
+    display: block;
+    text-align: center;
+  }
 
-//       a:hover {
-//         color: $gray_60;
-//       }
-//     }
-// }
+  .e-pub-title {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+  }
+
+  .e-pub-author {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .e-pub-abstract {
+    font-size: 1.2rem;
+  }
+
+  .e-pub-organization {
+    border-top: 1px solid $gray_20;
+    padding: 20px 0;
+
+    h3 { text-align: center; }
+  }
+
+  .e-pub-meta {
+    border-top: 1px solid $gray_20;
+    border-bottom: 1px solid $gray_20;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .e-pub-actions {
+    margin-top: 20px;
+    display: flex;
+
+    a {
+      flex: 1;
+      text-align: center;
+      background-color: $purple;
+      color: $white;
+      padding: 20px;
+      margin-right: 5px;
+    }
+
+    a:last-child { margin-right: 0; }
+    i { font-size: 1.7rem; }
+  }
+
+
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+.b-publication {
+  .e-pub-category {
+    background-color: $gray_20;
+    font-size: 1.3rem;
+    padding: 3px 10px;
+    width: auto;
+    display: inline-block;
+  }
+  .e-pub-date { 
+    font-size: 1.3rem;
+    position: absolute;
+    right: 0.9375em;
+    top: -35px;
+    color: $gray_60;
+  }
+  .e-pub-title {
+    text-align: left;
+    font-size: 2.5rem;
+    margin: 30px 0 0;
+  }
+
+  .e-pub-author {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .e-pub-organization {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  
+
+  .e-pub-meta {
+    padding-left: 20px;
+    border-left: 1px solid $gray_20;
+
+    h2 {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .6px;
+    }
+  }
+
+  .e-pub-actions {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    a {
+      display: inline-block;
+      padding: 15px;
+      width: 54px;
+      height: 54px;
+      @include circle;
+
+    }
+
+    a:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+}
+
+.b-publication {
+  &.m-behavioral-research .e-pub-category                  { background-color: $behavioral-research;      }
+  &.m-citizen-engagement-and-crowdsourcing .e-pub-category { background-color: $citizen-engagement;       }
+  &.m-civic-technology .e-pub-category                     { background-color: $civic-technology;         }
+  &.m-data-analysis .e-pub-category                        { background-color: $data-analysis;            }
+  &.m-expert-networking .e-pub-category                    { background-color: $expert-networking;        }
+  &.m-labs-and-experimentation .e-pub-category             { background-color: $labs-and-experimentation; }
+  &.m-open-data .e-pub-category                            { background-color: $open-data;                }
+}

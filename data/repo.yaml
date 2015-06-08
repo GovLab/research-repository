@@ -29,7 +29,8 @@
   sector: ''
   title: A Platform for Closing the Open Data Feedback Loop Based on Web2.0 Functionality
   url: http://www.jedem.org/article/view/327/270
-- abstract: 'This article considers online participation in higher education decision-making
+
+- abstract: "This article considers online participation in higher education decision-making
     using the MyUniversity EU project as a case study. MyUniversity was a pilot designed
     to provide European universities with a web-based system to empower and involve
     students and other members of the academic community in the Bologna Process. Thirteen
@@ -41,18 +42,23 @@
     and usability, impact on decision-making, privacy and trust, institutional resistance,
     motivational factors, the political, economic, and sociocultural context, language
     barriers, and moderation and framing. The article ends with a discussion based
-    on the results, including recommendations for future research.'
-  authors: Samuel Bohman, Henrik Hansson, Pooyeh Mobini
-  category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
+    on the results, including recommendations for future research."
+  authors: "Samuel Bohman, Henrik Hansson, Pooyeh Mobini"
+  category: "Citizen Engagement and Crowdsourcing"
+  category_slug: "Citizen-Engagement-and-Crowdsourcing"
   date: '2014'
-  methodology: Case Analysis, Survey
-  objective: Legitimacy, Participation
+  methodology: "Case Analysis, Survey"
+  objective: "Legitimacy, Participation"
   organization: ''
   region: Europe
   sector: Education
   title: Online Participation in Higher Education Decision-making
   url: http://www.jedem.org/article/view/247
+  download: http://www.jedem.org/article/view/247/309
+  github: https://github.com/claudioccm
+  dataset: https://github.com/claudioccm
+  type: thesis
+
 - abstract: 'In 2008 the first Swiss canton introduced internet voting for expatriates,
     thus initiating the second phase in Switzerland’s piecemeal i-voting roll-out.
     More cantons soon followed, and as of this writing expatriates from 12 out of

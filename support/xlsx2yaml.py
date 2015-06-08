@@ -18,7 +18,6 @@ _COl_NAME_MAP = {
     'Link to download': 'url',
 }
 
-
 def get_sheet(filepath):
     return open_workbook(filepath).sheet_by_index(0)
 

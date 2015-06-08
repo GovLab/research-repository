@@ -2,18 +2,60 @@
 
 {% block content %}
 {% set publication = publications[46] %}
+<div id="publication-page" class="b-content-page">
+  <section class="b-content-section m-header b-publication m-{{publication.category_slug | lower}}">
+    <div class="row">
+      <h3 class="e-pub-category">{{publication.category}}</h3>
+      <div class="large-12 column">
+        <span class="e-pub-date">{{publication.date}}</span>
+        <h1 class="e-pub-title">{{publication.title}}</h1>
+        <h4 class="e-pub-author">{{publication.authors}}</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column large-8">
+        <p class="e-pub-abstract">{{publication.abstract}}</p>
+      </div>
+      <div class="column large-4">
+        {% if publication.methodology %}
+        <div class="e-pub-organization">
+          <h3>{{publication.organization}}</h3>          
+        </div>
+        {% endif %}
+        <div class="e-pub-meta">
+          <h2>Meta Information</h2>
+          {% if publication.methodology %}
+            <div class="e-pub-methodology">Methodology<span>{{publication.methodology}}</span></div>
+          {% endif %}
+          
+          {% if publication.objective %}
+          <div class="e-pub-objective">Objective<span>{{publication.objective}}</span></div>
+          {% endif %}
 
-<div>{{publication.title}}</div>
-<div>{{publication.abstract}}</div>
-<div>{{publication.authors}}</div>
-<div>{{publication.category}}</div>
-<div>{{publication.category_slug}}</div>
-<div>{{publication.date}}</div>
-<div>{{publication.methodology}}</div>
-<div>{{publication.objective}}</div>
-<div>{{publication.organization}}</div>
-<div>{{publication.region}}</div>
-<div>{{publication.sector}}</div>
-<div>{{publication.url}}</div>
+          {% if publication.region %}
+          <div class="e-pub-region">Region<span>{{publication.region}}</span></div>
+          {% endif %}
+          
+          {% if publication.sector %}
+          <div class="e-pub-sector">Sector<span>{{publication.sector}}</span></div>
+          {% endif %}
 
+        </div>
+        <div class="e-pub-actions">
+          <a href="{{publication.url}}" class="e-pub-url b-grow" title="Original Page"><i class="fa-link fa-lg fa"></i></a>
+          {% if publication.download %}
+          <a href="{{publication.download}}" class="e-pub-download b-grow" title="Direct Download"><i class="fa-download fa-lg fa"></i></a>
+          {% endif %}
+          {% if publication.github %}
+          <a href="{{publication.github}}" class="e-pub-github b-grow" title="Github"><i class="fa-github fa-lg fa"></i></a>
+          {% endif %}
+          {% if publication.dataset %}
+          <a href="{{publications[1].dataset}}" class="e-pub-dataset b-grow" title="Github"><i class="fa-database fa-lg fa"></i></a>
+          {% endif %}
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
 {% endblock %}

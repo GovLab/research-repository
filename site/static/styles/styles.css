@@ -214,10 +214,10 @@ body, h1, h2, h3, h4, h5, input {
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 20px 20px 20px 34px;
-    margin-bottom: 20px;
-    margin-right: 14px;
+    margin-bottom: 9px;
+    margin-right: 5px;
     height: 240px;
-    width: 311px;
+    width: 337px;
     vertical-align: top;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
     .b-publication-item:nth-of-type(3n) {
@@ -243,6 +243,37 @@ body, h1, h2, h3, h4, h5, input {
 .b-publication-item.m-open-data:before {
   background-color: #ff8d00; }
 
+.rssHeader {
+  display: none; }
+
+.rssBody ul {
+  margin-left: 0; }
+
+.rssRow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  list-style-type: none;
+  margin-left: 0; }
+  .rssRow h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0; }
+  .rssRow > div {
+    font-size: 1rem;
+    margin-bottom: 10px; }
+  .rssRow > p {
+    font-size: 1.2rem;
+    clear: both; }
+  .rssRow a {
+    color: #472b74; }
+    .rssRow a:hover {
+      color: #472b74;
+      background-color: transparent;
+      text-decoration: underline; }
+  .rssRow:first-of-type {
+    border-top: 1px solid rgba(0, 0, 0, 0.3); }
+
 .b-content-section h1 {
   text-align: center; }
 
@@ -252,7 +283,13 @@ body, h1, h2, h3, h4, h5, input {
     color: rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
     font-size: 1.6rem;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .b-content-section h2 {
+    font-weight: 600;
+    color: #472b74;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 20px 0; } }
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
   .b-content-section h1 {
@@ -292,6 +329,138 @@ body, h1, h2, h3, h4, h5, input {
   div.b-button.b-button {
     padding-top: 15px;
     padding-bottom: 14px; } }
+.b-publication .e-pub-category,
+.b-publication .e-pub-date {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .5px; }
+.b-publication .e-pub-category {
+  color: white;
+  letter-spacing: .5px; }
+.b-publication .e-pub-organization h3 {
+  font-size: 1.2rem; }
+.b-publication .e-pub-meta h2 {
+  color: rgba(0, 0, 0, 0.6); }
+.b-publication .e-pub-meta .e-pub-methodology,
+.b-publication .e-pub-meta .e-pub-objective,
+.b-publication .e-pub-meta .e-pub-region,
+.b-publication .e-pub-meta .e-pub-sector {
+  font-weight: 400; }
+  .b-publication .e-pub-meta .e-pub-methodology span,
+  .b-publication .e-pub-meta .e-pub-objective span,
+  .b-publication .e-pub-meta .e-pub-region span,
+  .b-publication .e-pub-meta .e-pub-sector span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600; }
+.b-publication .e-pub-actions a {
+  text-align: center;
+  background-color: #472b74;
+  color: white;
+  margin-right: 5px; }
+.b-publication .e-pub-actions a:last-child {
+  margin-right: 0; }
+
+@media only screen and (max-width: 1024px) {
+  .b-publication .e-pub-category {
+    font-size: .9rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 0 5px;
+    text-align: center; }
+  .b-publication .e-pub-date {
+    display: block;
+    text-align: center; }
+  .b-publication .e-pub-title {
+    font-size: 1.5rem;
+    margin: 20px 0 10px; }
+  .b-publication .e-pub-author {
+    text-align: center;
+    margin-bottom: 50px; }
+  .b-publication .e-pub-abstract {
+    font-size: 1.2rem; }
+  .b-publication .e-pub-organization {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0; }
+    .b-publication .e-pub-organization h3 {
+      text-align: center; }
+  .b-publication .e-pub-meta {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 1.2rem; }
+  .b-publication .e-pub-actions {
+    margin-top: 20px;
+    display: flex; }
+    .b-publication .e-pub-actions a {
+      flex: 1;
+      text-align: center;
+      background-color: #472b74;
+      color: white;
+      padding: 20px;
+      margin-right: 5px; }
+    .b-publication .e-pub-actions a:last-child {
+      margin-right: 0; }
+    .b-publication .e-pub-actions i {
+      font-size: 1.7rem; } }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .b-publication .e-pub-category {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    padding: 3px 10px;
+    width: auto;
+    display: inline-block; }
+  .b-publication .e-pub-date {
+    font-size: 1.3rem;
+    position: absolute;
+    right: 0.9375em;
+    top: -35px;
+    color: rgba(0, 0, 0, 0.6); }
+  .b-publication .e-pub-title {
+    text-align: left;
+    font-size: 2.5rem;
+    margin: 30px 0 0; }
+  .b-publication .e-pub-author {
+    font-size: 1.3rem;
+    margin-bottom: 30px; }
+  .b-publication .e-pub-organization {
+    margin-left: 20px;
+    margin-bottom: 40px; }
+  .b-publication .e-pub-meta {
+    padding-left: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2); }
+    .b-publication .e-pub-meta h2 {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .6px; }
+  .b-publication .e-pub-actions {
+    margin-top: 20px;
+    margin-left: 20px; }
+    .b-publication .e-pub-actions a {
+      display: inline-block;
+      padding: 15px;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      overflow: hidden; }
+    .b-publication .e-pub-actions a:last-child {
+      margin-right: 0; } }
+.b-publication.m-behavioral-research .e-pub-category {
+  background-color: #cfcf00; }
+.b-publication.m-citizen-engagement-and-crowdsourcing .e-pub-category {
+  background-color: #00adef; }
+.b-publication.m-civic-technology .e-pub-category {
+  background-color: #00c800; }
+.b-publication.m-data-analysis .e-pub-category {
+  background-color: #af0000; }
+.b-publication.m-expert-networking .e-pub-category {
+  background-color: #00e388; }
+.b-publication.m-labs-and-experimentation .e-pub-category {
+  background-color: #f00074; }
+.b-publication.m-open-data .e-pub-category {
+  background-color: #ff8d00; }
+
 .b-search-field {
   margin-bottom: 20px;
   padding: 16px 20px;

@@ -1,13 +1,14 @@
 .rssHeader { display: none; }
-
+.rssBody ul {
+  margin-left: 0;
+}
 .rssRow {
-  border: 1px solid $gray_30;
-  padding:  20px;
-  background-color: $white;
-  @include drop-shadow-light;
+  border-bottom: 1px solid $gray_30;
+  padding: 10px;
   position: relative;
   margin-bottom: 10px;
-  border-left: 6px solid $purple;
+  list-style-type: none;
+  margin-left: 0;
   
   h4 {
     font-size: 1.3rem;
@@ -32,5 +33,9 @@
       background-color: transparent;
       text-decoration: underline;
     } 
+  }
+
+  &:first-of-type {
+    border-top: 1px solid $gray_30;
   }
 }
