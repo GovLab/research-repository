@@ -175,7 +175,8 @@ body, h1, h2, h3, h4, h5, input {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0; }
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2); }
   .b-publication-item.b-publication-item .e-pub-author {
     font-size: 0.9rem; }
   .b-publication-item.b-publication-item .e-pub-date {
@@ -213,13 +214,13 @@ body, h1, h2, h3, h4, h5, input {
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 20px 20px 20px 34px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-right: 14px;
     height: 240px;
     width: 311px;
     vertical-align: top;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
-    .b-publication-item:nth-child(3n) {
+    .b-publication-item:nth-of-type(3n) {
       margin-right: 0; }
 
   .b-publication-item .e-pub-actions {
@@ -228,19 +229,19 @@ body, h1, h2, h3, h4, h5, input {
   .b-publication-item:hover .e-pub-actions {
     display: block; } }
 .b-publication-item.m-behavioral-research:before {
-  background-color: yellow; }
+  background-color: #cfcf00; }
 .b-publication-item.m-citizen-engagement-and-crowdsourcing:before {
-  background-color: blue; }
+  background-color: #00adef; }
 .b-publication-item.m-civic-technology:before {
-  background-color: green; }
+  background-color: #00c800; }
 .b-publication-item.m-data-analysis:before {
-  background-color: red; }
+  background-color: #af0000; }
 .b-publication-item.m-expert-networking:before {
-  background-color: teal; }
+  background-color: #00e388; }
 .b-publication-item.m-labs-and-experimentation:before {
-  background-color: purple; }
+  background-color: #f00074; }
 .b-publication-item.m-open-data:before {
-  background-color: orange; }
+  background-color: #ff8d00; }
 
 .b-content-section h1 {
   text-align: center; }
@@ -317,7 +318,7 @@ body, h1, h2, h3, h4, h5, input {
     padding-top: 10px; }
   .b-main-category-menu .e-main-category i {
     font-size: 40px;
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.5);
     padding: 20px; }
 
 @media only screen and (max-width: 1024px) {
@@ -371,24 +372,24 @@ body, h1, h2, h3, h4, h5, input {
     transform: scale(1.2); } }
 .b-main-category-menu .m-behavioral-research,
 .b-main-category-menu .m-behavioral-research i {
-  background-color: yellow; }
+  background-color: #cfcf00; }
 .b-main-category-menu .m-citizen-engagement-and-crowdsourcing,
 .b-main-category-menu .m-citizen-engagement-and-crowdsourcing i {
-  background-color: blue; }
+  background-color: #00adef; }
 .b-main-category-menu .m-civic-technology,
 .b-main-category-menu .m-civic-technology i {
-  background-color: green; }
+  background-color: #00c800; }
 .b-main-category-menu .m-data-analysis,
 .b-main-category-menu .m-data-analysis i {
-  background-color: red; }
+  background-color: #af0000; }
 .b-main-category-menu .m-expert-networking,
 .b-main-category-menu .m-expert-networking i {
-  background-color: teal; }
+  background-color: #00e388; }
 .b-main-category-menu .m-labs-and-experimentation,
 .b-main-category-menu .m-labs-and-experimentation i {
-  background-color: purple; }
+  background-color: #f00074; }
 .b-main-category-menu .m-open-data,
 .b-main-category-menu .m-open-data i {
-  background-color: orange; }
+  background-color: #ff8d00; }
 
 /*# sourceMappingURL=styles.css.map */

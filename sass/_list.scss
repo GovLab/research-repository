@@ -19,6 +19,7 @@
 	  top: 0;
 	  left: 0;
 	  bottom: 0;
+    background-color: $gray_20;
 	}
   .e-pub-author {
     font-size: 0.9rem;
@@ -73,14 +74,14 @@
   border: 1px solid $gray_20;
   background-color: $white;
   padding: 20px 20px 20px 34px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-right: 14px;
   height: 240px;
   width: 311px;
   vertical-align: top;
   @include drop-shadow-light;
 
-  &:nth-child(3n) { margin-right: 0; }
+  &:nth-of-type(3n) { margin-right: 0; }
 }
 
 .b-publication-item .e-pub-actions { display: none; }
