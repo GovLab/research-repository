@@ -5,17 +5,20 @@ from collections import defaultdict
 
 
 _COl_NAME_MAP = {
+    'Publication Name': 'title',
+    'Organization': 'organization',
+    'Authors': 'authors',
+    'Published On': 'date',
+    'Link to download': 'url',
+    'Innovation': 'category',
+    'Objective': 'objective',
     'Sector': 'sector',
     'Region': 'region',
-    'Authors': 'authors',
-    'Abstract': 'abstract',
-    'Objective': 'objective',
-    'Innovation': 'category',
     'Methodology': 'methodology',
-    'Organization': 'organization',
-    'Published On': 'date',
-    'Publication Name': 'title',
-    'Link to download': 'url',
+    'Publication Type':'type',
+    'GitHub Repository': 'github',
+    'Data': 'data',
+    'Abstract': 'abstract'
 }
 
 def get_sheet(filepath):
