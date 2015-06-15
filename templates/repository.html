@@ -1,86 +1,162 @@
 {% extends "layout/base.html" %}
 {% block content %}
-<div id="repository" class="b-content-page">
-  <section class="b-content-section m-header">
-    <div class="row">
-      <div class="large-12 column">
-        <div class="b-main-search">
-          <h1>Search our repository</h1>
-          <input class="b-search-field" type="text" placeholder="Search our repository">
-          <div class="b-button-set">
-            <input class="b-button m-large" type="submit" value="Search">
-            <div class="b-button m-large">Filters</div>
+<div id="repository" class="off-canvas-wrap b-content-page" data-offcanvas>
+  <div class="inner-wrap">
+    <aside class="b-offcanvas left-off-canvas-menu">
+      <h2 class="m-filter-name">Innovation  <i class="fa fa-plus"></i></h2>
+
+      <div class="b-item-wrapper">
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=behavioral-science-and-nudges]">Behavioral Science and Nudges<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=citizen-engagement-and-crowdsourcing]">Citizen Engagement and Crowdsourcing<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=citizen-science]">Citizen Science<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=collective-intelligence]">Collective Intelligence<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=distributed-governance]">Distributed Governance<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=participatory-budgeting]">Participatory Budgeting<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=prizes-and-challenges]">Prizes and Challenges<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=civic-technology]">Civic Technology<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=data-analysis]">Data Analysis<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=big-data]">Big Data<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=smart-cities]">Smart Cities<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=social-media]">Social Media<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=expert-networking]">Expert Networking<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=labs-and-experimentation]">Labs and Experimentation<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=open-data]">Open Data<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=freedom-of-information]">Freedom of Information<i class="fa fa-plus"></i></span></div>
+      </div>
+
+      <h2 class="m-filter-name">Objective  <i class="fa fa-plus"></i></h2>
+
+      <div class="b-item-wrapper">
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=access]">Access<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=accountability]">Accountability<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=effectiveness]">Effectiveness<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=legitimacy]">Legitimacy<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=participation]">Participation<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=transparency]">Transparency<i class="fa fa-plus"></i></span></div>
+      </div>
+
+
+      <h2 class="m-filter-name">Sector  <i class="fa fa-plus"></i></h2>
+
+      <div class="b-item-wrapper">
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=economy]">Economy<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=energy]">Energy<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=environment]">Environment<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=healthcare]">Healthcare<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=immigration]">Immigration<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=internet]">Internet<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=politics]">Politics<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=public-safety]">Public Safety<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=transportation]">Transportation<i class="fa fa-plus"></i></span></div>
+      </div>
+
+      <h2 class="m-filter-name">Region  <i class="fa fa-plus"></i></h2>
+
+      <div class="b-item-wrapper">
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=africa]">Africa<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=asia]">Asia<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=australia]">Australia<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=europe]">Europe<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=north-america]">North America<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=south-america]">South America<i class="fa fa-plus"></i></span></div>
+      </div>
+
+      <h2 class="m-filter-name">Methodology  <i class="fa fa-plus"></i></h2>
+
+      <div class="b-item-wrapper">
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=case-analysis]">Case Analysis<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=conceptual-framework]">Conceptual Framework<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=design-science]">Design Science<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=quantitative-analysis]">Quantitative Analysis<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=statistical-modeling]">Statistical Modeling<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=surveys]">Surveys<i class="fa fa-plus"></i></span></div>
+        <div class="b-item"><span class="e-filter-tag" data-filter="[data-filters*=user-studies]">User Studies<i class="fa fa-plus"></i></span></div>
+      </div>
+    </aside>
+
+    <main>
+      <section class="b-content-section m-header">
+        <div class="row">
+          <div class="large-12 column">
+            <div class="b-main-search">
+              <h1>Search our repository</h1>
+              <input class="b-search-field" type="text" placeholder="Search our repository">
+              <div class="b-button-set">
+                <input class="b-button m-large" type="submit" value="Search">
+                <span class="b-button m-large left-off-canvas-toggle">Filters</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="b-content-section">
-    <div class="b-main-category-menu">
-      <div class="row">
-        <div class="large-12 column">
-          <h1>Choose a category</h1>
-        </div>
-      </div>
-      <div class="row">
-        <a class="e-main-category m-behavioral-research">
-          <i class="fa fa-hand-o-right b-grow"></i>
-          <p>Behavioral Research</p>
-        </a>
-        <a class="e-main-category m-citizen-engagement-and-crowdsourcing">
-          <i class="fa fa-users b-grow"></i>
-          <p>Citizen Engagement</p>
-        </a>
-        <a class="e-main-category m-civic-technology">
-          <i class="fa fa-cogs b-grow"></i>
-          <p>Civic Technology</p>
-        </a>
-        <a class="e-main-category m-data-analysis">
-          <i class="fa fa-database b-grow"></i>
-          <p>Data Analysis</p>
-        </a>
-        <a class="e-main-category m-expert-networking">
-          <i class="fa fa-lightbulb-o b-grow"></i>
-          <p>Expert Networking</p>
-        </a>
-        <a class="e-main-category m-open-data">
-          <i class="fa fa-download b-grow"></i>
-          <p>Open Data</p>
-        </a>
-        <a class="e-main-category m-labs-and-experimentation">
-          <i class="fa fa-flask b-grow"></i>
-          <p>Labs and Experimentation</p>
-        </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="b-content-section b-publications">
-     <div class="row">
-      <div class="large-12">
-        <h1>Results</h1>
-      </div>
-      <div class="row">
-        {% for p in publications %}
-          <article class="b-publication-item m-{{p.category|slug}}">
-            <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
-            <div class="e-pub-meta">
-              <p class="e-pub-author">{{p.authors}}</p>
-              <span class="e-pub-date">{{p.date}}</span>
+      </section>
+      <section class="b-content-section">
+        <div class="b-main-category-menu">
+          <div class="row">
+            <div class="large-12 column">
+              <h1>Choose a category</h1>
             </div>
-            <div class="e-pub-actions">
-            {% if p.github %} <a target="_blank" title="Github Repository" href="{{p.github}}"><i class="fa fa-github fa-lg"></i></a> {% endif %}
-            {% if p.dataset %} <a target="_blank" title="Dataset" href="{{p.dataset}}"><i class="fa fa-database fa-lg"></i></a> {% endif %}
-            {% if p.url %} <a target="_blank" title="Go to Paper" href="{{p.url}}"><i class="fa fa-link fa-lg"></i></a> {% endif %}
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+          </div>
+          <div class="row">
+            <a class="e-main-category m-behavioral-research" data-filter=".m-behavioral-research">
+              <i class="fa fa-hand-o-right b-grow"></i>
+              <p>Behavioral Research</p>
+            </a>
+            <a class="e-main-category m-citizen-engagement-and-crowdsourcing" data-filter=".m-citizen-engagement-and-crowdsourcing">
+              <i class="fa fa-users b-grow"></i>
+              <p>Citizen Engagement</p>
+            </a>
+            <a class="e-main-category m-civic-technology" data-filter=".m-civic-technology">
+              <i class="fa fa-cogs b-grow"></i>
+              <p>Civic Technology</p>
+            </a>
+            <a class="e-main-category m-data-analysis" data-filter=".m-data-analysis">
+              <i class="fa fa-database b-grow"></i>
+              <p>Data Analysis</p>
+            </a>
+            <a class="e-main-category m-expert-networking" data-filter=".m-expert-networking">
+              <i class="fa fa-lightbulb-o b-grow"></i>
+              <p>Expert Networking</p>
+            </a>
+            <a class="e-main-category m-open-data" data-filter=".m-open-data">
+              <i class="fa fa-download b-grow"></i>
+              <p>Open Data</p>
+            </a>
+            <a class="e-main-category m-labs-and-experimentation" data-filter=".m-labs-and-experimentation">
+              <i class="fa fa-flask b-grow"></i>
+              <p>Labs and Experimentation</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="b-content-section b-publications">
+        <div class="row">
+          <div class="large-12">
+            <h1>Results</h1>
+          </div>
+          <div class="b-cards-wrapper row">
+            {% for p in publications %}
+              <article class="b-publication-item m-{{p.category|slug}} b-card" data-filters="{{ p.filters }}">
+                <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
+                <div class="e-pub-meta">
+                  <p class="e-pub-author">{{p.authors}}</p>
+                  <span class="e-pub-date">{{p.date}}</span>
+                </div>
+                <div class="e-pub-actions">
+                  {% if p.github %} <a target="_blank" title="Github Repository" href="{{p.github}}"><i class="fa fa-github fa-lg"></i></a> {% endif %}
+                  {% if p.dataset %} <a target="_blank" title="Dataset" href="{{p.dataset}}"><i class="fa fa-database fa-lg"></i></a> {% endif %}
+                  {% if p.url %} <a target="_blank" title="Go to Paper" href="{{p.url}}"><i class="fa fa-link fa-lg"></i></a> {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </main>
+    <a class="exit-off-canvas"></a>
+  </div>
 </div>
-
 {% endblock %}
+
 {% block scripts %}
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 {% endblock %}

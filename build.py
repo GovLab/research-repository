@@ -12,6 +12,13 @@ outputpath = path.join(getcwd(), 'site')
 # We load the data we want to use in the templates.
 PUBLICATIONS = load(open('data/repo.yaml'))
 
+for item in PUBLICATIONS:
+    item['filters'] = ''
+
+    for k, v in item.iteritems():
+        if k not in ['download', 'github', 'dataset', 'url']:
+            item['filters'] += '__' + slugify(v.strip().lower())
+
 
 def loadAcademyData():
     return {'publications': PUBLICATIONS}
