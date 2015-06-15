@@ -20,7 +20,6 @@
     the centre of the open data publication process.
   authors: Charalampos Alexopoulos, Euripidis Loukis, Yannis Charalabidis
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Design Science
   objective: Effectiveness, Participation
@@ -45,7 +44,6 @@
     on the results, including recommendations for future research."
   authors: "Samuel Bohman, Henrik Hansson, Pooyeh Mobini"
   category: "Citizen Engagement and Crowdsourcing"
-  category_slug: "Citizen-Engagement-and-Crowdsourcing"
   date: '2014'
   methodology: "Case Analysis, Survey"
   objective: "Legitimacy, Participation"
@@ -78,7 +76,6 @@
     electoral mobilization, similarly to trials involving residents.'
   authors: Micha Germann, Uwe Serdült
   category: Civic Technology
-  category_slug: Civic-Technology
   date: '2014'
   methodology: Case Analysis
   objective: Participation
@@ -99,7 +96,6 @@
     future developments.
   authors: Amanda M Smith, Tom Heath
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Case Analysis
   objective: Legitimacy
@@ -132,7 +128,6 @@
     efforts, as regards the end objective of citizen empowerment.
   authors: Aspasia Papaloi, Dimitris Gouscos
   category: Open Data
-  category_slug: Open-Data
   date: '2013'
   methodology: Design Science
   objective: Legitimacy
@@ -180,7 +175,6 @@
     context in which this study takes place as well as the overall methodology.'
   authors: Sandrine Reiter, Guillaume Gronier, Philippe Valoggia
   category: Labs and Experimentation
-  category_slug: Labs-and-Experimentation
   date: '2014'
   methodology: Design Science
   objective: Participation
@@ -274,7 +268,6 @@
     Much will depend on the character and priorities of the new mayor.'
   authors: Susan P. Crawford, Dana Walters
   category: Labs and Experimentation
-  category_slug: Labs-and-Experimentation
   date: '41493'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -298,7 +291,6 @@
   authors: Stanislav Sobolevsky, Iva Bojic, Alexander Belyi, Izabela Sitko, Bartosz
     Hawelka, Juan Murillo Arias, Carlo Ratti
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '42116'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -323,7 +315,6 @@
     data literacy.
   authors: Annika Wolff, Gerd Kortuem, and Jose Cavero
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2015'
   methodology: Conceptual Framework
   objective: Participation, Effectiveness
@@ -346,7 +337,6 @@
     that spur participation.
   authors: Staci M. Zavattaroa, P. Edward Frenchb,Somya D. Mohantyc,
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2015'
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
@@ -376,7 +366,6 @@
   authors: Yury Kryvasheyeu, Haohui Chena, Nick Obradovich, Esteban Moroe, Pascal
     Van Hentenryck, James Fowler, and Manuel Cebrian
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2015'
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Effectiveness
@@ -405,7 +394,6 @@
     Wilenzick, J.D., Patricia Teden, M.B.A., Barbara E. Bierer, M.D., and Mark Barnes,
     J.D., LL.M
   category: Open Data
-  category_slug: Open-Data
   date: '41571'
   methodology: Conceptual Framework
   objective: Access
@@ -429,7 +417,6 @@
     but only slightly and for a small group of interested citizens.
   authors: Stephan G. Grimmelikhuijsen, Albert J. Meijer
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42114'
   methodology: Statistical Modeling
   objective: Legitimacy, Participation
@@ -454,7 +441,6 @@
     of the state keeping itself secret.'
   authors: Mark Fenster
   category: Open Data
-  category_slug: Open-Data
   date: '2015'
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
@@ -492,7 +478,6 @@
     Optimal data sharing does not equate with open access for public health data.'
   authors: Jussi Sane and Michael Edelstein
   category: Open Data
-  category_slug: Open-Data
   date: '2015'
   methodology: Conceptual Framework
   objective: Transparency, Effectiveness
@@ -516,7 +501,6 @@
     they internalise and enact.'
   authors: Frank Mols, S. Alexander Haslam, Jolanda Jetten, and Niklas K. Steffens
   category: Behavioral Science and Nudges
-  category_slug: Behavioral-Science-and-Nudges
   date: '2015'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -537,7 +521,6 @@
     John O. Langbein, Susan E. Owen, Thomas H. Heaton, Robert A. Iannucci, Darren
     L. Hauser
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42104'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -563,7 +546,6 @@
   authors: Kazjon Grace, Mary Lou Maher, Jennifer Preece, Tom Yeh, Abigale Stangle,
     and Carol Boston
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Case Analysis, Conceptual Framework
   objective: Participation
@@ -611,7 +593,6 @@
   authors: Steven Gittelman, Victor Lange, Carol Gotway Crawford, Catherine Okoro,
     Eugene Lieb, Satvinder S Dhingra, Elaine Trimarchi
   category: Data Analysis
-  category_slug: Data-Analysis
   date: ''
   methodology: Statistical Modeling, Quantitative Analysis
   objective: Effectiveness
@@ -648,7 +629,6 @@
   authors: Michael Curtotti, Wayne Weibel, Eric McCreath, Nicolas Ceynowa, Sara Frug,
     and Tom R Bruce
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Effectiveness
@@ -686,7 +666,6 @@
     and data considerations.'
   authors: Amy Smith
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2015'
   methodology: Comparative Analysis
   objective: Effectiveness
@@ -716,7 +695,6 @@
     innovation within the UN system. We conclude with six key recommendations.'
   authors: Louise Bloom and Romy Faulkner
   category: Labs and Experimentation
-  category_slug: Labs-and-Experimentation
   date: '2015'
   methodology: Comparative Analysis
   objective: Effectiveness
@@ -743,7 +721,6 @@
     do so.
   authors: Henrik Serup Christensen, Maija Karjalainen and Laura Nurminen
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Survey
   objective: Legitimacy, Participation
@@ -772,7 +749,6 @@
     expertise.
   authors: Jesse A. Sievers
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -801,7 +777,6 @@
     applications that leverage on the datasets available from these portals.
   authors: Martin Lnenicka
   category: Open Data
-  category_slug: Open-Data
   date: '2015'
   methodology: Comparative Analysis
   objective: Effectiveness, Legitimacy
@@ -825,7 +800,6 @@
     for more direct participation in science, politics and social action.
   authors: Max Craglia and Lea Shanley
   category: Citizen Engagement and Collective Intellignece, Data Analysis
-  category_slug: Citizen-Engagement-and-Collective-Intellignece-Data-Analysis
   date: '42017'
   methodology: Conceptual Framework, Comparative Analysis
   objective: Effectiveness, Participation
@@ -861,7 +835,6 @@
     of political participation in a positive direction.
   authors: Johan Hellström
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2015'
   methodology: Survey
   objective: Participation
@@ -894,7 +867,6 @@
     by the principles of Open Government Model.
   authors: Nunzio  Casalino, Peter Bednar
   category: Open Data
-  category_slug: Open-Data
   date: '42005'
   methodology: Case Analysis
   objective: Effectiveness, Legitimacy
@@ -919,7 +891,6 @@
     formations and re-politicize the public sphere.
   authors: Clare Birchall
   category: Open Data
-  category_slug: Open-Data
   date: '2015'
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
@@ -983,7 +954,6 @@
     to use them.'
   authors: Pablo Emilio Branchi, Carlos Fernández-Valdivielso and Ignacio Raúl Matías
   category: Data Analysis
-  category_slug: Data-Analysis
   date: ''
   methodology: Quantitative Analysis, Conceptual Framework
   objective: Effectiveness
@@ -1017,7 +987,6 @@
     \ of consumer choices is an evident but rarely explicit concern."
   authors: Cass R. Sunstein
   category: Behavioral Science and Nudges
-  category_slug: Behavioral-Science-and-Nudges
   date: '42053'
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
@@ -1037,7 +1006,6 @@
     and how to overcome them.
   authors: 'Mokter  Hossain, Ilkka  Kauranen '
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41932'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -1057,7 +1025,6 @@
     of participatory governance. - See more at: http://publications.iadb.org/handle/11319/6699?locale-attribute=en#sthash.CjXBEQ5C.dpuf'
   authors: Diether W. Beuermann, Maria Amelina
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -1096,7 +1063,6 @@
     democracy (improve public participation in the policy process).'
   authors: Dr. Bastiaan Heemsbergen
   category: Citizen Engagement and Crowdsourcing, Open Data
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Open-Data
   date: '2015'
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
@@ -1120,7 +1086,6 @@
     solutions. - See more at: http://publications.iadb.org/handle/11319/6765?scope=123456789/1&thumbnail=true&rpp=5&page=1&group_by=none&etal=0#sthash.yyDAO9OJ.dpuf'
   authors: Jane Wiseman
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2015'
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Effectiveness
@@ -1143,7 +1108,6 @@
   authors: Corey Brian Jackson, Carsten Østerlund, Gabriel Mugar, Katie DeVries Hassman,
     Kevin Crowston
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Case Analysis
   objective: Participation
@@ -1165,7 +1129,6 @@
     design processes will be more affected by the complex links found in people data.
   authors: Giles Slinger, Rupert Morrison
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1194,7 +1157,6 @@
     & Tinkler, 2005, 2006; Margetts & Dunleavy, 2013).
   authors: ''
   category: Data Analysis, Open Data
-  category_slug: Data-Analysis-Open-Data
   date: ''
   methodology: Survey
   objective: Effectiveness, Participation
@@ -1227,7 +1189,6 @@
     interests, preferences, and abilities.'
   authors: Karin Hansson, Kheira Belkacem, Love Ekenberg
   category: Citizen Engagement and Crowdsourcing, Open Data
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Open-Data
   date: ''
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
@@ -1260,7 +1221,6 @@
     innovation outcomes, such as increased public awareness.'
   authors: Ines Mergel
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '2014'
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
@@ -1277,7 +1237,6 @@
   authors: Slaven Marusic, Jayavardhana Gubbi, Helen Sullivan,  Yee Wei Law and M.
     Palaniswami
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2014'
   methodology: Conceptual Framework, Comparative Analysis
   objective: Effectiveness, Participation
@@ -1301,7 +1260,6 @@
     up, add value to and construct.
   authors: Mark Deakin
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '41964'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -1325,7 +1283,6 @@
     online might be useful for development of tools for more democratic online crowds.
   authors: Karin Hansson
   category: 'Citizen Engagement and Crowdsourcing '
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
@@ -1380,7 +1337,6 @@
   authors: Aslam AA, Tsou MH, Spitzberg BH, An L, Gawron JM, Gupta DK, Peddecord KM,
     Nagel AC, Allen C, Yang JA, Lindsay S
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2014'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -1401,7 +1357,6 @@
     Smart City.'
   authors: Guido Perbolia,Alberto De Marcoc, Francesca Perfettia, Matteo Marone
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1431,7 +1386,6 @@
     for scholarship, to increase efficiency, and to improve access to justice.
   authors: William Li, Pablo Azar, David Larochelle, Phil Hill and Andrew Lo
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '41903'
   methodology: Quantitative Analysis
   objective: Access, Effectiveness
@@ -1493,7 +1447,6 @@
     \ run crowd-reporting platforms."
   authors: Dieter Zinnbauer
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41897'
   methodology: Conceptual Framework
   objective: Legitimacy
@@ -1516,7 +1469,6 @@
     policies in fostering innovation.
   authors: Kevin J. Boudreaua, Karim R. Lakhani
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -1536,7 +1488,6 @@
     these approaches provide decision makers with guidance on what to do next.'
   authors: Scott Cody, Andrew Asher
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2015'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1558,7 +1509,6 @@
     conditions do governments facilitate citizen engagement and become more accountable.'
   authors: Ezequiel Molina
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Legitimacy
@@ -1587,7 +1537,6 @@
     for a particular task situation.'
   authors: Robbie T. Nakatsu, Elissa B. Grossman, Charalambos L. lacovou
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41915'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -1610,7 +1559,6 @@
     Economy” and considers the scope for further research.'
   authors: Jan Schnellenbach, Christian Schubert
   category: Behavioral Science and Nudges
-  category_slug: Behavioral-Science-and-Nudges
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1640,7 +1588,6 @@
     to the application users in order to be able to determine their optimal route.'
   authors: Nikos Souliotis, Anargyros Tsadimas, Mara Nikolaidou
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2014'
   methodology: Case Analysis
   objective: Effectiveness
@@ -1667,7 +1614,6 @@
   authors: L. Fernando Ramos Simón, Rosario Arquero Avilés, Iuliana Botezan, Félix
     del Valle, Gastaminza, Silvia Cobo Serrano
   category: Open Data
-  category_slug: Open-Data
   date: '41876'
   methodology: Conceptual Framework
   objective: Access
@@ -1696,7 +1642,6 @@
     for policy improvement.'
   authors: Pham-Kanter G, Zinner DE, Campbell EG
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Survey
   objective: Access
@@ -1716,7 +1661,6 @@
     what to adopt from this governance model for public sector services.
   authors: Ani Mateia & Sergiu Ioan Irimia
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '42272'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1744,7 +1688,6 @@
     and participation in the Open Government Partnership.
   authors: Anjelika Deogirikar
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Quantitative Analysis
   objective: Legitimacy
@@ -1772,7 +1715,6 @@
   authors: Nick Pidgeona, Christina Demski, Catherine Butler, Karen Parkhill, Alexa
     Spence
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41802'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -1796,7 +1738,6 @@
     methods in detail and provide the findings of our experiments.'
   authors: John Prpić, Araz Taeihagh, and James Melton Jr
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
@@ -1828,7 +1769,6 @@
     of the content of IA projects.
   authors: Mimi Recker, Min Yuan, and Lei Ye
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '2014'
   methodology: Quantitative Analysis
   objective: Participation
@@ -1857,7 +1797,6 @@
     data disclosure and use.'
   authors: Sharona Hoffman
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2014'
   methodology: Comparative Analysis
   objective: Access, Participation
@@ -1878,7 +1817,6 @@
     innovation strategies.
   authors: 'Tina  Saebi, Nicolai J. Foss '
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41891'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -1907,7 +1845,6 @@
   authors: Sotirios Koussouris, Fenareti Lampathaki, Gianluca Misuraca, Panagiotis
     Kokkinakos, andDimitrios Askounis
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '41881'
   methodology: Case Analysis, Comparative Analysis
   objective: Effectiveness, Participation
@@ -1934,7 +1871,6 @@
     arguments. We conclude with implications, proposing a model of evaluation validity.'
   authors: Christoph Hienerth and Frederik Riar
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '41862'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -1960,7 +1896,6 @@
     common law countries).
   authors: Gianluigi Viscusi, Marco Castelli and Carlo Batini
   category: Open Data
-  category_slug: Open-Data
   date: '41870'
   methodology: Conceptual Framework
   objective: Access, Effectiveness
@@ -1985,7 +1920,6 @@
     and the near future unemployment rate in Finland.
   authors: Joonas Tuhkuri
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '41865'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -2007,7 +1941,6 @@
     findings and derive propositions for future research.
   authors: Christoph Lutz, Christian Pieter Hoffmann, and Miriam Meckel
   category: Civic Technology
-  category_slug: Civic-Technology
   date: '41827'
   methodology: Comparative Analysis
   objective: Participation
@@ -2028,7 +1961,6 @@
     planning.
   authors: Robert Goodspeed
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '42048'
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness
@@ -2078,7 +2010,6 @@
     research and foster collaborations among agencies, researchers, and practitioners.'
   authors: Erika G. Martin, Natalie Helbig, and Guthrie S. Birkhead
   category: Open Data
-  category_slug: Open-Data
   date: '41858'
   methodology: Survey
   objective: Participation
@@ -2114,7 +2045,6 @@
     will value.'
   authors: Cynthia R. Farina, Dmitry Epstein, Josiah Heidt, and Mary Newhart
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2014'
   methodology: Design Science
   objective: Legitimacy, Participation
@@ -2150,7 +2080,6 @@
     \ medical community focus on for wider impact."
   authors: Vandana Srivastava and Biplav Srivastava
   category: Open Data
-  category_slug: Open-Data
   date: '41808'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -2175,7 +2104,6 @@
     related areas for future research.
   authors: Guo Xintong, Wang Hongzhi, Yangqiu Song, and Gao Hong
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41974'
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
@@ -2222,7 +2150,6 @@
     SNS.'
   authors: Alshaikh F, Ramzan F, Rawaf S, Majeed A
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '2014'
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
@@ -2241,7 +2168,6 @@
     usage, 3. A preponderance of untrustworthy users.'
   authors: Erfan Davami, and Gita Sukthankar
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '41806'
   methodology: Case Analysis, Quantitative Analysis
   objective: Effectiveness
@@ -2262,7 +2188,6 @@
     and political support over time.'
   authors: Luís Carvalho
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '42048'
   methodology: Case Analysis
   objective: Effectiveness
@@ -2284,7 +2209,6 @@
     as a norm means that voice must sometimes be considered via the notion of transparency.'
   authors: Nick Couldry and Alison Powell
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2014'
   methodology: Comparative Analysis
   objective: Effectiveness
@@ -2307,7 +2231,6 @@
     in which citizens and their activities are increasingly monitored and profiled.
   authors: Teresa Scassa
   category: Open Data
-  category_slug: Open-Data
   date: '41808'
   methodology: Conceptual Framework
   objective: Legitimacy
@@ -2333,7 +2256,6 @@
     open transit data in Germany.
   authors: Stefan Kaufmann
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Survey
   objective: Access, Legitimacy
@@ -2371,7 +2293,6 @@
     administration).'
   authors: K Szkuta, R Pizzicannella, D Osimo
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2014'
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
@@ -2393,7 +2314,6 @@
     experience fully mutual interdependence.'
   authors: Maximilian Heimstädt, Fredric Saunderson, Tom Heath
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Conceptual Framework, Quantitative Analysis, Survey
   objective: Access, Effectiveness
@@ -2421,7 +2341,6 @@
     data release.'
   authors: Peter Conradie and Dr. Sunil Choenni
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Comparative Analysis, Survey
   objective: Access, Effectiveness
@@ -2440,7 +2359,6 @@
     contest and describe settings where these conditions are satisfied.
   authors: David Pérez Castrillo and David Wettstein
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41714'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -2471,7 +2389,6 @@
 
     Max H. Sims, Jeffrey Bigham, Henry Kautz, andMarc W. Halterman '
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '2014'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -2491,7 +2408,6 @@
     to recognize and embrace innovative ideas.
   authors: N Veljković, S Bogdanović-Dinić, and L Stoimenov
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -2524,7 +2440,6 @@
     typically available through existing labor marketplaces.
   authors: PG. Ipeirotis and E Gabrilovich
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '2014'
   methodology: Case Analysis
   objective: Effectiveness
@@ -2549,7 +2464,6 @@
   authors: Dolan Antenucci, Michael Cafarella, Margaret C. Levenstein, Christopher
     Ré, and Matthew D. Shapiro
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '41761'
   methodology: Quantitative Analysis
   objective: Effectiveness
@@ -2577,7 +2491,6 @@
     the sociotechnical shaping of transparency, even before data publication and reuses.
   authors: Jerome Denis, and Samuel Goëta
   category: Open Data
-  category_slug: Open-Data
   date: '41698'
   methodology: Comparative Analysis
   objective: Access, Legitimacy
@@ -2604,7 +2517,6 @@
     into public service delivery in the digital economy
   authors: Alan W. Brown, Jerry Fishenden,  and Mark Thompson
   category: Citizen Engagement and Crowdsourcing, Open Data
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Open-Data
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -2625,7 +2537,6 @@
     and points to the possible intellectual barriers to progress.
   authors: Geoff Mulgan
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '41660'
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
@@ -2644,7 +2555,6 @@
     to be able to take action based on it.
   authors: Roslyn Fulle
   category: Data Analysis
-  category_slug: Data-Analysis
   date: '2014'
   methodology: Conceptual Framework
   objective: Participation
@@ -2668,7 +2578,6 @@
     consultation exercises.'
   authors: Martin Lodge and Kai Wegrich
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41682'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -2692,7 +2601,6 @@
     actual models of democratic participation.
   authors: Judy Burnside-Lawry, Carolyne Lee and Sandrine Rui
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Case Analysis
   objective: Effectiveness, Participation
@@ -2718,7 +2626,6 @@
     for cross-cultural differences.'
   authors: Dr. Licia Capra
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2014'
   methodology: Quantitative Analysis
   objective: Participation
@@ -2745,7 +2652,6 @@
     its price (reward upon completion) goes up.'
   authors: Acemoglu, Daron and Mostagir, Mohamed and Ozdaglar, Asuman E.
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41656'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -2765,7 +2671,6 @@
     data and means to make the data opening process more effective.
   authors: Muriel Foulonneau, Sébastien Martin, Slim Turki
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -2786,7 +2691,6 @@
     three other open data platforms: the Socrata Open Data portal, CKAN, and ENGAGE.'
   authors: Raimondo Iemma, Federico Morando, Michele Osella
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Case Analysis, Comparative Analysis
   objective: Access, Effectiveness, Legitimacy
@@ -2809,7 +2713,6 @@
     beat” — of cities.'
   authors: Karine Nahon, Alon Peled, Jennifer Shkabatur
   category: Data Analysis, Open Data
-  category_slug: Data-Analysis-Open-Data
   date: '42072'
   methodology: Conceptual Framework, Quantitative Analysis
   objective: Effectiveness, Legitimacy
@@ -2832,7 +2735,6 @@
     participation is negligible.
   authors: Åke Grönlund, Wairagala Wakabi
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2015'
   methodology: Case Analysis
   objective: Participation
@@ -2856,7 +2758,6 @@
     generating collective intelligence, making it conducive to groupthink.
   authors: Nassim Jafari Naimi, Eric M. Meyers
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42064'
   methodology: Quantitative Analysis
   objective: Participation
@@ -2877,7 +2778,6 @@
     and how to overcome them.
   authors: Mokter Hossain, Ilkka Kauranen
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41932'
   methodology: Case Analysis
   objective: Effectiveness
@@ -2899,7 +2799,6 @@
   authors: Victor Naroditskiy, Nicholas R. Jennings, Pascal Van Hetenryck, Manuel
     Cebrian
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41692'
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
@@ -2923,7 +2822,6 @@
     for more direct participation in science, politics and social action.
   authors: Max Craglia, Lea Shanley
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42048'
   methodology: Conceptual Framework
   objective: Participation
@@ -2947,7 +2845,6 @@
     and CE practices used by governments and large scale NGOs.'
   authors: Jennifer Lawrence
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41730'
   methodology: Survey
   objective: Effectiveness, Participation
@@ -2993,7 +2890,6 @@
     editorial resources in online sources using collective intelligence.'
   authors: Shane Greenstein, Feng Zhu
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41922'
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Participation
@@ -3021,7 +2917,6 @@
     discussion in like-minded groups.
   authors: Kimmo Grönlund, Kaisa Herne, Maija Setälä
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42043'
   methodology: Quantitative Analysis, Survey
   objective: Participation
@@ -3052,7 +2947,6 @@
     success of participatory governance.'
   authors: Diether W. Beuermann, Maria Amelina
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41944'
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
@@ -3074,7 +2968,6 @@
     of higher income and educational attainment, and more frequent social media users.
   authors: Paolo Spada, Jonathan Mellon, Tiago Peixoto, Fredrik M. Sjoberg
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '42061'
   methodology: Statistical Modeling, Survey
   objective: Participation
@@ -3103,7 +2996,6 @@
     \ police        \nexecutives is critical to his or her department’s online transparency."
   authors: Joshua Chanin, Salvador Espinosa
   category: Open Data
-  category_slug: Open-Data
   date: '42041'
   methodology: Quantitative Analysis, Survey
   objective: Access, Legitimacy
@@ -3146,7 +3038,6 @@
     aspects in crowdsourced policymaking.'
   authors: Tanja Aitamurto, Hélène Landemore
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '2015'
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Participation
@@ -3171,7 +3062,6 @@
     on the activity.
   authors: Rosario Espinal, Shanyang Zhao
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42045'
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
@@ -3202,7 +3092,6 @@
     “big data”.'
   authors: Stephanie Perrin, Jennifer Barrigar, Robert Gellman
   category: Open Data
-  category_slug: Open-Data
   date: '42005'
   methodology: Case Analysis, Comparative Analysis
   objective: Access, Effectiveness
@@ -3232,7 +3121,6 @@
     paper is an introduction to a larger empirical study aiming to answer these questions.
   authors: Lidia Gryszkiewicz, Ioanna Lykourentzou, Tuukka Toivonen
   category: Labs and Experimentation
-  category_slug: Labs-and-Experimentation
   date: '42013'
   methodology: Comparative Analysis, Conceptual Framework
   objective: Effectiveness
@@ -3262,7 +3150,6 @@
     and what does not.
   authors: Stefaan G. Verhulst, Beth S. Noveck, Jillian Raines, Antony Declercq
   category: Citizen Engagement and Crowdsourcing, Expert Networking
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Expert-Networking
   date: '41996'
   methodology: Conceptual Framework
   objective: Access, Effectiveness, Legitimacy, Participation
@@ -3317,7 +3204,6 @@
     learners.'
   authors: Alexandre Brulet, Guy Llorca, Laurent Letrilliart
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42036'
   methodology: Comparative Analysis
   objective: Participation
@@ -3345,7 +3231,6 @@
     Party.
   authors: Steven J. Balla, Yuhan Wu
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2015'
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Participation
@@ -3386,7 +3271,6 @@
     advance PB''s democracy further by improving it in various ways.'
   authors: Vasquez Duran, Marie Claire
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '2014'
   methodology: Quantitative Analysis, Survey
   objective: Effectiveness, Participation
@@ -3413,7 +3297,6 @@
     \ other jurisdictions."
   authors: Andrew Young, Christina Rogawski, Sabeel Rahman, Stefaan Verhulst
   category: Citizen Engagement and Crowdsourcing, Open Data
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Open-Data
   date: '41395'
   methodology: Comparative Analysis, Survey
   objective: Access, Effectiveness, Legitimacy, Participation
@@ -3447,7 +3330,6 @@
     turning around the Federal Communications Commission policy on net neutrality.'
   authors: Robert Faris, Hal Roberts, Bruce Etling, Dalia Othman, Yochai Benkler
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42036'
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
@@ -3471,7 +3353,6 @@
     projects and to other online communities.
   authors: Andrea Wiggins, Kevin Crowston
   category: Citizen Engagement and Crowdsourcing, Data Analysis
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Data-Analysis
   date: '42005'
   methodology: Survey
   objective: Participation
@@ -3496,7 +3377,6 @@
     behavior at the individual level.
   authors: Fredrik M. Sjoberg, Jonathan Mellon, Tiago Peixoto
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '42061'
   methodology: Statistical Modeling
   objective: Effectiveness, Participation
@@ -3519,7 +3399,6 @@
     accountability and responsiveness in modern forms of representative democracy.
   authors: Anika Gauja
   category: Citizen Engagement and Crowdsourcing
-  category_slug: Citizen-Engagement-and-Crowdsourcing
   date: '41631'
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Participation
@@ -3540,7 +3419,6 @@
   authors: Stefaan Verhulst, Beth Simone Noveck, Robyn Caplan, Kristy Brown, Claudia
     Paz
   category: Open Data
-  category_slug: Open-Data
   date: '41760'
   methodology: Conceptual Framework
   objective: Access, Legitimacy, Participation
@@ -3582,7 +3460,6 @@
     of methodologies that were used to answer the central questions posed. '
   authors: Rachel Gibson, Marta Cantijoch, Silvia Galandini
   category: Citizen Engagement and Crowdsourcing, Civic Technology
-  category_slug: Citizen-Engagement-and-Crowdsourcing-Civic-Technology
   date: '41944'
   methodology: Case Analysis, Quantitative Analysis, Survey
   objective: Access, Effectiveness, Legitimacy, Participation
@@ -3604,7 +3481,6 @@
     \ [Civil Society Organisations] such as mySociety. "
   authors: Savita Bailur, Tom Longley
   category: Civic Technology, Open Data
-  category_slug: Civic-Technology-Open-Data
   date: '41944'
   methodology: Survey
   objective: Access, Legitimacy
@@ -3629,7 +3505,6 @@
     every section of parliamentary proceedings to allow easy and precise linking.
   authors: Tobias Escher
   category: Civic Technology, Open Data
-  category_slug: Civic-Technology-Open-Data
   date: '40664'
   methodology: Case Analysis, Quantitative Analysis
   objective: Access, Legitimacy
@@ -3670,7 +3545,6 @@
     upon it. '
   authors: Aleise Barnett, David Dembo, Stefaan Verhulst
   category: Labs and Experimentation
-  category_slug: Labs-and-Experimentation
   date: '41382'
   methodology: Conceptual Framework
   objective: Effectiveness
@@ -3695,7 +3569,6 @@
     with OD programs.
   authors: Alon Peled
   category: Open Data
-  category_slug: Open-Data
   date: '2014'
   methodology: Quantitative Analysis
   objective: Access, Legitimacy, Participation

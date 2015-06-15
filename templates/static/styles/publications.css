@@ -1,0 +1,82 @@
+/*
+Error: Undefined variable: "$white".
+        on line 10 of sass/publications.scss
+
+5:     font-weight: 600;
+6:     letter-spacing: .5px;
+7:   }
+8: 
+9:   .e-pub-category {
+10:     color: $white;
+11:     letter-spacing: .5px;
+12:   }
+13:   
+14:   .e-pub-organization {
+15:     h3 {
+
+Backtrace:
+sass/publications.scss:10
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/script/tree/node.rb:50:in `perform'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `each'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/plugin.rb:108:in `method_missing'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/exec/base.rb:52:in `parse'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/lib/sass/exec/base.rb:19:in `parse!'
+/home/guilherme/.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/sass-3.4.12/bin/sass:13:in `<top (required)>'
+/home/guilherme/.rbenv/versions/2.1.4/bin/sass:23:in `load'
+/home/guilherme/.rbenv/versions/2.1.4/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$white\".\A         on line 10 of sass/publications.scss\A \A 5:     font-weight: 600;\A 6:     letter-spacing: .5px;\A 7:   }\A 8: \A 9:   .e-pub-category {\A 10:     color: $white;\A 11:     letter-spacing: .5px;\A 12:   }\A 13:   \A 14:   .e-pub-organization {\A 15:     h3 {"; }
