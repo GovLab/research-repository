@@ -182,6 +182,15 @@ body, h1, h2, h3, h4, h5, input {
   .b-publication-item.b-publication-item .e-pub-date {
     font-size: 0.9rem;
     text-transform: uppercase; }
+  .b-publication-item.b-publication-item .e-pub-type {
+    text-align: right; }
+    .b-publication-item.b-publication-item .e-pub-type span {
+      font-size: .8rem;
+      text-transform: uppercase;
+      color: white;
+      border-radius: 2px;
+      padding: 0 6px;
+      display: inline-block; }
   .b-publication-item.b-publication-item .e-pub-actions {
     position: absolute;
     bottom: 0;
@@ -213,11 +222,10 @@ body, h1, h2, h3, h4, h5, input {
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 20px 20px 20px 34px;
-    margin-bottom: 9px;
-    margin-right: 5px;
-    height: 240px;
-    width: 337px;
+    padding: 10px 20px 10px 34px;
+    margin: 4px;
+    height: 200px;
+    width: 500px;
     vertical-align: top;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
 
@@ -226,19 +234,19 @@ body, h1, h2, h3, h4, h5, input {
 
   .b-publication-item:hover .e-pub-actions {
     display: block; } }
-.b-publication-item.m-behavioral-research:before {
+.b-publication-item.m-behavioral-research:before, .b-publication-item.m-behavioral-research .e-pub-type span {
   background-color: #cfcf00; }
-.b-publication-item.m-citizen-engagement-and-crowdsourcing:before {
+.b-publication-item.m-citizen-engagement-and-crowdsourcing:before, .b-publication-item.m-citizen-engagement-and-crowdsourcing .e-pub-type span {
   background-color: #00adef; }
-.b-publication-item.m-civic-technology:before {
+.b-publication-item.m-civic-technology:before, .b-publication-item.m-civic-technology .e-pub-type span {
   background-color: #00c800; }
-.b-publication-item.m-data-analysis:before {
+.b-publication-item.m-data-analysis:before, .b-publication-item.m-data-analysis .e-pub-type span {
   background-color: #af0000; }
-.b-publication-item.m-expert-networking:before {
+.b-publication-item.m-expert-networking:before, .b-publication-item.m-expert-networking .e-pub-type span {
   background-color: #00e388; }
-.b-publication-item.m-labs-and-experimentation:before {
+.b-publication-item.m-labs-and-experimentation:before, .b-publication-item.m-labs-and-experimentation .e-pub-type span {
   background-color: #f00074; }
-.b-publication-item.m-open-data:before {
+.b-publication-item.m-open-data:before, .b-publication-item.m-open-data .e-pub-type span {
   background-color: #ff8d00; }
 
 .b-offcanvas {
@@ -416,11 +424,13 @@ body, h1, h2, h3, h4, h5, input {
   font-size: 1.2rem; }
 .b-publication .e-pub-meta h2 {
   color: rgba(0, 0, 0, 0.6); }
+.b-publication .e-pub-meta .e-pub-type,
 .b-publication .e-pub-meta .e-pub-methodology,
 .b-publication .e-pub-meta .e-pub-objective,
 .b-publication .e-pub-meta .e-pub-region,
 .b-publication .e-pub-meta .e-pub-sector {
   font-weight: 400; }
+  .b-publication .e-pub-meta .e-pub-type span,
   .b-publication .e-pub-meta .e-pub-methodology span,
   .b-publication .e-pub-meta .e-pub-objective span,
   .b-publication .e-pub-meta .e-pub-region span,

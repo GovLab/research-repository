@@ -24,6 +24,10 @@
         {% endif %}
         <div class="e-pub-meta">
           <h2>Meta Information</h2>
+          {% if publication.type %}
+            <div class="e-pub-type">Type<span>{{publication.type}}</span></div>
+          {% endif %}
+
           {% if publication.methodology %}
             <div class="e-pub-methodology">Methodology<span>{{publication.methodology}}</span></div>
           {% endif %}

@@ -134,6 +134,7 @@
           <div class="b-cards-wrapper row">
             {% for p in publications %}
               <article class="b-publication-item m-{{p.category|slug}} b-card" data-filters="{{ p.filters }}">
+                {% if p.type %}<div class="e-pub-type"><span>{{p.type}}</span></div>{% endif %}
                 <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
                 <div class="e-pub-meta">
                   <p class="e-pub-author">{{p.authors}}</p>
@@ -141,9 +142,11 @@
                 </div>
                 <div class="e-pub-actions">
                   {% if p.github %} <a target="_blank" title="Github Repository" href="{{p.github}}"><i class="fa fa-github fa-lg"></i></a> {% endif %}
-                  {% if p.dataset %} <a target="_blank" title="Dataset" href="{{p.dataset}}"><i class="fa fa-database fa-lg"></i></a> {% endif %}
+                  {% if p.data %} <a target="_blank" title="Dataset" href="{{p.dataset}}"><i class="fa fa-database fa-lg"></i></a> {% endif %}
                   {% if p.url %} <a target="_blank" title="Go to Paper" href="{{p.url}}"><i class="fa fa-link fa-lg"></i></a> {% endif %}
                 </div>
+                
+
               </article>
             {% endfor %}
           </div>

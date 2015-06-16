@@ -21,7 +21,6 @@
       margin-right: 20px;
       margin-top: 3px;
     }
-
   }
   
   .b-item-wrapper {
@@ -37,9 +36,7 @@
     border-bottom: 1px solid $gray_5;
     cursor: pointer;
 
-    &:hover {
-      background-color: $gray_10;
-    }
+    &:hover { background-color: $gray_10; }
 
     .fa {
       float: right;

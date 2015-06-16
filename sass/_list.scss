@@ -30,6 +30,19 @@
     text-transform: uppercase;
   }
 
+  .e-pub-type {
+    text-align: right;
+
+    span {
+      font-size: .8rem;
+      text-transform: uppercase;
+      color: $white;
+      border-radius: 2px;
+      padding: 0 6px;
+      display: inline-block;
+    }
+  }
+
   .e-pub-actions {
     position: absolute;
     bottom: 0;
@@ -73,11 +86,12 @@
   display: inline-block;
   border: 1px solid $gray_20;
   background-color: $white;
-  padding: 20px 20px 20px 34px;
-  margin-bottom: 9px;
-  margin-right: 5px;
-  height: 240px;
-  width: 337px;
+  padding: 10px 20px 10px 34px;
+  // height: 240px;
+  // width: 337px;
+  margin: 4px;
+  height: 200px;
+  width: 500px;
   vertical-align: top;
   @include drop-shadow-light;
 
@@ -91,11 +105,18 @@
 
 
 .b-publication-item {
-  &.m-behavioral-research:before                  { background-color: $behavioral-research;      }
-  &.m-citizen-engagement-and-crowdsourcing:before { background-color: $citizen-engagement;       }
-  &.m-civic-technology:before                     { background-color: $civic-technology;         }
-  &.m-data-analysis:before                        { background-color: $data-analysis;            }
-  &.m-expert-networking:before                    { background-color: $expert-networking;        }
-  &.m-labs-and-experimentation:before             { background-color: $labs-and-experimentation; }
-  &.m-open-data:before                            { background-color: $open-data;                }
+  &.m-behavioral-research:before,
+  &.m-behavioral-research .e-pub-type span                  { background-color: $behavioral-research;      }
+  &.m-citizen-engagement-and-crowdsourcing:before,
+  &.m-citizen-engagement-and-crowdsourcing .e-pub-type span { background-color: $citizen-engagement;       }
+  &.m-civic-technology:before,
+  &.m-civic-technology .e-pub-type span                     { background-color: $civic-technology;         }
+  &.m-data-analysis:before,
+  &.m-data-analysis .e-pub-type span                        { background-color: $data-analysis;            }
+  &.m-expert-networking:before,
+  &.m-expert-networking .e-pub-type span                    { background-color: $expert-networking;        }
+  &.m-labs-and-experimentation:before,
+  &.m-labs-and-experimentation .e-pub-type span             { background-color: $labs-and-experimentation; }
+  &.m-open-data:before,
+  &.m-open-data .e-pub-type span                            { background-color: $open-data;                }
 }
