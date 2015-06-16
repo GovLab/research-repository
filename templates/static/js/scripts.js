@@ -74,12 +74,14 @@ $(document).ready(function() {
 
     $('.b-offcanvas .m-filter-name').click(function() {
         if ($(this).children().hasClass('fa-plus')) {
+            $(this).addClass('m-active');
             $(this).children().removeClass('fa-plus');
             $(this).children().addClass('fa-minus');
 
             $(this).next().slideDown();
 
         } else {
+            $(this).removeClass('m-active');
             $(this).children().removeClass('fa-minus');
             $(this).children().addClass('fa-plus');
 

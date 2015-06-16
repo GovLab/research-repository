@@ -1,0 +1,118 @@
+.b-offcanvas {
+  background-color: $gray_10;
+  
+  h2.m-filter-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 0 10px 20px;
+    color: $purple;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0;
+    vertical-align: middle;
+
+    &:hover { background-color: $purple_10; }
+    &.m-active {
+      background-color: $purple_20;
+    }
+
+    i {
+      float: right;
+      margin-right: 20px;
+      margin-top: 3px;
+    }
+
+  }
+  
+  .b-item-wrapper {
+    // border-bottom: 1px solid $purple_20;
+    @include inner-shadow;
+    padding-top: 10px;
+
+  }
+
+  .b-item {
+    font-size: .9rem;
+    padding: 6px 20px;
+    border-bottom: 1px solid $gray_5;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $gray_10;
+    }
+
+    .fa {
+      float: right;
+      margin: 4px 2px 0 0;
+      opacity: .2;
+    }
+    
+    .e-filter-tag { display: block; }
+
+    // Switching the icons for the filter states
+    .e-filter-tag.m-active {
+      .fa {
+          opacity: 1;
+          margin-right: 0;
+
+          &:before {
+          content: "\f00c";
+          color: $green;
+        }
+      }
+
+      &:hover .fa {
+          opacity: 1;
+          margin-right: 2px;
+
+          &:before {
+          content: "\f00d";
+          color: $red;
+        }
+      }
+    }
+
+
+    
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : $desktop_width) {
+
+// Custom off canvas width for long name filters
+$offcanvas-width: 20rem;
+.left-off-canvas-menu { width: $offcanvas-width; }
+.move-right > .inner-wrap {
+  -ms-transform: translate($offcanvas-width, 0);
+  -webkit-transform: translate3d($offcanvas-width, 0, 0);
+  -moz-transform: translate3d($offcanvas-width, 0, 0);
+  -ms-transform: translate3d($offcanvas-width, 0, 0);
+  -o-transform: translate3d($offcanvas-width, 0, 0);
+  transform: translate3d($offcanvas-width, 0, 0);
+}
+
+.exit-off-canvas { box-shadow: rgba(0, 0, 0, 0.15) -4px 0px 4px 0px, rgba(0, 0, 0, 0.15) 4px 0px 4px 0px !important; }
+
+.b-filters-trigger {
+  position: fixed;
+  left: -29px;
+  top: 100px !important;
+  padding: 8px 20px;
+  background-color: $purple;
+  transform: rotate(-90deg);
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  &.m-active {
+
+  }
+}
+
+// Fixes the position for the filter button when offcanvas is active.
+#filter-panel { position: relative; }
+
+
+}

@@ -1,6 +1,6 @@
 .b-search-field {
   margin-bottom: 20px;
-  padding: 16px 20px;
+  padding: 16px 20px !important;
   width: 100%;
   font-size: 1.6rem;
   font-weight: 200;
@@ -9,21 +9,16 @@
 
 .b-main-search {
   text-align: center;
-  
   padding-top: 50px;
 }
 
 .b-main-category-menu {
-
   .e-main-category {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    
 
-    &:last-child {
-      margin-right: 0;
-    }
+    &:last-child { margin-right: 0; }
 
     p {
       text-transform: uppercase;
@@ -40,7 +35,6 @@
     }
   }
 }
-
 
 // MOBILE ONLY
 @media only screen and (max-width : $desktop_width) {
@@ -66,16 +60,10 @@
 .b-main-search { padding-bottom: 160px; }
 }
 
-
-
-
-
-
-
-
-
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : $desktop_width) {
+
+
 .b-main-category-menu {
   margin-top: 40px;
 

@@ -10,7 +10,7 @@ searchpath = path.join(getcwd(), 'templates')
 outputpath = path.join(getcwd(), 'site')
 
 # We load the data we want to use in the templates.
-PUBLICATIONS = load(open('data/repo.yaml'))
+PUBLICATIONS = load(open('data/publications.yaml'))
 
 for item in PUBLICATIONS:
     item['filters'] = ''

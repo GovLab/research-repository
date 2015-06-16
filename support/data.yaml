@@ -20,16 +20,18 @@
     the centre of the open data publication process.
   authors: Charalampos Alexopoulos, Euripidis Loukis, Yannis Charalabidis
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Design Science
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: A Platform for Closing the Open Data Feedback Loop Based on Web2.0 Functionality
+  type: Journal Article
   url: http://www.jedem.org/article/view/327/270
-
-- abstract: "This article considers online participation in higher education decision-making
+- abstract: 'This article considers online participation in higher education decision-making
     using the MyUniversity EU project as a case study. MyUniversity was a pilot designed
     to provide European universities with a web-based system to empower and involve
     students and other members of the academic community in the Bologna Process. Thirteen
@@ -41,22 +43,20 @@
     and usability, impact on decision-making, privacy and trust, institutional resistance,
     motivational factors, the political, economic, and sociocultural context, language
     barriers, and moderation and framing. The article ends with a discussion based
-    on the results, including recommendations for future research."
-  authors: "Samuel Bohman, Henrik Hansson, Pooyeh Mobini"
-  category: "Citizen Engagement and Crowdsourcing"
+    on the results, including recommendations for future research.'
+  authors: Samuel Bohman, Henrik Hansson, Pooyeh Mobini
+  category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
-  methodology: "Case Analysis, Survey"
-  objective: "Legitimacy, Participation"
+  github: ''
+  methodology: Case Analysis, Survey
+  objective: Legitimacy, Participation
   organization: ''
   region: Europe
   sector: Education
-  title: Online Participation in Higher Education Decision-making
+  title: resp
+  type: ''
   url: http://www.jedem.org/article/view/247
-  download: http://www.jedem.org/article/view/247/309
-  github: https://github.com/claudioccm
-  dataset: https://github.com/claudioccm
-  type: thesis
-
 - abstract: 'In 2008 the first Swiss canton introduced internet voting for expatriates,
     thus initiating the second phase in Switzerland’s piecemeal i-voting roll-out.
     More cantons soon followed, and as of this writing expatriates from 12 out of
@@ -76,13 +76,16 @@
     electoral mobilization, similarly to trials involving residents.'
   authors: Micha Germann, Uwe Serdült
   category: Civic Technology
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Participation
   organization: ''
   region: Europe
   sector: ''
   title: 'Internet Voting for Expatriates: The Swiss Case'
+  type: ''
   url: http://www.jedem.org/article/view/302
 - abstract: In this paper we describe the evolution and development of the police.uk
     and data.police.uk sites, which publish open data about crime and justice in the
@@ -96,7 +99,9 @@
     future developments.
   authors: Amanda M Smith, Tom Heath
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Legitimacy
   organization: ''
@@ -104,6 +109,7 @@
   sector: Public Safety
   title: 'Police.uk and Data.police.uk: Developing Open Crime and Justice Data for
     the UK'
+  type: ''
   url: http://www.jedem.org/article/view/326
 - abstract: The objective of this article is to highlight the contribution and importance
     of parliamentary information visualization (PIV) with a view to legislative transparency
@@ -128,7 +134,9 @@
     efforts, as regards the end objective of citizen empowerment.
   authors: Aspasia Papaloi, Dimitris Gouscos
   category: Open Data
+  data: ''
   date: '2013'
+  github: ''
   methodology: Design Science
   objective: Legitimacy
   organization: ''
@@ -136,6 +144,7 @@
   sector: ''
   title: Parliamentary Information Visualization as a Means for Legislative Transparency
     and Citizen Empowerment?
+  type: ''
   url: http://www.jedem.org/article/view/222
 - abstract: 'Nowadays, involving citizens in Local Environmental Governance (LEG)
     is becoming increasingly important. In order to empower the role of citizen in
@@ -175,7 +184,9 @@
     context in which this study takes place as well as the overall methodology.'
   authors: Sandrine Reiter, Guillaume Gronier, Philippe Valoggia
   category: Labs and Experimentation
+  data: ''
   date: '2014'
+  github: ''
   methodology: Design Science
   objective: Participation
   organization: ''
@@ -183,6 +194,7 @@
   sector: Environment
   title: 'Citizen Involvment in Local Environmental Governance: A Methodology Combining
     Human-Centered Design and Living Lab Approaches'
+  type: ''
   url: http://www.ejeg.com/volume12/issue2
 - abstract: 'Over the last three years, the Boston Mayor''s Office of New Urban Mechanics,
     the innovative, collaborative ethos within City Hall fostered by Mayor Menino
@@ -268,7 +280,9 @@
     Much will depend on the character and priorities of the new mayor.'
   authors: Susan P. Crawford, Dana Walters
   category: Labs and Experimentation
+  data: ''
   date: '41493'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -276,6 +290,7 @@
   sector: ''
   title: 'Citizen-Centered Government: The Mayor''s Office of New Urban Mechanics
     and the Evolution of CRM in Boston'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2307158
 - abstract: Scientific studies investigating laws and regularities of human behavior
     are nowadays increasingly relying on the wealth of widely available digital information
@@ -291,7 +306,9 @@
   authors: Stanislav Sobolevsky, Iva Bojic, Alexander Belyi, Izabela Sitko, Bartosz
     Hawelka, Juan Murillo Arias, Carlo Ratti
   category: Data Analysis
+  data: ''
   date: '42116'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
@@ -299,6 +316,7 @@
   sector: Economy
   title: Scaling of City Attractiveness for Foreign Visitors Through Big Data of Human
     Economic and Social Media Activity
+  type: ''
   url: http://arxiv.org/pdf/1504.06003v1.pdf
 - abstract: A bottom-up approach to smart cities places citizens in an active role
     of contributing, analysing and interpreting data in pursuit of tackling local
@@ -315,13 +333,16 @@
     data literacy.
   authors: Annika Wolff, Gerd Kortuem, and Jose Cavero
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Participation, Effectiveness
   organization: ''
   region: Europe
   sector: ''
   title: 'Urban Data Games: Creating Smart Citizens for Smart Cities'
+  type: ''
   url: http://oro.open.ac.uk/42603/2/UDG-Icalt-abridged.pdf
 - abstract: As social media tools become more popular at all levels of government,
     more research is needed to determine how the platforms can be used to create meaningful
@@ -337,7 +358,9 @@
     that spur participation.
   authors: Staci M. Zavattaroa, P. Edward Frenchb,Somya D. Mohantyc,
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2015'
+  github: ''
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
   organization: ''
@@ -345,6 +368,7 @@
   sector: ''
   title: 'A sentiment analysis of U.S. local government tweets: The connection between
     tone and citizen involvement'
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0740624X15000337#
 - abstract: Could social media data aid in disaster response and damage assessment?
     Countries face both an increasing frequency and intensity of natural disasters
@@ -366,13 +390,16 @@
   authors: Yury Kryvasheyeu, Haohui Chena, Nick Obradovich, Esteban Moroe, Pascal
     Van Hentenryck, James Fowler, and Manuel Cebrian
   category: Data Analysis
+  data: ''
   date: '2015'
+  github: ''
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Effectiveness
   organization: ''
   region: North America
   sector: Public Safety
   title: Nowcasting Disaster Damage
+  type: ''
   url: http://arxiv.org/ftp/arxiv/papers/1504/1504.06827.pdf
 - abstract: 'Data from clinical trials, including participant-level data, are being
     shared by sponsors and investigators more widely than ever before. Some sponsors
@@ -394,13 +421,16 @@
     Wilenzick, J.D., Patricia Teden, M.B.A., Barbara E. Bierer, M.D., and Mark Barnes,
     J.D., LL.M
   category: Open Data
+  data: ''
   date: '41571'
+  github: ''
   methodology: Conceptual Framework
   objective: Access
   organization: ''
   region: North America
   sector: Healthcare
   title: Preparing for Responsible Sharing of Clinical Trial Data
+  type: ''
   url: http://www.nejm.org/doi/full/10.1056/NEJMhle1309073
 - abstract: Social media use has become increasingly popular among police forces.
     The literature suggests that social media use can increase perceived police legitimacy
@@ -417,13 +447,16 @@
     but only slightly and for a small group of interested citizens.
   authors: Stephan G. Grimmelikhuijsen, Albert J. Meijer
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42114'
+  github: ''
   methodology: Statistical Modeling
   objective: Legitimacy, Participation
   organization: ''
   region: Europe
   sector: Public Safety
   title: Does Twitter Increase Perceived Police Legitimacy?
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1111/puar.12378/epdf
 - abstract: 'Transparency’s importance as an administrative norm seems self-evident.
     Prevailing ideals of political theory stipulate that the more visible government
@@ -441,13 +474,16 @@
     of the state keeping itself secret.'
   authors: Mark Fenster
   category: Open Data
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
   organization: ''
   region: ''
   sector: ''
   title: Transparency in Search of a Theory
+  type: ''
   url: http://est.sagepub.com/content/18/2/150.full.pdf+html
 - abstract: 'The interaction between barriers to data sharing in public health is
     complex, and single solutions to single barriers are unlikely to be successful.
@@ -478,13 +514,16 @@
     Optimal data sharing does not equate with open access for public health data.'
   authors: Jussi Sane and Michael Edelstein
   category: Open Data
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Transparency, Effectiveness
   organization: ''
   region: ''
   sector: Healthcare
   title: 'Overcoming Barriers to Data Sharing in Public Health: A Global Perspective '
+  type: ''
   url: http://www.chathamhouse.org/publication/overcoming-barriers-data-sharing-public-health-global-perspective
 - abstract: 'Policy makers can use four different modes of governance: ‘hierarchy’,
     ‘markets’, ‘networks’ and ‘persuasion’. In this article, it is argued that ‘nudging’
@@ -501,13 +540,16 @@
     they internalise and enact.'
   authors: Frank Mols, S. Alexander Haslam, Jolanda Jetten, and Niklas K. Steffens
   category: Behavioral Science and Nudges
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: Australia
   sector: ''
   title: 'Why a Nudge is Not Enough: A social identity critique of governanceby stealth'
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1111/1475-6765.12073/abstract
 - abstract: Earthquake early warning (EEW) can reduce harm to people and infrastructure
     from earthquakes and tsunamis, but it has not been implemented in most high earthquake-risk
@@ -521,13 +563,16 @@
     John O. Langbein, Susan E. Owen, Thomas H. Heaton, Robert A. Iannucci, Darren
     L. Hauser
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42104'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: Public Safety
   title: Crowdsourced earthquake early warning
+  type: ''
   url: http://advances.sciencemag.org/content/1/3/e1500036
 - abstract: 'Crowdsourcing design has been applied in various areas of graphic design,
     software design, and product design. This paper draws on those experiences and
@@ -546,13 +591,16 @@
   authors: Kazjon Grace, Mary Lou Maher, Jennifer Preece, Tom Yeh, Abigale Stangle,
     and Carol Boston
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Case Analysis, Conceptual Framework
   objective: Participation
   organization: ''
   region: North America
   sector: ''
   title: 'A Process Model for Crowdsourcing Design: A Case Study in Citizen Science'
+  type: ''
   url: http://link.springer.com/chapter/10.1007%2F978-3-319-14956-1_14
 - abstract: 'Background: Investigation into personal health has become focused on
     conditions at an increasingly local level, while response rates have declined
@@ -593,13 +641,16 @@
   authors: Steven Gittelman, Victor Lange, Carol Gotway Crawford, Catherine Okoro,
     Eugene Lieb, Satvinder S Dhingra, Elaine Trimarchi
   category: Data Analysis
+  data: ''
   date: ''
+  github: ''
   methodology: Statistical Modeling, Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: North America
   sector: Healthcare
   title: 'A New Source of Data for Public Health Surveillance: Facebook Likes'
+  type: ''
   url: http://www.jmir.org/2015/4/e98/
 - abstract: Over 2014, the Cornell University Legal Information Institute and the
     Australian National University worked with users of the Cornell LII site in a
@@ -629,13 +680,16 @@
   authors: Michael Curtotti, Wayne Weibel, Eric McCreath, Nicolas Ceynowa, Sara Frug,
     and Tom R Bruce
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: North America
   sector: ''
   title: Citizen Science for Citizen Access to Law
+  type: ''
   url: https://ojs.law.cornell.edu/index.php/joal/article/view/34/54
 - abstract: 'This paper considers how crowdsourcing applications and crowdsourced
     data are currently being applied, as well as potential new uses for active transportation
@@ -666,13 +720,16 @@
     and data considerations.'
   authors: Amy Smith
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness
   organization: ''
   region: North America
   sector: Transportation
   title: Crowdsourcing Pedestrian and Cyclist Activity Data
+  type: ''
   url: http://www.pedbikeinfo.org/cms/downloads/PBIC_WhitePaper_Crowdsourcing.pdf
 - abstract: 'Since 2009 there has been a growing interest in defining and operationalising
     innovation for use in the humanitarian context. The increase in scale of new crises,
@@ -695,13 +752,16 @@
     innovation within the UN system. We conclude with six key recommendations.'
   authors: Louise Bloom and Romy Faulkner
   category: Labs and Experimentation
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Innovation spaces: transforming humanitarian practice in the United Nations'
+  type: ''
   url: http://www.rsc.ox.ac.uk/files/publications/working-paper-series/wp107-innovation-spaces.pdf/
 - abstract: Crowdsourcing legislation gives ordinary citizens, rather than political
     and bureaucratic elites, the chance to cooperate to come up with innovative new
@@ -721,7 +781,9 @@
     do so.
   authors: Henrik Serup Christensen, Maija Karjalainen and Laura Nurminen
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Survey
   objective: Legitimacy, Participation
   organization: ''
@@ -729,6 +791,7 @@
   sector: ''
   title: Does Crowdsourcing Legislation Increase Political Legitimacy? The Case of
     Avoin Ministeri in Finland
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1002/poi3.80/abstract
 - abstract: Over the last century, state and local governments have been challenged
     to keep proactive, emergency planning efforts ahead of the after-the-disaster,
@@ -749,7 +812,9 @@
     expertise.
   authors: Jesse A. Sievers
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
@@ -757,6 +822,7 @@
   sector: Public Safety
   title: 'Embracing Crowdsourcing: A Strategy for State and Local Governments Approaching
     “Whole Community” Emergency Planning'
+  type: ''
   url: http://slg.sagepub.com/content/47/1/57.short
 - abstract: Governments collect and produce large amounts of data. Increasingly, governments
     worldwide have started to implement open data initiatives and also launch open
@@ -777,13 +843,16 @@
     applications that leverage on the datasets available from these portals.
   authors: Martin Lnenicka
   category: Open Data
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness, Legitimacy
   organization: ''
   region: ''
   sector: ''
   title: An In-Depth Analysis of Open Data Portals as an Emerging Public E-Service
+  type: ''
   url: http://waset.org/Publication/an-in-depth-analysis-of-open-data-portals-as-an-emerging-public-e-service/10000736
 - abstract: The global landscape in the supply, co-creation and use of geospatial
     data is changing very rapidly with new satellites, sensors and mobile devices
@@ -800,7 +869,9 @@
     for more direct participation in science, politics and social action.
   authors: Max Craglia and Lea Shanley
   category: Citizen Engagement and Collective Intellignece, Data Analysis
+  data: ''
   date: '42017'
+  github: ''
   methodology: Conceptual Framework, Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -808,6 +879,7 @@
   sector: ''
   title: Data democracy increased supply of geospatial information and expanded participatory
     processes in the production of data
+  type: ''
   url: http://www.tandfonline.com/doi/abs/10.1080/17538947.2015.1008214
 - abstract: Uganda has democratic deficits where demand for democracy exceeds its
     supply. As a consequence it is argued that a segment of Ugandans might participate
@@ -835,13 +907,16 @@
     of political participation in a positive direction.
   authors: Johan Hellström
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2015'
+  github: ''
   methodology: Survey
   objective: Participation
   organization: ''
   region: Africa
   sector: ''
   title: Crowdsourcing as a tool for political participation? – the case of Ugandawatch
+  type: ''
   url: http://www.ijpis.net/ojs/index.php/IJPIS/article/view/131
 - abstract: Recent debate and associated initiatives dealing with public sector innovation
     have mainly aimed at improving the effectiveness and efficiency of the delivery
@@ -867,7 +942,9 @@
     by the principles of Open Government Model.
   authors: Nunzio  Casalino, Peter Bednar
   category: Open Data
+  data: ''
   date: '42005'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Legitimacy
   organization: ''
@@ -875,6 +952,7 @@
   sector: ''
   title: Managerial Governance and Transparency in Public Sector to Improve Services
     for Citizens and Companies
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2578142
 - abstract: Given that the Obama administration still relies on many strategies we
     would think of as sitting on the side of secrecy, it seems that the only lasting
@@ -891,13 +969,16 @@
     formations and re-politicize the public sphere.
   authors: Clare Birchall
   category: Open Data
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
   organization: ''
   region: North America
   sector: Economy
   title: '‘Data.gov-in-a-box’: Delimiting transparency'
+  type: ''
   url: http://est.sagepub.com/content/early/2015/02/27/1368431014555259.abstract
 - abstract: 'Purpose
 
@@ -954,13 +1035,16 @@
     to use them.'
   authors: Pablo Emilio Branchi, Carlos Fernández-Valdivielso and Ignacio Raúl Matías
   category: Data Analysis
+  data: ''
   date: ''
+  github: ''
   methodology: Quantitative Analysis, Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: Europe
   sector: ''
   title: Urban technology analysis matrix
+  type: ''
   url: http://www.emeraldinsight.com/doi/full/10.1108/MEQ-02-2014-0026
 - abstract: "A statement or action can be said to be manipulative if it does not sufficiently\
     \ engage or appeal to people’s capacity for reflective and deliberative choice.\
@@ -987,13 +1071,16 @@
     \ of consumer choices is an evident but rarely explicit concern."
   authors: Cass R. Sunstein
   category: Behavioral Science and Nudges
+  data: ''
   date: '42053'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
   organization: ''
   region: North America
   sector: ''
   title: Fifty Shades of Manipulation
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2565892
 - abstract: The use of competition-based processes for the development of innovations
     is increasing. In parallel with the increasing use of competition-based innovation
@@ -1006,13 +1093,16 @@
     and how to overcome them.
   authors: 'Mokter  Hossain, Ilkka  Kauranen '
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41932'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: North America
   sector: ''
   title: 'Competition-Based Innovation: The Case of the X Prize Foundation'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2549616
 - abstract: 'This paper provides the first experimental evaluation of the participatory
     budgeting model showing that it increased public participation in the process
@@ -1025,13 +1115,16 @@
     of participatory governance. - See more at: http://publications.iadb.org/handle/11319/6699?locale-attribute=en#sthash.CjXBEQ5C.dpuf'
   authors: Diether W. Beuermann, Maria Amelina
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: Europe
   sector: ''
   title: Does Participatory Budgeting Improve Decentralized Public Service Delivery?
+  type: ''
   url: http://publications.iadb.org/handle/11319/6699?locale-attribute=en
 - abstract: 'Innovation is a key driver in organizational sustainability, and yes,
     openness and transparency are a recipe for innovation. But, according to Tapscott
@@ -1063,13 +1156,16 @@
     democracy (improve public participation in the policy process).'
   authors: Dr. Bastiaan Heemsbergen
   category: Citizen Engagement and Crowdsourcing, Open Data
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Legitimacy
   organization: ''
   region: North America
   sector: ''
   title: Is Transparency a Recipe for Innovation?
+  type: ''
   url: http://irc.queensu.ca/articles/transparency-recipe-innovation
 - abstract: 'This paper is the first of the IDB''s "Innovations in Public Service
     Delivery" series, which identifies and analyzes innovative experiences of promising
@@ -1086,7 +1182,9 @@
     solutions. - See more at: http://publications.iadb.org/handle/11319/6765?scope=123456789/1&thumbnail=true&rpp=5&page=1&group_by=none&etal=0#sthash.yyDAO9OJ.dpuf'
   authors: Jane Wiseman
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Effectiveness
   organization: ''
@@ -1094,6 +1192,7 @@
   sector: ''
   title: Can 311 Call Centers Improve Service Delivery? Lessons from New York and
     Chicago
+  type: ''
   url: http://publications.iadb.org/handle/11319/6765?scope=123456789/1&thumbnail=true&rpp=5&page=1&group_by=none&etal=0
 - abstract: The paper explores the motivations of volunteers in a large crowd sourcing
     project and contributes to our understanding of the motivational factors that
@@ -1108,7 +1207,9 @@
   authors: Corey Brian Jackson, Carsten Østerlund, Gabriel Mugar, Katie DeVries Hassman,
     Kevin Crowston
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Case Analysis
   objective: Participation
   organization: ''
@@ -1116,6 +1217,7 @@
   sector: ''
   title: 'Motivations for sustained participation in crowdsourcing: The role of talk
     in a citizen science case study'
+  type: ''
   url: http://conferences.computer.org/hicss/2015/papers/7367b624.pdf
 - abstract: Computing power and analytical methods allow us to create, collate, and
     analyze more data than ever before. When datasets are unusually large in volume,
@@ -1129,13 +1231,16 @@
     design processes will be more affected by the complex links found in people data.
   authors: Giles Slinger, Rupert Morrison
   category: Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: Will Organization Design Be Affected By Big Data?
+  type: ''
   url: http://www.jorgdesign.net/index.php/jod/article/view/9729
 - abstract: Citizens and governments live increasingly digital lives, leaving trails
     of digital data that have the potential to support unprecedented levels of mutual
@@ -1157,7 +1262,9 @@
     & Tinkler, 2005, 2006; Margetts & Dunleavy, 2013).
   authors: ''
   category: Data Analysis, Open Data
+  data: ''
   date: ''
+  github: ''
   methodology: Survey
   objective: Effectiveness, Participation
   organization: ''
@@ -1165,6 +1272,7 @@
   sector: ''
   title: Governments and Citizens Getting to Know Each Other? Open, Closed, and Big
     Data in Public Management Reform
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1002/1944-2866.POI377/abstract
 - abstract: 'The concept of open government, having been promoted widely in the past
     5 years, has promised a broader notion than e-government, as supposed to fundamentally
@@ -1189,13 +1297,16 @@
     interests, preferences, and abilities.'
   authors: Karin Hansson, Kheira Belkacem, Love Ekenberg
   category: Citizen Engagement and Crowdsourcing, Open Data
+  data: ''
   date: ''
+  github: ''
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
   organization: ''
   region: ''
   sector: ''
   title: 'Open Government and Democracy: A Research Review'
+  type: ''
   url: http://ssc.sagepub.com/content/early/2014/12/03/0894439314560847.abstract
 - abstract: 'Open government initiatives in the U.S. government focus on three main
     aspects: transparency, participation, and collaboration. Especially the collaboration
@@ -1221,7 +1332,9 @@
     innovation outcomes, such as increased public awareness.'
   authors: Ines Mergel
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -1229,6 +1342,7 @@
   sector: ''
   title: 'Opening Government: Designing Open Innovation Processes to Collaborate With
     External Problem Solvers'
+  type: ''
   url: http://ssc.sagepub.com/content/early/2014/12/11/0894439314560851
 - abstract: This paper explores participatory sensing and issues associated with governance
     in the light of new information gathering capabilities that directly engage citizens
@@ -1237,7 +1351,9 @@
   authors: Slaven Marusic, Jayavardhana Gubbi, Helen Sullivan,  Yee Wei Law and M.
     Palaniswami
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework, Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -1245,6 +1361,7 @@
   sector: ''
   title: 'Participatory sensing: enabling interactive local governance through citizen
     engagement'
+  type: ''
   url: http://apo.org.au/research/participatory-sensing-enabling-interactive-local-governance-through-citizen-engagement
 - abstract: Reflecting on the governance of smart cities, the state-of-the-art this
     paper advances offers a critique of recent city ranking and future Internet accounts
@@ -1260,13 +1377,16 @@
     up, add value to and construct.
   authors: Mark Deakin
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '41964'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: 'Smart cities: the state-of-the-art and governance challenge'
+  type: ''
   url: http://link.springer.com/article/10.1186/s40604-014-0007-9/fulltext.html
 - abstract: Social media has provided governments with new means to improve efficiency
     and innovation, by engaging a crowd in the gathering and development of data.
@@ -1283,13 +1403,16 @@
     online might be useful for development of tools for more democratic online crowds.
   authors: Karin Hansson
   category: 'Citizen Engagement and Crowdsourcing '
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Legitimacy, Participation
   organization: ''
   region: ''
   sector: ''
   title: A micro-democratic perspective on crowd-work
+  type: ''
   url: http://people.dsv.su.se/~khansson/papers/amicrodemocraticperspectiveoncrowdwork.pdf
 - abstract: 'Background: Existing influenza surveillance in the United States is focused
     on the collection of data from sentinel physicians and hospitals; however, the
@@ -1337,7 +1460,9 @@
   authors: Aslam AA, Tsou MH, Spitzberg BH, An L, Gawron JM, Gupta DK, Peddecord KM,
     Nagel AC, Allen C, Yang JA, Lindsay S
   category: Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
@@ -1345,6 +1470,7 @@
   sector: Healthcare
   title: The Reliability of Tweets as a Supplementary Method of Seasonal Influenza
     Surveillance
+  type: ''
   url: http://www.jmir.org/2014/11/e250/
 - abstract: 'City logistics proposes an integrated vision of freight transportation
     systems within urban area and it aims at the optimization of them as a whole in
@@ -1357,13 +1483,16 @@
     Smart City.'
   authors: Guido Perbolia,Alberto De Marcoc, Francesca Perfettia, Matteo Marone
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: A New Taxonomy of Smart City Projects
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S2352146514001914
 - abstract: The agglomeration of rules and regulations over time has produced a body
     of legal code that no single individual can fully comprehend. This complexity
@@ -1386,7 +1515,9 @@
     for scholarship, to increase efficiency, and to improve access to justice.
   authors: William Li, Pablo Azar, David Larochelle, Phil Hill and Andrew Lo
   category: Data Analysis
+  data: ''
   date: '41903'
+  github: ''
   methodology: Quantitative Analysis
   objective: Access, Effectiveness
   organization: ''
@@ -1394,6 +1525,7 @@
   sector: ''
   title: 'Law is Code: A Software Engineering Approach to Analyzing the United States
     Code'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2511947
 - abstract: "This article seeks to map out the prospects of crowd-sourcing technologies\
     \ in the area of corruption-reporting. A flurry of initiative and concomitant\
@@ -1447,7 +1579,9 @@
     \ run crowd-reporting platforms."
   authors: Dieter Zinnbauer
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41897'
+  github: ''
   methodology: Conceptual Framework
   objective: Legitimacy
   organization: ''
@@ -1455,6 +1589,7 @@
   sector: ''
   title: 'Crowd-Sourcing Corruption: What Petrified Forests, Street Music, Bath Towels
     and the Taxman Can Tell Us About the Prospects for Its Future'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2508606
 - abstract: Most of society's innovation systems – academic science, the patent system,
     open source, etc. – are “open” in the sense that they are designed to facilitate
@@ -1469,7 +1604,9 @@
     policies in fostering innovation.
   authors: Kevin J. Boudreaua, Karim R. Lakhani
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
@@ -1478,6 +1615,7 @@
   title: '“Open” disclosure of innovations, incentives and follow-on reuse: Theory
     on processes of cumulative innovation and a field experiment in computational
     biology'
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0048733314001425
 - abstract: 'Public administrators have always been interested in identifying cost-effective
     strategies for managing their programs. As government agencies invest in data
@@ -1488,7 +1626,9 @@
     these approaches provide decision makers with guidance on what to do next.'
   authors: Scott Cody, Andrew Asher
   category: Data Analysis
+  data: ''
   date: '2015'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
@@ -1496,6 +1636,7 @@
   sector: Economy
   title: 'Smarter, Better, Faster: The Potential for Predictive Analytics and Rapid-Cycle
     Evaluation to Improve Program Development and Outcomes'
+  type: ''
   url: http://www.brookings.edu/research/papers/2014/06/19-predictive-analytics-rapid-cycle-evaluation-improve-program-cody-asher
 - abstract: 'This article makes three contributions to the literature. First, it provides
     new evidence of the impact of community monitoring interventions using a unique
@@ -1509,13 +1650,16 @@
     conditions do governments facilitate citizen engagement and become more accountable.'
   authors: Ezequiel Molina
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Legitimacy
   organization: ''
   region: South America
   sector: ''
   title: Can Bottom-Up Institutional Reform Improve Service Delivery?
+  type: ''
   url: http://www.iadb.org/en/research-and-data/publication-details,3169.html?pub_id=IDB-WP-513
 - abstract: 'Although a great many different crowdsourcing approaches are available
     to those seeking to accomplish individual or organizational tasks, little research
@@ -1537,13 +1681,16 @@
     for a particular task situation.'
   authors: Robbie T. Nakatsu, Elissa B. Grossman, Charalambos L. lacovou
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41915'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
   region: ''
   sector: ''
   title: A taxonomy of crowdsourcing based on task complexity
+  type: ''
   url: http://jis.sagepub.com/content/early/2014/09/25/0165551514550140.abstract
 - abstract: 'Explaining individual behavior in politics should rely on the same motivational
     assumptions as explaining behavior in the market: That’s what Political Economy,
@@ -1559,13 +1706,16 @@
     Economy” and considers the scope for further research.'
   authors: Jan Schnellenbach, Christian Schubert
   category: Behavioral Science and Nudges
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Behavioral Political Economy: A Survey'
+  type: ''
   url: https://ideas.repec.org/p/ces/ceswps/_4988.html
 - abstract: 'Nowadays there is a multitude of mobile and tablet applications being
     developed in order to facilitate or disrupt every day tasks. Many of these are
@@ -1588,13 +1738,16 @@
     to the application users in order to be able to determine their optimal route.'
   authors: Nikos Souliotis, Anargyros Tsadimas, Mara Nikolaidou
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness
   organization: ''
   region: Europe
   sector: Transportation
   title: Real-time information about public transport’s position using crowdsourcing
+  type: ''
   url: http://dl.acm.org/citation.cfm?id=2645807
 - abstract: 'The Internet provides a global information flow, which improves living
     conditions in poor countries as well as in rich countries. Owing to its abundance
@@ -1614,13 +1767,16 @@
   authors: L. Fernando Ramos Simón, Rosario Arquero Avilés, Iuliana Botezan, Félix
     del Valle, Gastaminza, Silvia Cobo Serrano
   category: Open Data
+  data: ''
   date: '41876'
+  github: ''
   methodology: Conceptual Framework
   objective: Access
   organization: ''
   region: ''
   sector: ''
   title: Open Data as Universal Service. New perspectives in the Information Profession
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S1877042814040397
 - abstract: 'Over the last decade, there have been significant changes in data sharing
     policies and in the data sharing environment faced by life science researchers.
@@ -1642,7 +1798,9 @@
     for policy improvement.'
   authors: Pham-Kanter G, Zinner DE, Campbell EG
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Survey
   objective: Access
   organization: ''
@@ -1650,6 +1808,7 @@
   sector: Healthcare
   title: 'Codifying Collegiality: Recent Developments in Data Sharing Policy in the
     Life Sciences'
+  type: ''
   url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0108451
 - abstract: Open source represents a model generally known for its success in software
     production. The objective of this article is to establish a new strategic approach
@@ -1661,13 +1820,16 @@
     what to adopt from this governance model for public sector services.
   authors: Ani Mateia & Sergiu Ioan Irimia
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '42272'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: Open Source Governance—A More Ambitious Cousin of Collaborative Governance
+  type: ''
   url: http://www.tandfonline.com/doi/abs/10.1080/01900692.2014.907315
 - abstract: This study adds to the body of research on open government by empirically
     measuring the association of government transparency and innovation. The study
@@ -1688,7 +1850,9 @@
     and participation in the Open Government Partnership.
   authors: Anjelika Deogirikar
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Legitimacy
   organization: ''
@@ -1696,6 +1860,7 @@
   sector: ''
   title: 'The Impact of Open Government on Innovation: Does Government Transparency
     Drive Innovation?'
+  type: ''
   url: https://repository.library.georgetown.edu/handle/10822/709375
 - abstract: This paper examines some of the science communication challenges involved
     when designing and conducting public deliberation processes on issues of national
@@ -1715,13 +1880,16 @@
   authors: Nick Pidgeona, Christina Demski, Catherine Butler, Karen Parkhill, Alexa
     Spence
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41802'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: Energy
   title: Creating a national citizen engagement process for energy policy
+  type: ''
   url: http://www.pnas.org/content/111/Supplement_4/13606.short
 - abstract: 'Can Crowds serve as useful allies in policy design? How do non-expert
     Crowds perform relative to experts in the assessment of policy measures? Does
@@ -1738,13 +1906,16 @@
     methods in detail and provide the findings of our experiments.'
   authors: John Prpić, Araz Taeihagh, and James Melton Jr
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: ''
   sector: Energy
   title: Experiments on Crowdsourcing Policy Assessment
+  type: ''
   url: http://ipp.oii.ox.ac.uk/2014/programme-2014/track-c-engaging-the-crowd/design-i/john-prpi%C4%87-araz-taeihagh-james-melton-jr
 - abstract: The widespread availability of high-quality Web-based content offers new
     potential for supporting teachers as designers of curricula and classroom activities.
@@ -1769,13 +1940,16 @@
     of the content of IA projects.
   authors: Mimi Recker, Min Yuan, and Lei Ye
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Participation
   organization: ''
   region: North America
   sector: Education
   title: 'Crowdteaching: Supporting Teaching as Designing in Crowdsourcing Communities'
+  type: ''
   url: http://www.irrodl.org/index.php/irrodl/article/view/1785/3000
 - abstract: 'Patient-related medical information is becoming increasingly available
     on the Internet, spurred by government open data policies and private sector data
@@ -1797,13 +1971,16 @@
     data disclosure and use.'
   authors: Sharona Hoffman
   category: Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Comparative Analysis
   objective: Access, Participation
   organization: ''
   region: ''
   sector: Healthcare
   title: 'Citizen Science: The Law and Ethics of Public Access to Medical Big Data'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2491054
 - abstract: Research on open innovation suggests that companies benefit differentially
     from adopting open innovation strategies; however, it is unclear why this is so.
@@ -1817,7 +1994,9 @@
     innovation strategies.
   authors: 'Tina  Saebi, Nicolai J. Foss '
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41891'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
@@ -1825,6 +2004,7 @@
   sector: Economy
   title: 'Business Models for Open Innovation: Matching Heterogenous Open Innovation
     Strategies with Business Model Dimensions'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2493736
 - abstract: Despite the availability of a myriad of Information and Communication
     Technologies (ICT) based tools and methodologies for supporting governance and
@@ -1845,7 +2025,9 @@
   authors: Sotirios Koussouris, Fenareti Lampathaki, Gianluca Misuraca, Panagiotis
     Kokkinakos, andDimitrios Askounis
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '41881'
+  github: ''
   methodology: Case Analysis, Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -1853,6 +2035,7 @@
   sector: ''
   title: "The Decalogue of Policy Making 2.0: Results from Analysis of Case Studies\
     \ \non the Impact of ICT for Governance and Policy Modelling"
+  type: ''
   url: http://link.springer.com/chapter/10.1007/978-3-319-08081-9_10
 - abstract: 'Developing and commercializing novel ideas is central to innovation processes.
     As the outcome of such ideas cannot fully be foreseen, the evaluation of them
@@ -1871,13 +2054,16 @@
     arguments. We conclude with implications, proposing a model of evaluation validity.'
   authors: Christoph Hienerth and Frederik Riar
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '41862'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Using Crowds for Evaluation Tasks: Validity by Numbers vs. Validity by Expertise'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2478620
 - abstract: Open data initiatives are characterized, in several countries, by a great
     extension of the number of data sets made available for access by public administrations,
@@ -1896,13 +2082,16 @@
     common law countries).
   authors: Gianluigi Viscusi, Marco Castelli and Carlo Batini
   category: Open Data
+  data: ''
   date: '41870'
+  github: ''
   methodology: Conceptual Framework
   objective: Access, Effectiveness
   organization: ''
   region: Europe
   sector: ''
   title: 'Assessing Social Value in Open Data Initiatives: A Framework'
+  type: ''
   url: http://www.mdpi.com/1999-5903/6/3/498/htm
 - abstract: There are over 3 billion searches globally on Google every day. This report
     examines whether Google search queries can be used to predict the present and
@@ -1920,13 +2109,16 @@
     and the near future unemployment rate in Finland.
   authors: Joonas Tuhkuri
   category: Data Analysis
+  data: ''
   date: '41865'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: Europe
   sector: Economy
   title: 'Big Data: Google Searches Predict Unemployment in Finland'
+  type: ''
   url: https://ideas.repec.org/p/rif/report/31.html
 - abstract: This paper presents a systematic literature review of the current state–of–research
     on online participation. The review draws on four databases and is guided by the
@@ -1941,13 +2133,16 @@
     findings and derive propositions for future research.
   authors: Christoph Lutz, Christian Pieter Hoffmann, and Miriam Meckel
   category: Civic Technology
+  data: ''
   date: '41827'
+  github: ''
   methodology: Comparative Analysis
   objective: Participation
   organization: ''
   region: Europe
   sector: ''
   title: 'Beyond just politics: A systematic literature review of online participation'
+  type: ''
   url: http://www.firstmonday.dk/ojs/index.php/fm/article/view/5260/4094
 - abstract: This article makes three related arguments. First, that although many
     definitions of the smart city have been proposed, corporate promoters say a smart
@@ -1961,13 +2156,16 @@
     planning.
   authors: Robert Goodspeed
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '42048'
+  github: ''
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: South America
   sector: ''
   title: 'Smart cities: moving beyond urban cybernetics to tackle wicked problems'
+  type: ''
   url: http://cjres.oxfordjournals.org/content/8/1/79
 - abstract: 'Context: Governments are rapidly developing open data platforms to improve
     transparency and make information more accessible. New York is a leader, with
@@ -2010,7 +2208,9 @@
     research and foster collaborations among agencies, researchers, and practitioners.'
   authors: Erika G. Martin, Natalie Helbig, and Guthrie S. Birkhead
   category: Open Data
+  data: ''
   date: '41858'
+  github: ''
   methodology: Survey
   objective: Participation
   organization: ''
@@ -2018,6 +2218,7 @@
   sector: Healthcare
   title: 'Opening Health Data: What Do Researchers Want? Early Experiences With New
     York’s Open Health Data Platform.'
+  type: ''
   url: http://journals.lww.com/jphmp/Abstract/publishahead/Opening_Health_Data___What_Do_Researchers_Want_.99816.aspx
 - abstract: 'A new form of online citizen participation in government decisionmaking
     has arisen in the United States (U.S.) under the Obama Administration. “Civic
@@ -2045,7 +2246,9 @@
     will value.'
   authors: Cynthia R. Farina, Dmitry Epstein, Josiah Heidt, and Mary Newhart
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2014'
+  github: ''
   methodology: Design Science
   objective: Legitimacy, Participation
   organization: ''
@@ -2053,6 +2256,7 @@
   sector: ''
   title: 'Designing an Online Civic Engagement Platform: Balancing “More” vs. “Better”
     Participation in Complex Public Policymaking'
+  type: ''
   url: http://www.igi-global.com/article/designing-an-online-civic-engagement-platform/111189
 - abstract: "Improving public health is a major responsibility of any government,\
     \ and is of major interest to citizens and scientific communities around the world.\
@@ -2080,7 +2284,9 @@
     \ medical community focus on for wider impact."
   authors: Vandana Srivastava and Biplav Srivastava
   category: Open Data
+  data: ''
   date: '41808'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
@@ -2088,6 +2294,7 @@
   sector: Healthcare
   title: Towards Timely Public Health Decisions to Tackle Seasonal Diseases With Open
     Government Data
+  type: ''
   url: http://www.aaai.org/ocs/index.php/WS/AAAIW14/paper/view/8728
 - abstract: Crowdsourcing allows large-scale and flexible invocation of human input
     for data gathering and analysis, which introduces a new paradigm of data mining
@@ -2104,13 +2311,16 @@
     related areas for future research.
   authors: Guo Xintong, Wang Hongzhi, Yangqiu Song, and Gao Hong
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41974'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: ''
   sector: ''
   title: Brief survey of crowdsourcing for data mining
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0957417414003984
 - abstract: 'Background: To date, health research literature has focused on social
     network sites (SNS) either as tools to deliver health care, to study the effect
@@ -2150,13 +2360,16 @@
     SNS.'
   authors: Alshaikh F, Ramzan F, Rawaf S, Majeed A
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: Healthcare
   title: 'Social Network Sites as a Mode to Collect Health Data: A Systematic Review'
+  type: ''
   url: http://www.jmir.org/2014/7/e171/
 - abstract: '• Participatory sensing is a specialized form of crowdsourcing for mobile
     devices in which the users act as sensors to report on local environmental conditions.
@@ -2168,13 +2381,16 @@
     usage, 3. A preponderance of untrustworthy users.'
   authors: Erfan Davami, and Gita Sukthankar
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '41806'
+  github: ''
   methodology: Case Analysis, Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: North America
   sector: Transportation
   title: Crowdsourcing Parking Lot Occupancy using a Mobile Phone Application
+  type: ''
   url: http://www.ase360.org/handle/123456789/107
 - abstract: 'This paper argues that contemporary smart city visions based on ITs (information
     and tele- communication technologies) configure complex socio-technical challenges
@@ -2188,13 +2404,16 @@
     and political support over time.'
   authors: Luís Carvalho
   category: Data Analysis
+  data: ''
   date: '42048'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness
   organization: ''
   region: Europe
   sector: ''
   title: Smart cities from scratch? a socio-technical perspective
+  type: ''
   url: http://cjres.oxfordjournals.org/content/8/1/43
 - abstract: 'This short article argues that an adequate response to the implications
     for governance raised by ‘Big Data’ requires much more attention to agency and
@@ -2209,13 +2428,16 @@
     as a norm means that voice must sometimes be considered via the notion of transparency.'
   authors: Nick Couldry and Alison Powell
   category: Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness
   organization: ''
   region: North America
   sector: ''
   title: Big Data from the bottom up
+  type: ''
   url: http://bds.sagepub.com/content/1/2/2053951714539277.full
 - abstract: The public-oriented goals of the open government movement promise increased
     transparency and accountability of governments, enhanced citizen engagement and
@@ -2231,13 +2453,16 @@
     in which citizens and their activities are increasingly monitored and profiled.
   authors: Teresa Scassa
   category: Open Data
+  data: ''
   date: '41808'
+  github: ''
   methodology: Conceptual Framework
   objective: Legitimacy
   organization: ''
   region: North America
   sector: ''
   title: Privacy and Open Government
+  type: ''
   url: www.mdpi.com/1999-5903/6/2/397/htm
 - abstract: Open data has been recognized as a valuable resource, and public institutions
     have taken to publishing their data under open licenses, also in Germany. However,
@@ -2256,13 +2481,16 @@
     open transit data in Germany.
   authors: Stefan Kaufmann
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Survey
   objective: Access, Legitimacy
   organization: ''
   region: Europe
   sector: Transportation
   title: Opening Public Transit Data in Germany
+  type: ''
   url: http://dbis.eprints.uni-ulm.de/1054/1/Kaufmann2014.pdf
 - abstract: 'In the last 15 years, European countries have invested considerable resources
     to provide e-government services. Despite of its increasing availability, its
@@ -2293,13 +2521,16 @@
     administration).'
   authors: K Szkuta, R Pizzicannella, D Osimo
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2014'
+  github: ''
   methodology: Comparative Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: 'Collaborative approaches to public sector innovation: A scoping study'
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0308596114000615
 - abstract: 'In this paper, we conceptualize Open Data ecosystems by analysing the
     major stakeholders in the UK. The conceptualization is based on a review of popular
@@ -2314,7 +2545,9 @@
     experience fully mutual interdependence.'
   authors: Maximilian Heimstädt, Fredric Saunderson, Tom Heath
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework, Quantitative Analysis, Survey
   objective: Access, Effectiveness
   organization: ''
@@ -2322,6 +2555,7 @@
   sector: ''
   title: 'Conceptualizing Open Data ecosystems: A timeline analysis of Open Data development
     in the UK'
+  type: ''
   url: http://hdl.handle.net/10419/96627
 - abstract: 'Due to expected benefits such as citizen participation and innovation,
     the release of Public Sector Information as open data is getting increased attention
@@ -2341,13 +2575,16 @@
     data release.'
   authors: Peter Conradie and Dr. Sunil Choenni
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Comparative Analysis, Survey
   objective: Access, Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: On the barriers for local government releasing open data
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0740624X14000513
 - abstract: We study innovation contests with asymmetric information and identical
     contestants, where contestants’ efforts and innate abilities generate inventions
@@ -2359,13 +2596,16 @@
     contest and describe settings where these conditions are satisfied.
   authors: David Pérez Castrillo and David Wettstein
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41714'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: Innovation Contests
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2425517
 - abstract: Given the pace of discovery in medicine, accessing the literature to make
     informed decisions at the point of care has become increasingly difficult. Although
@@ -2389,13 +2629,16 @@
 
     Max H. Sims, Jeffrey Bigham, Henry Kautz, andMarc W. Halterman '
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: North America
   sector: Healthcare
   title: Crowdsourcing medical expertise in near real time
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1002/jhm.2204/abstract
 - abstract: This paper presents a benchmark proposal for the Open Government and its
     application from the open data perspective using data available on the U.S. government's
@@ -2408,13 +2651,16 @@
     to recognize and embrace innovative ideas.
   authors: N Veljković, S Bogdanović-Dinić, and L Stoimenov
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Benchmarking open government: An open data perspective'
+  type: ''
   url: http://www.sciencedirect.com/science/article/pii/S0740624X14000434
 - abstract: We describe Quizz, a gamified crowdsourcing system that simultaneously
     assesses the knowledge of users and acquires new knowledge from them. Quizz operates
@@ -2440,13 +2686,16 @@
     typically available through existing labor marketplaces.
   authors: PG. Ipeirotis and E Gabrilovich
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Quizz: Targeted Crowdsourcing with a Billion (Potential) Users'
+  type: ''
   url: http://research.google.com/pubs/pub42022.html
 - abstract: Social media enable promising new approaches to measuring economic activity
     and analyzing economic behavior at high frequency and in real time using information
@@ -2464,13 +2713,16 @@
   authors: Dolan Antenucci, Michael Cafarella, Margaret C. Levenstein, Christopher
     Ré, and Matthew D. Shapiro
   category: Data Analysis
+  data: ''
   date: '41761'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: Economy
   title: Using Social Media to Measure Labor Market Flows
+  type: ''
   url: http://www.nber.org/papers/w20010
 - abstract: With the advent of open data initiatives, raw data has been staged as
     a crucial element of government transparency. If the consequences of such data-driven
@@ -2491,7 +2743,9 @@
     the sociotechnical shaping of transparency, even before data publication and reuses.
   authors: Jerome Denis, and Samuel Goëta
   category: Open Data
+  data: ''
   date: '41698'
+  github: ''
   methodology: Comparative Analysis
   objective: Access, Legitimacy
   organization: ''
@@ -2499,6 +2753,7 @@
   sector: ''
   title: Exploration, Extraction and ‘Rawification’. The Shaping of Transparency in
     the Back Rooms of Open Data
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2403069
 - abstract: For public sector organizations across the world, the pressures for improved
     efficiency during the past decades are now accompanied by an equally strong need
@@ -2517,13 +2772,16 @@
     into public service delivery in the digital economy
   authors: Alan W. Brown, Jerry Fishenden,  and Mark Thompson
   category: Citizen Engagement and Crowdsourcing, Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: 'Revolutionising Digital Public Service Delivery: A UK Government Perspective'
+  type: ''
   url: http://www.blogs.jbs.cam.ac.uk/markthompson/2014/02/28/revolutionising-digital-public-service-delivery-a-uk-government-perspective/
 - abstract: Collective intelligence is much talked about but remains very underdeveloped
     as a field. There are small pockets in computer science and psychology and fragments
@@ -2537,13 +2795,16 @@
     and points to the possible intellectual barriers to progress.
   authors: Geoff Mulgan
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '41660'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: True Collective Intelligence? A Sketch of a Possible New Field
+  type: ''
   url: http://link.springer.com/article/10.1007%2Fs13347-013-0146-3
 - abstract: This is an interdisciplinary article focusing on the interplay between
     information and communication technology (ICT) and international law (IL). Its
@@ -2555,7 +2816,9 @@
     to be able to take action based on it.
   authors: Roslyn Fulle
   category: Data Analysis
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Participation
   organization: ''
@@ -2563,6 +2826,7 @@
   sector: ''
   title: Structuring Big Data to Facilitate Democratic Participation in International
     Law
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2346188
 - abstract: 'Much has been said about the appeal of digital government devices to
     enhance consultation on rulemaking. This paper explores the most ambitious attempt
@@ -2578,7 +2842,9 @@
     consultation exercises.'
   authors: Martin Lodge and Kai Wegrich
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41682'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -2586,6 +2852,7 @@
   sector: ''
   title: 'Crowdsourcing and regulatory reviews: A new way of challenging red tape
     in British government?'
+  type: ''
   url: onlinelibrary.wiley.com/doi/10.1111/rego.12048/abstract;jsessionid=E40A7A0FAE72C9070DFCC3B5DEAC2357.f01t02?deniedAccessCustomisedMessage=&userIsAuthenticated=false
 - abstract: This article draws on a case study of organisation–citizen engagement
     during railway infrastructure planning in southwest France, to examine the nature
@@ -2601,7 +2868,9 @@
     actual models of democratic participation.
   authors: Judy Burnside-Lawry, Carolyne Lee and Sandrine Rui
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -2609,6 +2878,7 @@
   sector: Transportation
   title: 'Habermas and the Garants : Narrowing the gap between policy and practice
     in French organisation – citizen engagement'
+  type: ''
   url: http://mams.rmit.edu.au/axlu02i2337i1.pdf
 - abstract: 'Crowd-mapping is a form of collaborative work that empowers citizens
     to collect and share geographic knowledge. OpenStreetMap (OSM) is a successful
@@ -2626,7 +2896,9 @@
     for cross-cultural differences.'
   authors: Dr. Licia Capra
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Participation
   organization: ''
@@ -2634,6 +2906,7 @@
   sector: ''
   title: 'Mind the Map: The Impact of Culture and Economic Affluence on Crowd-Mapping
     Behaviours'
+  type: ''
   url: http://dl.acm.org/citation.cfm?id=2531713
 - abstract: 'Crowdsourcing is an emerging technology where innovation and production
     are sourced out to the public through an open call. At the center of crowdsourcing
@@ -2652,13 +2925,16 @@
     its price (reward upon completion) goes up.'
   authors: Acemoglu, Daron and Mostagir, Mohamed and Ozdaglar, Asuman E.
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41656'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: North America
   sector: ''
   title: Managing Innovation in a Crowd
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2382917
 - abstract: The Open Data movement has mainly been a data provision movement. The
     release of Open Data is usually motivated by (i) government transparency (citizen
@@ -2671,13 +2947,16 @@
     data and means to make the data opening process more effective.
   authors: Muriel Foulonneau, Sébastien Martin, Slim Turki
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: How Open Data Are Turned into Services?
+  type: ''
   url: http://link.springer.com/chapter/10.1007/978-3-319-04810-9_3
 - abstract: 'An open reuse of public data and tools can turn the government into a
     powerful ‘platform’ also involving external innovators. However, the typical information
@@ -2691,13 +2970,16 @@
     three other open data platforms: the Socrata Open Data portal, CKAN, and ENGAGE.'
   authors: Raimondo Iemma, Federico Morando, Michele Osella
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Case Analysis, Comparative Analysis
   objective: Access, Effectiveness, Legitimacy
   organization: ''
   region: ''
   sector: ''
   title: Breaking Public Administrations’ Data Silos
+  type: ''
   url: http://www.jedem.org/article/view/304
 - abstract: 'This paper develops and tests a theoretical model, which assesses the
     commitment of cities to the concept of open government data (OGD), according to
@@ -2713,13 +2995,16 @@
     beat” — of cities.'
   authors: Karine Nahon, Alon Peled, Jennifer Shkabatur
   category: Data Analysis, Open Data
+  data: ''
   date: '42072'
+  github: ''
   methodology: Conceptual Framework, Quantitative Analysis
   objective: Effectiveness, Legitimacy
   organization: ''
   region: ''
   sector: ''
   title: Cities’ Open Government Data Heart Beat
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2575510
 - abstract: By subsidizing the costs of civic participation, the use of the Internet
     use is believed to stimulate participation but there are fears that intensive
@@ -2735,13 +3020,16 @@
     participation is negligible.
   authors: Åke Grönlund, Wairagala Wakabi
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2015'
+  github: ''
   methodology: Case Analysis
   objective: Participation
   organization: ''
   region: Africa
   sector: ''
   title: 'Citizens'' Use of New Media in Authoritarian Regimes: A Case Study of Uganda'
+  type: ''
   url: http://www.ejisdc.org/ojs2/index.php/ejisdc/article/view/1437/558
 - abstract: This article presents an analysis of participation patterns in an Alternate
     Reality Game, World Without Oil. This game aims to bring people together in an
@@ -2758,7 +3046,9 @@
     generating collective intelligence, making it conducive to groupthink.
   authors: Nassim Jafari Naimi, Eric M. Meyers
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42064'
+  github: ''
   methodology: Quantitative Analysis
   objective: Participation
   organization: ''
@@ -2766,6 +3056,7 @@
   sector: Energy, Environment
   title: Collective Intelligence or Group Think? Engaging Participation Patterns in
     World without Oil
+  type: ''
   url: http://dl.acm.org/citation.cfm?id=2675258
 - abstract: The use of competition-based processes for the development of innovations
     is increasing. In parallel with the increasing use of competition-based innovation
@@ -2778,13 +3069,16 @@
     and how to overcome them.
   authors: Mokter Hossain, Ilkka Kauranen
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41932'
+  github: ''
   methodology: Case Analysis
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Competition-Based Innovation: The Case of the X Prize Foundation'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2549616
 - abstract: Crowdsourcing offers unprecedented potential for solving tasks efficiently
     by tapping into the skills of large groups of people. A salient feature of crowdsourcing---its
@@ -2799,13 +3093,16 @@
   authors: Victor Naroditskiy, Nicholas R. Jennings, Pascal Van Hetenryck, Manuel
     Cebrian
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41692'
+  github: ''
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
   organization: ''
   region: ''
   sector: ''
   title: Crowdsourcing Dilemma
+  type: ''
   url: http://arxiv.org/abs/1304.3548
 - abstract: The global landscape in the supply, co-creation and use of geospatial
     data is changing very rapidly with new satellites, sensors and mobile devices
@@ -2822,7 +3119,9 @@
     for more direct participation in science, politics and social action.
   authors: Max Craglia, Lea Shanley
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42048'
+  github: ''
   methodology: Conceptual Framework
   objective: Participation
   organization: ''
@@ -2830,6 +3129,7 @@
   sector: ''
   title: Data democracy - increased supply of geospatial information and expanded
     participatory processes in the production of data
+  type: ''
   url: http://www.tandfonline.com/doi/full/10.1080/17538947.2015.1008214#abstract
 - abstract: 'This investigation was undertaken in order to determine some best practices
     for
@@ -2845,7 +3145,9 @@
     and CE practices used by governments and large scale NGOs.'
   authors: Jennifer Lawrence
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41730'
+  github: ''
   methodology: Survey
   objective: Effectiveness, Participation
   organization: ''
@@ -2853,6 +3155,7 @@
   sector: ''
   title: 'Developing Together: Investigating best practices for community development
     and public consultation'
+  type: ''
   url: http://trentcentre.ca/documents/public/4458FinalReport.pdf?utm_content=buffer8a279&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'Which source of information contains greater bias and slant—text written
     by an expert or that
@@ -2890,7 +3193,9 @@
     editorial resources in online sources using collective intelligence.'
   authors: Shane Greenstein, Feng Zhu
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41922'
+  github: ''
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Participation
   organization: ''
@@ -2898,6 +3203,7 @@
   sector: ''
   title: Do Experts or Collective Intelligence Write with More Bias? Evidence from
     Encyclopaedia Britannica and Wikipedia
+  type: ''
   url: http://www.hbs.edu/faculty/Publication%20Files/15-023_145191c4-220f-4dd8-8d41-ee2d1f693716.pdf
 - abstract: When like-minded people discuss with each other, i.e. engage in ‘enclave
     deliberation’, their opinions tend to become more extreme. This is called group
@@ -2917,13 +3223,16 @@
     discussion in like-minded groups.
   authors: Kimmo Grönlund, Kaisa Herne, Maija Setälä
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42043'
+  github: ''
   methodology: Quantitative Analysis, Survey
   objective: Participation
   organization: ''
   region: ''
   sector: ''
   title: Does Enclave Deliberation Polarize Opinions?
+  type: ''
   url: http://link.springer.com/article/10.1007/s11109-015-9304-x/fulltext.html?utm_content=buffer57ef6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'This paper provides the first experimental evaluation of the participatory
 
@@ -2947,13 +3256,16 @@
     success of participatory governance.'
   authors: Diether W. Beuermann, Maria Amelina
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41944'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
   organization: ''
   region: Europe
   sector: ''
   title: Does Participatory Budgeting Improve Decentralized Public Service Delivery?
+  type: ''
   url: http://publications.iadb.org/bitstream/handle/11319/6699/Does-Participatory-Budgeting-Improve-Decentralized-Public-Service-Delivery.pdf?sequence=
 - abstract: Does online voting mobilize citizens who otherwise would not participate?
     During the annual participatory budgeting vote in the southern state of Rio Grande
@@ -2968,7 +3280,9 @@
     of higher income and educational attainment, and more frequent social media users.
   authors: Paolo Spada, Jonathan Mellon, Tiago Peixoto, Fredrik M. Sjoberg
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '42061'
+  github: ''
   methodology: Statistical Modeling, Survey
   objective: Participation
   organization: World Bank Digital Engagement Evaluation Team
@@ -2976,6 +3290,7 @@
   sector: ''
   title: 'Effects of the Internet on Participation: Study of a Public Policy Referendum
     in Brazil'
+  type: ''
   url: http://documents.worldbank.org/curated/en/2015/02/24060569/effects-internet-participation-study-public-policy-referendum-brazil
 - abstract: "Scholars know relatively little about why law enforcement agencies choose\
     \ to share information with the public. Empirical research has shown that departments\
@@ -2996,7 +3311,9 @@
     \ police        \nexecutives is critical to his or her department’s online transparency."
   authors: Joshua Chanin, Salvador Espinosa
   category: Open Data
+  data: ''
   date: '42041'
+  github: ''
   methodology: Quantitative Analysis, Survey
   objective: Access, Legitimacy
   organization: ''
@@ -3004,6 +3321,7 @@
   sector: Public Safety
   title: 'Examining the Determinants of Police Department Transparency: The View of
     Police Executives'
+  type: ''
   url: https://nacole.org/wp-content/uploads/Chanin_Espinosa.Examining-Determinants-of-Police-Department-Transparency_The-View-of-Police-Executives.DRAFT_.pdf?utm_content=bufferec8e6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'This article reports a pioneering case study of a crowdsourced law-reform
     process in Finland. In the crowdsourcing
@@ -3038,7 +3356,9 @@
     aspects in crowdsourced policymaking.'
   authors: Tanja Aitamurto, Hélène Landemore
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '2015'
+  github: ''
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
@@ -3046,6 +3366,7 @@
   sector: ''
   title: 'Five design principles for crowdsourced policymaking: Assessing the case
     of crowdsourced off-road traffic law in Finland'
+  type: ''
   url: http://thefinnishexperiment.com/wp-content/uploads/2015/02/AitamurtoLandemore-final-revisionpdf.pdf?utm_content=buffer2a4e0&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: This article examines whether there is gender segmentation in civic participation
     in Latin America, and whether such segmentation is related to gender differences
@@ -3062,13 +3383,16 @@
     on the activity.
   authors: Rosario Espinal, Shanyang Zhao
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42045'
+  github: ''
   methodology: Quantitative Analysis, Statistical Modeling
   objective: Participation
   organization: ''
   region: North America, South America
   sector: ''
   title: Gender Gaps in Civic and Political Participation in Latin America
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1548-2456.2015.00262.x/abstract;jsessionid=DC4BEFFBE6E590F6C8324697CBB8DBD2.f02t01?deniedAccessCustomisedMessage=&userIsAuthenticated=false&utm_content=buffer7497f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'This research explores government sharing of personal information across
     ministries and services, or
@@ -3092,7 +3416,9 @@
     “big data”.'
   authors: Stephanie Perrin, Jennifer Barrigar, Robert Gellman
   category: Open Data
+  data: ''
   date: '42005'
+  github: ''
   methodology: Case Analysis, Comparative Analysis
   objective: Access, Effectiveness
   organization: ''
@@ -3100,6 +3426,7 @@
   sector: ''
   title: 'Government Information Sharing: Is Data Going Out of the Silos, Into the
     Mines?'
+  type: ''
   url: http://www.oipc.ab.ca/Content_Files/Files/Publications/Report_GovtInfoSharing_Jan2015.pdf?utm_content=buffer6569a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: A growing range of public, private and civic organisations, from Unicef
     through Nesta to Tesco, now run units known as ‘innovation labs’. The hopeful
@@ -3121,13 +3448,16 @@
     paper is an introduction to a larger empirical study aiming to answer these questions.
   authors: Lidia Gryszkiewicz, Ioanna Lykourentzou, Tuukka Toivonen
   category: Labs and Experimentation
+  data: ''
   date: '42013'
+  github: ''
   methodology: Comparative Analysis, Conceptual Framework
   objective: Effectiveness
   organization: ''
   region: ''
   sector: ''
   title: 'Innovation Labs: Leveraging Openness for Radical Innovation?'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2556692
 - abstract: The growth and globalization of the Internet over the past 40 years has
     been nothing short of remarkable. Virtually all sectors, from development to healthcare
@@ -3150,7 +3480,9 @@
     and what does not.
   authors: Stefaan G. Verhulst, Beth S. Noveck, Jillian Raines, Antony Declercq
   category: Citizen Engagement and Crowdsourcing, Expert Networking
+  data: ''
   date: '41996'
+  github: ''
   methodology: Conceptual Framework
   objective: Access, Effectiveness, Legitimacy, Participation
   organization: The GovLab
@@ -3158,6 +3490,7 @@
   sector: ''
   title: 'Innovations in Global Governance: Towards a Distributed Internet Governance
     Ecosystem'
+  type: ''
   url: https://www.cigionline.org/publications/innovations-global-governance-toward-distributed-internet-governance-ecosystem
 - abstract: 'Background: Wikis may give clinician communities the opportunity to build
     knowledge relevant to their practice. The only previous study reviewing a set
@@ -3204,13 +3537,16 @@
     learners.'
   authors: Alexandre Brulet, Guy Llorca, Laurent Letrilliart
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42036'
+  github: ''
   methodology: Comparative Analysis
   objective: Participation
   organization: ''
   region: ''
   sector: Healthcare
   title: 'Medical Wikis Dedicated to Clinical Practice: A Systematic Review'
+  type: ''
   url: http://www.jmir.org/2015/2/e48/
 - abstract: This research examines the conditions under which Chinese central government
     ministries and provincial governments implement online consultation, a prominent
@@ -3231,13 +3567,16 @@
     Party.
   authors: Steven J. Balla, Yuhan Wu
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2015'
+  github: ''
   methodology: Comparative Analysis, Quantitative Analysis
   objective: Participation
   organization: ''
   region: Asia
   sector: ''
   title: Online Consultation and Governance Reform in Chinese Ministries and Provinces
+  type: ''
   url: http://www.lafollette.wisc.edu/images/publications/rule-Balla.pdf?utm_content=bufferbbbcd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'This study examines participatory budgeting (PB) as an important kind
     of citizen participation in the Dominican Republic (DR) and the implications of
@@ -3271,7 +3610,9 @@
     advance PB''s democracy further by improving it in various ways.'
   authors: Vasquez Duran, Marie Claire
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis, Survey
   objective: Effectiveness, Participation
   organization: ''
@@ -3279,6 +3620,7 @@
   sector: ''
   title: 'Participatory Budgeting in the Dominican Republic: Implications for Agency,
     Democracy and Development'
+  type: ''
   url: http://drum.lib.umd.edu/handle/1903/16141?utm_content=buffer95007&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: "Over the last few years, the Government of British Columbia (Canada)\
     \ has initiated a variety of practices and policies aimed at providing more legitimate\
@@ -3297,7 +3639,9 @@
     \ other jurisdictions."
   authors: Andrew Young, Christina Rogawski, Sabeel Rahman, Stefaan Verhulst
   category: Citizen Engagement and Crowdsourcing, Open Data
+  data: ''
   date: '41395'
+  github: ''
   methodology: Comparative Analysis, Survey
   objective: Access, Effectiveness, Legitimacy, Participation
   organization: The GovLab
@@ -3305,6 +3649,7 @@
   sector: ''
   title: 'Reimagining Governance in Practice: Benchmarking British Columbia’s Citizen
     Engagement Efforts'
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2560761
 - abstract: 'In this paper we study the public debate over net neutrality in the United
     States from January through
@@ -3330,7 +3675,9 @@
     turning around the Federal Communications Commission policy on net neutrality.'
   authors: Robert Faris, Hal Roberts, Bruce Etling, Dalia Othman, Yochai Benkler
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42036'
+  github: ''
   methodology: Quantitative Analysis
   objective: Effectiveness, Participation
   organization: ''
@@ -3338,6 +3685,7 @@
   sector: ''
   title: Score Another One for the Internet? The Role of the Networked Public Sphere
     in the U.S. Net Neutrality Policy Debate"
+  type: ''
   url: https://prodnet.www.neca.org/publicationsdocs/wwpdf/21015harvard.pdf?utm_content=buffer82284&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: Citizen science has seen enormous growth in recent years, in part due
     to the influence of the Internet, and a corresponding growth in interest. However,
@@ -3353,13 +3701,16 @@
     projects and to other online communities.
   authors: Andrea Wiggins, Kevin Crowston
   category: Citizen Engagement and Crowdsourcing, Data Analysis
+  data: ''
   date: '42005'
+  github: ''
   methodology: Survey
   objective: Participation
   organization: ''
   region: ''
   sector: ''
   title: Surveying the citizen science landscape
+  type: ''
   url: http://firstmonday.org/ojs/index.php/fm/article/view/5520/4194
 - abstract: What effect does government responsiveness have on political participation?
     Since the 1940s political scientists have used attitudinal measures of perceived
@@ -3377,13 +3728,16 @@
     behavior at the individual level.
   authors: Fredrik M. Sjoberg, Jonathan Mellon, Tiago Peixoto
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '42061'
+  github: ''
   methodology: Statistical Modeling
   objective: Effectiveness, Participation
   organization: World Bank Digital Engagement Evaluation Team
   region: ''
   sector: ''
   title: The Effect of Government Responsiveness on Future Political Participation
+  type: ''
   url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2570898&utm_content=buffer8587b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: This article examines the changing nature of the connection between citizens,
     party members and elites in the creation of party policy through the theoretical
@@ -3399,7 +3753,9 @@
     accountability and responsiveness in modern forms of representative democracy.
   authors: Anika Gauja
   category: Citizen Engagement and Crowdsourcing
+  data: ''
   date: '41631'
+  github: ''
   methodology: Case Analysis, Conceptual Framework
   objective: Effectiveness, Participation
   organization: ''
@@ -3407,6 +3763,7 @@
   sector: ''
   title: 'The Individiualisation of Party Politics: The Impact of Changing Internal
     Decision-Making Processes on Policy Development and Citizen Engagement'
+  type: ''
   url: http://onlinelibrary.wiley.com/doi/10.1111/1467-856X.12035/full?utm_content=buffer3baa6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 - abstract: 'NHS England and The GovLab at New York University have jointly created
     a blueprint – The Open Data Era in Health and Social Care – to accelerate the
@@ -3419,13 +3776,16 @@
   authors: Stefaan Verhulst, Beth Simone Noveck, Robyn Caplan, Kristy Brown, Claudia
     Paz
   category: Open Data
+  data: ''
   date: '41760'
+  github: ''
   methodology: Conceptual Framework
   objective: Access, Legitimacy, Participation
   organization: The GovLab
   region: Europe
   sector: Healthcare
   title: The Open Data Era in Health and Social Care
+  type: ''
   url: http://images.thegovlab.org/wordpress/wp-content/uploads/2014/06/nhs-full-report.pdf
 - abstract: 'This report is the culmination of a year-long study of the users of mySociety
     websites. The study
@@ -3460,13 +3820,16 @@
     of methodologies that were used to answer the central questions posed. '
   authors: Rachel Gibson, Marta Cantijoch, Silvia Galandini
   category: Citizen Engagement and Crowdsourcing, Civic Technology
+  data: ''
   date: '41944'
+  github: ''
   methodology: Case Analysis, Quantitative Analysis, Survey
   objective: Access, Effectiveness, Legitimacy, Participation
   organization: mySociety
   region: Europe
   sector: ''
   title: 'The Third Sector and Online Citizen Empowerment: the Case of mySociety'
+  type: ''
   url: https://www.mysociety.org/files/2014/12/manchester.pdf
 - abstract: "The aim of this report is to ask the question “in what circumstances,\
     \ if any, can the FOI [Freedom\nof information] tools mySociety builds be shown\
@@ -3481,7 +3844,9 @@
     \ [Civil Society Organisations] such as mySociety. "
   authors: Savita Bailur, Tom Longley
   category: Civic Technology, Open Data
+  data: ''
   date: '41944'
+  github: ''
   methodology: Survey
   objective: Access, Legitimacy
   organization: mySociety
@@ -3489,6 +3854,7 @@
   sector: ''
   title: 'The impact of online Freedom of Information tools: What is the evidence?
     Part 2. Practitioner Study'
+  type: ''
   url: https://www.mysociety.org/files/2014/11/FOI-Impact_Part-2-Practitioner-Study-06.pdf
 - abstract: TheyWorkForYou.com is a website that offers rich information on both the
     members and the proceedings of all parliaments and assemblies in the UK with the
@@ -3505,13 +3871,16 @@
     every section of parliamentary proceedings to allow easy and precise linking.
   authors: Tobias Escher
   category: Civic Technology, Open Data
+  data: ''
   date: '40664'
+  github: ''
   methodology: Case Analysis, Quantitative Analysis
   objective: Access, Legitimacy
   organization: mySociety
   region: Europe
   sector: ''
   title: 'TheyWorkForYou.com: Analysis of users and usage for UK Citizens Online Democracy'
+  type: ''
   url: https://www.mysociety.org/files/2011/06/TheyWorkForYou_research_report-2011-Tobias-Escher1.pdf
 - abstract: 'This GovLab Working Paper is an attempt to describe the promise and challenge
     of evaluating new practices of
@@ -3545,7 +3914,9 @@
     upon it. '
   authors: Aleise Barnett, David Dembo, Stefaan Verhulst
   category: Labs and Experimentation
+  data: ''
   date: '41382'
+  github: ''
   methodology: Conceptual Framework
   objective: Effectiveness
   organization: The GovLab
@@ -3553,6 +3924,7 @@
   sector: ''
   title: 'Toward Metrics for Re(imagining) Governance: The Promise and Challenge of
     Evaluating Innovations in How We Govern'
+  type: ''
   url: http://thegovlab.org/wp-content/uploads/2013/04/GovLabMetrics.pdf
 - abstract: Open Data (OD) programs have become popular. OD proponents argue that
     OD  programs are necessary to reinvigorate participatory democracy and active
@@ -3569,11 +3941,14 @@
     with OD programs.
   authors: Alon Peled
   category: Open Data
+  data: ''
   date: '2014'
+  github: ''
   methodology: Quantitative Analysis
   objective: Access, Legitimacy, Participation
   organization: ''
   region: North America
   sector: ''
   title: Why Public Sector Agencies (Sometimes) Support Participatory Democracy Programs
+  type: ''
   url: http://www.academia.edu/6804781/Why_Public_Sector_Agencies_Sometimes_Support_Participatory_Democracy_Programs?utm_content=buffere7037&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
