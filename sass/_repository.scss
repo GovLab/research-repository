@@ -1,125 +1,45 @@
-.b-search-field {
-  margin-bottom: 20px;
-  padding: 16px 20px !important;
-  width: 100%;
-  font-size: 1.6rem;
-  font-weight: 200;
-  border: 1px solid $gray_30;
-}
-
-.b-main-search {
-  text-align: center;
-  padding-top: 50px;
-}
-
-.b-main-category-menu {
+.b-main-category-menu-repo {
+  .column {
+    padding: 0 5px;
+  }
   .e-main-category {
+    color: $white;
+    padding: 10px 12px;
+    display: block;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
+    margin-bottom: 10px;
 
-    &:last-child { margin-right: 0; }
+
+
+    .fa {
+      font-size: 1.4rem;
+    }
 
     p {
-      text-transform: uppercase;
-      font-weight: 400;
-      font-size: 0.9rem;
-      letter-spacing: .4px;
-      padding-top: 10px;
-    }
-
-    i {
-      font-size: 40px;
-      color: $white_50;
-      padding: 20px;
+      display: block;
+      margin: 0;
     }
   }
 }
 
-// MOBILE ONLY
-@media only screen and (max-width : $desktop_width) {
-.b-main-category-menu {
-  margin-top: 30px;
-  text-align: center;
-
- .e-main-category {
-  width: 48%;
-  border-radius: 0;
-  margin-bottom: 5px;
-      
-  i {
-    border-radius: 0;
-    box-shadow: none;
-  }
-    
-  &.m-labs-and-experimentation { width: calc(100% - 10px); }
-
-   }
-  }
-
-.b-main-search { padding-bottom: 160px; }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : $desktop_width) {
-
-
-.b-main-category-menu {
-  margin-top: 40px;
-
-  h3 { color: $purple; }
-
-  .e-main-category {
-    cursor: pointer;
-    width: 139px;
-    height: 139px;
-    margin: 0 0 30px;
-    background-color: transparent !important;
-
-
-    p { color: $purple; }
-
-    i {
-      width: 80px;
-      height: 80px;
-      @include circle;
-      @include transition;
-      @include drop-shadow;
-
-    }
-  
-    &:hover i {
-      color: $white;
-      @include transition;
-      
-    }
-  }
-}
-
-.b-main-search { padding-bottom: 60px; }
-.b-grow { transition: all .2s ease-in-out; }
-.b-grow:hover { transform: scale(1.2); }
-}
 
 
 
-// Color Coding for categories
 
-.b-main-category-menu {
-  .m-behavioral-research,
-  .m-behavioral-research  i                   { background-color: $behavioral-research;      }
-  .m-citizen-engagement-and-crowdsourcing,
-  .m-citizen-engagement-and-crowdsourcing  i  { background-color: $citizen-engagement;       }
-  .m-civic-technology,
-  .m-civic-technology  i                      { background-color: $civic-technology;         }
-  .m-data-analysis,
-  .m-data-analysis  i                         { background-color: $data-analysis;            }
-  .m-expert-networking,
-  .m-expert-networking  i                     { background-color: $expert-networking;        }
-  .m-labs-and-experimentation,
-  .m-labs-and-experimentation  i              { background-color: $labs-and-experimentation; }
-  .m-open-data,
-  .m-open-data  i                             { background-color: $open-data;                }
 
+
+
+
+
+// Color Coding
+
+.b-main-category-menu-repo {
+  .m-all                                   { background-color: $gray_20;}
+  .m-behavioral-research                   { background-color: $behavioral-research;      }
+  .m-citizen-engagement-and-crowdsourcing  { background-color: $citizen-engagement;       }
+  .m-civic-technology                      { background-color: $civic-technology;         }
+  .m-data-analysis                         { background-color: $data-analysis;            }
+  .m-expert-networking                     { background-color: $expert-networking;        }
+  .m-labs-and-experimentation              { background-color: $labs-and-experimentation; }
+  .m-open-data                             { background-color: $open-data;                }
 } 
-
