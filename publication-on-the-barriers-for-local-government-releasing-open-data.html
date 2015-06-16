@@ -72,6 +72,8 @@
         <div class="e-pub-meta">
           <h2>Meta Information</h2>
           
+
+          
             <div class="e-pub-methodology">Methodology<span>Comparative Analysis, Survey</span></div>
           
 
@@ -132,7 +134,7 @@
     </script>
 
     <script>
-    if (window.location.href == 'http://localhost:7000/site/') {
+    if (window.location.href.slice(0,26) == 'http://localhost:7000/site') {
       document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')  
     }</script>
 
