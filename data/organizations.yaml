@@ -1,0 +1,17 @@
+- name: The GovLab
+  logo: govlab-logo.png
+  slug: the-govlab
+  color: 'rgba(71,43,116,1)'
+  blurb: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum harum error necessitatibus aspernatur, doloremque tempore laudantium hic iusto nulla, beatae. Itaque officiis atque repellendus porro praesentium ea, nulla odit nam.'
+
+- name: World Bank Digital Engagement Evaluation Team
+  logo: deet-logo.png
+  slug: world-bank-digital-engagement-evaluation-team
+  color: 'rgba(0,173,239,1)'
+  blurb: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum harum error necessitatibus aspernatur, doloremque tempore laudantium hic iusto nulla, beatae. Itaque officiis atque repellendus porro praesentium ea, nulla odit nam.'
+
+- name: MySociety
+  logo: mysociety-logo.jpg
+  slug: mysociety
+  color: 'rgba(140,198,62,1)'
+  blurb: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum harum error necessitatibus aspernatur, doloremque tempore laudantium hic iusto nulla, beatae. Itaque officiis atque repellendus porro praesentium ea, nulla odit nam.'
