@@ -1,5 +1,7 @@
 .b-top-navigation {
 	background-color: $purple;
+	position: relative;
+	z-index: 10;
 	@include drop-shadow;
 
 	.e-logo {
