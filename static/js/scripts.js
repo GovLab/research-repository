@@ -8,13 +8,27 @@ $(document).ready(function() {
         layoutMode: 'fitRows'
     });
 
-    if (getQuery('cat')) {
-        var cat = '.m-' + getQuery('cat');
+    if (getQuery('search')) {
+        var filterValue = '[data-filters*=' + slugy(getQuery('search')) + ']';
 
-        $('.b-cards-wrapper').isotope({ filter: cat });
+        $('.b-search-field').val(slugy(getQuery('search')).replace('-', ' '));
+        $('.b-cards-wrapper').isotope({ filter: filterValue });
+
+    } else if (getQuery('cat')) {
+        $('.b-cards-wrapper').isotope({ filter:  '.m-' + getQuery('cat') });
     }
 
-    $('.b-main-category-menu .e-main-category').click(function() {
+    $('.b-search-repo .b-button').click(function() {
+        var txt = slugy($('.b-search-repo .b-search-field').val());
+
+        txt = txt ? '[data-filters*=' + txt + ']' : '*';
+
+        $('.b-cards-wrapper').isotope({ filter: txt });
+
+        return false;
+    });
+
+    $('.b-main-category-menu-repo .e-main-category').click(function() {
         var filterValue = $(this).data('filter');
 
         $('.b-cards-wrapper').isotope({ filter: filterValue });
@@ -151,4 +165,18 @@ function getQuery(param) {
     });
 
     return result;
+}
+
+function slugy(value) {
+    var reg1 = /[\u0300-\u036F]/g; // Use XRegExp('\\p{M}', 'g');
+    var reg2 = /\s+/g;
+
+    // The "$.data('attribute')" is commonly used as a source for the
+    // "value" parameter, and it will convert digit only strings to
+    // numbers. The "value.toString()" call will prevent failure in
+    // this case, and whenever "value" is not a string.
+    //
+    value = value.toString().toLowerCase().trim().replace('+', ' ');
+
+    return unorm.nfkd(value).replace(reg1, '').replace(reg2, '-');
 }
