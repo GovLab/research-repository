@@ -360,7 +360,8 @@ body, h1, h2, h3, h4, h5, input {
     border-top: 1px solid rgba(0, 0, 0, 0.3); }
 
 .b-content-section h1 {
-  text-align: center; }
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7); }
 
 @media only screen and (max-width: 1024px) {
   .b-content-section h1 {
@@ -699,17 +700,33 @@ body, h1, h2, h3, h4, h5, input {
   background-color: white;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
   border-width: 16px 0 0 0;
-  border-style: solid;
-  border-color: #00adef; }
+  border-style: solid; }
   .b-organization-header h3 {
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #00adef; }
+    letter-spacing: 1px; }
   .b-organization-header .e-org-logo {
     text-align: center;
-    vertical-align: middle; }
+    margin: 30px 0; }
     .b-organization-header .e-org-logo img {
-      max-width: 350px; }
+      max-width: 300px; }
+
+.m-mysociety .b-organization-header {
+  border-color: #f4a140; }
+  .m-mysociety .b-organization-header h3 {
+    color: #f4a140; }
+
+.m-govlab .b-organization-header {
+  border-color: rgba(0, 0, 0, 0.5); }
+  .m-govlab .b-organization-header .e-org-logo img {
+    max-height: 70px; }
+  .m-govlab .b-organization-header h3 {
+    color: rgba(0, 0, 0, 0.5); }
+
+.m-deet .b-organization-header {
+  border-color: #00adef; }
+  .m-deet .b-organization-header h3 {
+    color: #00adef; }
 
 /*# sourceMappingURL=styles.css.map */
