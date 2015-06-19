@@ -363,6 +363,10 @@ body, h1, h2, h3, h4, h5, input {
   text-align: center;
   color: rgba(0, 0, 0, 0.7); }
 
+input[type="text"] {
+  font-size: 1.4rem;
+  font-weight: 300; }
+
 @media only screen and (max-width: 1024px) {
   .b-content-section h1 {
     font-weight: 600;
@@ -534,15 +538,21 @@ body, h1, h2, h3, h4, h5, input {
   padding: 0 5px; }
 .b-main-category-menu-repo .e-main-category {
   color: white;
-  padding: 10px 12px;
+  padding: 16px 12px;
   display: block;
   text-align: center;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  border-radius: 2px; }
   .b-main-category-menu-repo .e-main-category .fa {
-    font-size: 1.4rem; }
+    font-size: 1.6rem; }
   .b-main-category-menu-repo .e-main-category p {
     display: block;
     margin: 0; }
+
+.b-search-repo .row {
+  padding: 0 5px; }
+.b-search-repo input[type="text"] {
+  font-size: 1.4rem; }
 
 .b-main-category-menu-repo .m-all {
   background-color: rgba(0, 0, 0, 0.2); }

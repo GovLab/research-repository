@@ -5,6 +5,11 @@
   }
 }
 
+input[type="text"] {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
 
 // MOBILE ONLY
 @media only screen and (max-width : $desktop_width) {
