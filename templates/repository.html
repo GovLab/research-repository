@@ -76,7 +76,7 @@
 
       <section class="b-content-section m-header">
         <span class="b-filters-trigger left-off-canvas-toggle">Filters</span>
-        
+
         <div class="b-search-repo">
           <div class="row collapse">
             <div class="large-10 small-9 columns">
@@ -90,7 +90,7 @@
         <div class="b-main-category-menu-repo">
           <div class="row">
             <div class="column large-3 medium-3 small-6">
-              <a class="e-main-category m-all" data-filter=".all">
+              <a class="e-main-category m-all" data-filter="*">
                 <i class="fa fa-asterisk b-grow"></i>
                 <p>All</p>
               </a>
@@ -159,7 +159,7 @@
                   {% if p.data %} <a target="_blank" title="Dataset" href="{{p.dataset}}"><i class="fa fa-database fa-lg"></i></a> {% endif %}
                   {% if p.url %} <a target="_blank" title="Go to Paper" href="{{p.url}}"><i class="fa fa-link fa-lg"></i></a> {% endif %}
                 </div>
-                
+
 
               </article>
             {% endfor %}
