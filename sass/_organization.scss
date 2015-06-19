@@ -1,23 +1,59 @@
+// Colors
+
+$deet: rgba(0,173,239,1);
+$govlab: rgba(0,0,0,.5);
+$mysociety: #f4a140;
+
+
 .b-organization-header {
   padding: 30px 0 10px;
   background-color: $white;
   @include drop-shadow;
   border-width: 16px 0 0 0;
   border-style: solid;
-  border-color: $citizen-engagement;
+  
 
   h3 {
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: $citizen-engagement;
+    letter-spacing: 1px;
+    
   }
 
   .e-org-logo {
     text-align: center;
-    vertical-align: middle;
-    img {
-      max-width: 350px;
+    margin: 30px 0;
+    img { max-width: 300px; }
+  }
+}
+
+.m-mysociety {
+  .b-organization-header {
+    border-color: $mysociety;
+
+    h3 {
+      color: $mysociety;
+    }
+  }
+}
+
+.m-govlab {
+  .b-organization-header {
+    border-color: $govlab;
+
+    .e-org-logo img {max-height: 70px;}
+
+    h3 { color: $govlab; }
+  }
+}
+
+.m-deet {
+  .b-organization-header {
+    border-color: $deet;
+
+    h3 {
+      color: $deet;
     }
   }
 }

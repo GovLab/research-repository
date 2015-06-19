@@ -1,15 +1,15 @@
 {% extends "layout/base.html" %}
 {% block content %}
-<div id="organization" class="off-canvas-wrap b-content-page" data-offcanvas>
+<div id="organization" class="off-canvas-wrap b-content-page m-mysociety" data-offcanvas>
   <div class="inner-wrap">
     <section class="b-organization-header">
       <div class="row">
         <div class="column large-6 e-org-logo">
-          <img src="static/img/organizations/deet-logo.png" alt="">
+          <img src="static/img/organizations/mysociety-logo.png" alt="">
         </div>
         <div class="column large-6">
           <div class="e-org-blurb">
-            <h3>Digital Engagement Evaluation Team</h3>
+            <h3>MySociety</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vel iste ipsa facilis veniam recusandae dolorem error voluptatum porro laborum dolorum numquam modi sequi quae nostrum, corrupti aspernatur inventore deleniti.</p>
           </div>            
         </div>
@@ -19,11 +19,11 @@
     <section class="b-content-section b-publications">
       <div class="row">
         <div class="large-12">
-          <h1>Results</h1>
+          <h1>Published Research</h1>
         </div>
         <div class="b-cards-wrapper row">
           {% for p in publications %}
-          {% if p.organization == 'World Bank Digital Engagement Evaluation Team' %}
+          {% if p.organization == 'mySociety' %}
             <article class="b-publication-item m-{{p.category|slug}} b-card" data-filters="{{ p.filters }}">
               {% if p.type %}<div class="e-pub-type"><span>{{p.type}}</span></div>{% endif %}
               <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
