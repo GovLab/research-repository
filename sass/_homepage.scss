@@ -9,10 +9,15 @@
 
 .b-main-search {
   text-align: center;
-  padding-top: 50px;
+  // padding-top: 50px;
+  .b-search-field {
+    padding: 26px 20px !important;
+    font-size: 1.8rem !important;
+  }
 }
 
 .b-main-category-menu {
+  .row { margin-top: 20px; }
   .e-main-category {
     text-align: center;
     display: inline-block;
@@ -33,6 +38,29 @@
       color: $white_50;
       padding: 20px;
     }
+  }
+}
+
+.b-organization-menu {
+
+  .e-org-panel {
+    text-align: center;
+
+    img {
+      margin: 30px;
+      height: 50px;
+    }  
+
+    #digital-engagement img {
+      height: 65px;
+    }
+  }
+  
+}
+
+#homepage {
+  .b-content-section {
+    h1 { margin-bottom: 20px; }
   }
 }
 

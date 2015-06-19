@@ -46,15 +46,15 @@
 
         </div>
         <div class="e-pub-actions">
-          <a href="{{publication.url}}" class="e-pub-url b-grow" title="Original Page"><i class="fa-link fa-lg fa"></i></a>
+          <a href="{{publication.url}}" target="_blank" class="e-pub-url b-grow" title="Original Page"><i class="fa-link fa-lg fa"></i></a>
           {% if publication.download %}
           <a href="{{publication.download}}" class="e-pub-download b-grow" title="Direct Download"><i class="fa-download fa-lg fa"></i></a>
           {% endif %}
           {% if publication.github %}
-          <a href="{{publication.github}}" class="e-pub-github b-grow" title="Github"><i class="fa-github fa-lg fa"></i></a>
+          <a href="{{publication.github}}" target="_blank" class="e-pub-github b-grow" title="Github"><i class="fa-github fa-lg fa"></i></a>
           {% endif %}
           {% if publication.dataset %}
-          <a href="{{publications[1].dataset}}" class="e-pub-dataset b-grow" title="Github"><i class="fa-database fa-lg fa"></i></a>
+          <a href="{{publications[1].dataset}}" target="_blank" class="e-pub-dataset b-grow" title="Github"><i class="fa-database fa-lg fa"></i></a>
           {% endif %}
         </div>
       </div>

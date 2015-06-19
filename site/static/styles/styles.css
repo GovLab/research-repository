@@ -423,9 +423,13 @@ body, h1, h2, h3, h4, h5, input {
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .b-main-search {
-  text-align: center;
-  padding-top: 50px; }
+  text-align: center; }
+  .b-main-search .b-search-field {
+    padding: 26px 20px !important;
+    font-size: 1.8rem !important; }
 
+.b-main-category-menu .row {
+  margin-top: 20px; }
 .b-main-category-menu .e-main-category {
   text-align: center;
   display: inline-block;
@@ -442,6 +446,17 @@ body, h1, h2, h3, h4, h5, input {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.5);
     padding: 20px; }
+
+.b-organization-menu .e-org-panel {
+  text-align: center; }
+  .b-organization-menu .e-org-panel img {
+    margin: 30px;
+    height: 50px; }
+  .b-organization-menu .e-org-panel #digital-engagement img {
+    height: 65px; }
+
+#homepage .b-content-section h1 {
+  margin-bottom: 20px; }
 
 @media only screen and (max-width: 1024px) {
   .b-main-category-menu {
