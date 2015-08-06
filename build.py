@@ -30,7 +30,14 @@ template = open('%s/publication.html' % searchpath).read()
 
 filters = {
     'slug': lambda x: slugify(x.lower()),
+    # 'datetime': format_datetime
 }
+
+
+
+
+
+
 
 # Remove publication templates that are no longer needed.
 for filename in listdir(searchpath):

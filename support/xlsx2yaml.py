@@ -8,6 +8,7 @@ _COl_NAME_MAP = {
     'Publication Name': 'title',
     'Organization': 'organization',
     'Authors': 'authors',
+    'Screenshot': 'image_file',
     'Published On': 'date',
     'Link to download': 'url',
     'Innovation': 'category',
@@ -20,6 +21,10 @@ _COl_NAME_MAP = {
     'Data': 'data',
     'Abstract': 'abstract'
 }
+
+
+
+
 
 def get_sheet(filepath):
     return open_workbook(filepath).sheet_by_index(0)
