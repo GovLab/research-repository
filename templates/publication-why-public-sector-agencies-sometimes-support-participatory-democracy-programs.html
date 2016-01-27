@@ -1,7 +1,7 @@
 {% extends "layout/base.html" %}
 
 {% block content %}
-{% set publication = publications[122] %}
+{% set publication = publications[121] %}
 <div id="publication-page" class="b-content-page">
   <section class="b-content-section m-header b-publication m-{{publication.category|slug}}">
     <div class="row">
@@ -15,6 +15,11 @@
     <div class="row">
       <div class="column large-8">
         <p class="e-pub-abstract">{{publication.abstract}}</p>
+        
+        {% if publication.related_url %}
+          <h3>Related Content</h3>
+          <p><a href="{{publication.related_url}}" target="_blank">{{publication.related_title}}</a></p>
+        {% endif %}
       </div>
       <div class="column large-4">
         {% if publication.methodology %}

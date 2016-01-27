@@ -19,7 +19,9 @@ _COl_NAME_MAP = {
     'Publication Type':'type',
     'GitHub Repository': 'github',
     'Data': 'data',
-    'Abstract': 'abstract'
+    'Abstract': 'abstract',
+    'Related Content Title': 'related_title',
+    'Related Content URL': 'related_url'
 }
 
 
