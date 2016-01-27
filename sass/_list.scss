@@ -5,6 +5,8 @@
 	h1 {
 		text-align: left;
 		font-size: 1.1rem;
+    max-height: 48px;
+    overflow: hidden;
 
 		a {
 		color: $gray_80;
