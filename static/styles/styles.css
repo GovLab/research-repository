@@ -588,8 +588,8 @@ input[type="text"] {
 .b-publication .e-pub-category {
   color: white;
   letter-spacing: .5px; }
-.b-publication .e-pub-organization h3 {
-  font-size: 1.2rem; }
+.b-publication .e-pub-organization img {
+  max-width: 80%; }
 .b-publication .e-pub-meta h2 {
   color: rgba(0, 0, 0, 0.6); }
 .b-publication .e-pub-meta .e-pub-type,
