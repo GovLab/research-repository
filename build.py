@@ -4,10 +4,12 @@ from shutil import rmtree
 from slugify import slugify
 from staticjinja import make_site
 from babel import dates
+from govlabstatic.cli import Manager
 
 
 # We define constants for the deployment.
 searchpath = path.join(getcwd(), 'templates')
+sasspath = path.join(getcwd(), 'sass')
 outputpath = path.join(getcwd(), 'site')
 
 # We load the data we want to use in the templates.
@@ -32,12 +34,6 @@ filters = {
     'slug': lambda x: slugify(x.lower()),
     # 'datetime': format_datetime
 }
-
-
-
-
-
-
 
 # Remove publication templates that are no longer needed.
 for filename in listdir(searchpath):
@@ -68,4 +64,21 @@ site = make_site(
     staticpaths=['static', '../data']
 )
 
-site.render(use_reloader=True)
+# site.render(use_reloader=True)
+
+
+
+if __name__ == '__main__':
+    # context = ReloadingContext()
+
+    manager = Manager(
+        sass_src_path=path.join(sasspath, 'styles.scss'),
+        sass_dest_path=path.join(outputpath, 'static', 'styles',
+                                 'styles.css'),
+        site=site,
+        site_name='research-repository',
+    )
+    # context.add_to(manager)
+    # argh.add_commands(manager.parser, [deploy, clean])
+
+    manager.run()
