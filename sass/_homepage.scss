@@ -5,9 +5,15 @@
     margin: 0;
     padding: 5px 0;
     text-align: center;
+
+    a {
+      color: $purple;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   } 
 }
-
 
 
 .b-search-field {
@@ -64,7 +70,7 @@
     }  
 
     #digital-engagement img {
-      height: 65px;
+      height: 95px;
     }
   }
   
