@@ -194,7 +194,8 @@ body, h1, h2, h3, h4, h5, input {
       color: white;
       border-radius: 2px;
       padding: 0 6px;
-      display: inline-block; }
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.2); }
   .b-publication-item.b-publication-item .e-pub-actions {
     position: absolute;
     bottom: 0;
@@ -238,7 +239,7 @@ body, h1, h2, h3, h4, h5, input {
 
   .b-publication-item:hover .e-pub-actions {
     display: block; } }
-.b-publication-item.m-behavioral-research:before, .b-publication-item.m-behavioral-research .e-pub-type span {
+.b-publication-item.m-behavioral-science-and-nudges:before, .b-publication-item.m-behavioral-science-and-nudges .e-pub-type span {
   background-color: #09a65f; }
 .b-publication-item.m-citizen-engagement-and-crowdsourcing:before, .b-publication-item.m-citizen-engagement-and-crowdsourcing .e-pub-type span {
   background-color: #00adef; }
