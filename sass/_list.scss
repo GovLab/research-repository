@@ -108,8 +108,8 @@
 
 
 .b-publication-item {
-  &.m-behavioral-research:before,
-  &.m-behavioral-research .e-pub-type span                  { background-color: $behavioral-research;      }
+  &.m-behavioral-science-and-nudges:before,
+  &.m-behavioral-science-and-nudges .e-pub-type span        { background-color: $behavioral-research;      }
   &.m-citizen-engagement-and-crowdsourcing:before,
   &.m-citizen-engagement-and-crowdsourcing .e-pub-type span { background-color: $citizen-engagement;       }
   &.m-civic-technology:before,

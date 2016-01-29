@@ -98,7 +98,7 @@
               </a>
             </div>
             <div class="column large-3 medium-3 small-6">
-              <a class="e-main-category m-behavioral-research" data-filter=".m-behavioral-research">
+              <a class="e-main-category m-behavioral-research" data-filter=".m-behavioral-science-and-nudges">
                 <i class="fa fa-hand-o-right b-grow"></i>
                 <p>Behavioral Research</p>
               </a>
@@ -149,7 +149,7 @@
           </div>
           <div class="b-cards-wrapper row">
             {% for p in publications %}
-              <article class="b-publication-item m-{{p.category|slug}} b-card" data-filters="{{ p.filters }}">
+              <article class="b-publication-item {% for category in p.category.split(',') %}{{' m-' + (category|slug)}}{% endfor %} b-card" data-filters="{{ p.filters }}">
                 {% if p.type %}<div class="e-pub-type"><span>{{p.type}}</span></div>{% endif %}
                 <h1><a href="publication-{{p.title|slug}}.html">{{p.title}}</a></h1>
                 <div class="e-pub-meta">
